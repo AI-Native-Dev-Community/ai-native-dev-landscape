@@ -12,7 +12,9 @@ export default defineConfig({
     vue(),
     vueJsx(),
     vueDevTools(),
-    yaml(),
+    yaml({
+      include: 'src/**/*.{yml,yaml}'
+    }),
   ],
   resolve: {
     alias: {
