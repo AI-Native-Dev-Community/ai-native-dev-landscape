@@ -2,6 +2,8 @@
 import type { ToolCategory } from '../types/ToolTypes'
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 import { computed } from 'vue'
+import LandscapeTool from '@/components/LandscapeTool.vue'
+
 const props = defineProps<{
   category: ToolCategory
 }>()

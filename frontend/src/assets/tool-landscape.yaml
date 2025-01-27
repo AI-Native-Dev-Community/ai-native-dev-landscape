@@ -44,3 +44,16 @@ categories:
     description:
       en: 'Large language model tools and platforms'
       fr: 'Outils et plateformes de modèles de langage'
+
+tools:
+  - uid: 'tool-1'
+    name:
+      en: 'Tool 1'
+      fr: 'Outil 1'
+    description:
+      en: 'Tool 1 description'
+      fr: 'Description de loutil 1'
+    website_url: 'https://www.tool1.com'
+    companyId: 'company-1'
+    categoryId: 'ide'
+  

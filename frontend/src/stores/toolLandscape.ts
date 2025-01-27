@@ -44,14 +44,31 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
       return this.categories.find((category) => category.uid === uid)
     },
 
+    addTool(tool: Tool) {
+      this.tools.push(tool)
+    },
+
+    deleteTool(tool: Tool) {
+      this.tools = this.tools.filter((t) => t.uid !== tool.uid)
+    },
+
+    getToolById(uid: string) {
+      return this.tools.find((tool) => tool.uid === uid)
+    },
+
     initializeFromYaml() {
-      const data = toolData as { domains: ToolDomain[]; categories: ToolCategory[] }
+      const data = toolData as { domains: ToolDomain[]; categories: ToolCategory[]; tools: Tool[] }
       data.domains.forEach((domain) => this.addDomain(domain))
       data.categories.forEach((category) => this.addCategory(category))
+      data.tools.forEach((tool) => this.addTool(tool))  
     },
 
     getToolsByCategoryId(categoryId: string) {
       return this.tools.filter((tool: Tool) => tool.categoryId === categoryId)
+    },
+
+    getToolsByDomainId(domainId: string) {
+      return this.tools.filter((tool: Tool) => tool.domainId === domainId)
     },
   },
 
