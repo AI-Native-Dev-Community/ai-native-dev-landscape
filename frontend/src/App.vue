@@ -4,12 +4,7 @@ import Landscape from './components/Landscape.vue'
 import { useToolLandscapeStore } from './stores/toolLandscape'
 
 const toolLandscapeStore = useToolLandscapeStore();
-toolLandscapeStore.addDomain({
-    uid: "tool-1",
-    name: "Development Tools",
-    description: "Tools used for software development",
-    level: 1
-});
+toolLandscapeStore.initializeFromYaml();
 
 const toolDomains = toolLandscapeStore.getAllDomains;
 

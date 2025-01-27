@@ -1,0 +1,46 @@
+domains:
+  - uid: "dev-tools"
+    name:
+      en: "Development Tools"
+      fr: "Outils de développement"
+    description:
+      en: "Tools used for software development"
+      fr: "Outils utilisés pour le développement logiciel"
+    level: 1
+
+  - uid: "ai-tools"
+    name:
+      en: "AI Tools"
+      fr: "Outils d'IA"
+    description:
+      en: "Tools for artificial intelligence and machine learning"
+      fr: "Outils pour l'intelligence artificielle et l'apprentissage automatique"
+    level: 1
+
+  - uid: "cloud-tools"
+    name:
+      en: "Cloud Infrastructure"
+      fr: "Infrastructure Cloud"
+    description:
+      en: "Cloud computing and infrastructure tools"
+      fr: "Outils d'infrastructure et de cloud computing"
+    level: 2
+
+categories:
+  - uid: "ide"
+    domainId: "dev-tools"
+    name:
+      en: "IDEs"
+      fr: "EDI"
+    description:
+      en: "Integrated Development Environments"
+      fr: "Environnements de Développement Intégrés"
+
+  - uid: "llm"
+    domainId: "ai-tools"
+    name:
+      en: "Large Language Models"
+      fr: "Modèles de Langage"
+    description:
+      en: "Large language model tools and platforms"
+      fr: "Outils et plateformes de modèles de langage"
