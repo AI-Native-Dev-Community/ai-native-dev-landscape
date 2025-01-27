@@ -1,15 +1,27 @@
 <script setup lang="ts">
+import { Tool } from '../types/ToolTypes';
+
 defineProps<{
-  msg: string
+  domains: ToolDomain[]
 }>()
+
+const locale = navigator.language;
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+  <div class="tool-domain">
+    <div v-for="domain in domains" :key="domain.id">
+      {{ domain.name }}
+      {{ domain.description }}
+    </div>
   </div>
 </template>
 
 <style scoped>
-
+.tool-domain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 </style>
