@@ -1,16 +1,21 @@
 <script setup lang="ts">
 import { Tool } from '../types/ToolTypes';
 import LandscapeDomain from './LandscapeDomain.vue';
+import { useToolLandscapeStore } from '../stores/toolLandscape';
 
 defineProps<{
-  domains: ToolDomain[]
+
 }>()
+
+// get the domains and categories from the store
+const toolLandscapeStore = useToolLandscapeStore();
+const domains = toolLandscapeStore.getAllDomains;
 
 const locale = navigator.language;
 </script>
 
 <template>
-  <div class="tool-domain">
+  <div class="tool-canvas">
     <LandscapeDomain 
       v-for="domain in domains" 
       :key="domain.uid"
@@ -20,7 +25,7 @@ const locale = navigator.language;
 </template>
 
 <style scoped>
-.tool-domain {
+.tool-canvas {
   display: flex;
   flex-direction: column;
   align-items: center;

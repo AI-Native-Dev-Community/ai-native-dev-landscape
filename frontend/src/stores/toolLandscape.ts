@@ -27,8 +27,9 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
             return this.categories.filter(category => category.domainId === domainId)
         },
         initializeFromYaml() {
-            const data = toolData as { domains: ToolDomain[] };
+            const data = toolData as { domains: ToolDomain[], categories: ToolCategory[] };
             data.domains.forEach(domain => this.addDomain(domain));
+            data.categories.forEach(category => this.addCategory(category));
         }
     },
 
