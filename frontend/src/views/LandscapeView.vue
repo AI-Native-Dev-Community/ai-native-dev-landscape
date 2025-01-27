@@ -1,10 +1,10 @@
 <script setup lang="ts">
-//import TheWelcome from '../components/TheWelcome.vue'
+import LandscapeCanvas from '@/components/LandscapeCanvas.vue'
 
 </script>
 
 <template>
   <main>
-    This is the landscape view
+    <LandscapeCanvas />
   </main>
 </template>
