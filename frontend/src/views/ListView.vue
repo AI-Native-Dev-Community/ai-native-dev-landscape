@@ -3,7 +3,5 @@
 </script>
 
 <template>
-  <main>
-    This is the list view
-  </main>
+  <main>This is the list view</main>
 </template>

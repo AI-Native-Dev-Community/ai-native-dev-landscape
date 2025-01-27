@@ -1,12 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-
       <nav>
         <RouterLink to="/">Landscape</RouterLink> |
         <RouterLink to="/list">List</RouterLink>
@@ -17,6 +15,4 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

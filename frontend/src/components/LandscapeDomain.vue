@@ -1,18 +1,18 @@
 <script setup lang="ts">
-import type { ToolDomain, ToolCategory } from '../types/ToolTypes'
-import { useToolLandscapeStore } from '../stores/toolLandscape';
-import { computed } from 'vue';
+import type { ToolDomain } from '../types/ToolTypes'
+import { useToolLandscapeStore } from '../stores/toolLandscape'
+import { computed } from 'vue'
 
 const props = defineProps<{
   domain: ToolDomain
 }>()
 
-const toolLandscapeStore = useToolLandscapeStore();
-const categories = computed(() => toolLandscapeStore.getCategoriesByDomainId(props.domain.uid));
+const toolLandscapeStore = useToolLandscapeStore()
+const categories = computed(() => toolLandscapeStore.getCategoriesByDomainId(props.domain.uid))
 </script>
 
 <template>
-  <div class="tool-domain">  
+  <div class="tool-domain">
     {{ domain.name.en }}
     {{ domain.description.en }}
     <ul>
@@ -28,4 +28,4 @@ const categories = computed(() => toolLandscapeStore.getCategoriesByDomainId(pro
   border-radius: 4px;
   margin: 1rem;
 }
-</style> 
+</style>
