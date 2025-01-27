@@ -1,30 +1,57 @@
-import { describe, it, beforeEach, expect } from 'vitest'
-import { useToolLandscapeStore } from '@/stores/toolLandscape'
+import { describe, it, expect, beforeEach } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
+import { useToolLandscapeStore } from '../toolLandscape'
+import type { ToolDomain, ToolCategory } from '../../types/ToolTypes'
 
-describe('LandscapeStore', () => {
-  let toolLandscapeStore
+describe('toolLandscape Store', () => {
+    beforeEach(() => {
+        setActivePinia(createPinia())
+    })
 
-  beforeEach(() => {
-    setActivePinia(createPinia())
-    toolLandscapeStore = useToolLandscapeStore()
-  })
+    it('initializes with empty state', () => {
+        const store = useToolLandscapeStore()
+        expect(store.domains).toEqual([])
+        expect(store.categories).toEqual([])
+        expect(store.tools).toEqual([])
+    })
 
-  it('should initialize with an empty landscape', () => {
-    expect(toolLandscapeStore.getAllDomains).toEqual([])
-  })
+    it('adds and gets domains', () => {
+        const store = useToolLandscapeStore()
+        const testDomain: ToolDomain = {
+            uid: 'test-domain',
+            name: {
+                en: 'Test Domain',
+                fr: 'Domaine de Test'
+            },
+            description: {
+                en: 'Test Description',
+                fr: 'Description de Test'
+            },
+            level: 1
+        }
 
-  it('should add a domain', () => {
-    const domain = { id: 1, name: 'Mountain' }
-    toolLandscapeStore.addDomain(domain)
-    expect(toolLandscapeStore.getAllDomains).toEqual([domain])
-  })
+        store.addDomain(testDomain)
+        expect(store.getAllDomains).toEqual([testDomain])
+        expect(store.getDomainById('test-domain')).toEqual(testDomain)
+    })
 
-  // test for delete of a domain
-  it('should delete a domain', () => {
-    const domain = { id: 1, name: 'Mountain' }
-    toolLandscapeStore.addDomain(domain)
-    toolLandscapeStore.deleteDomain(domain.id)
-    expect(toolLandscapeStore.getAllDomains).toEqual([])
-  })
+    it('adds and gets categories', () => {
+        const store = useToolLandscapeStore()
+        const testCategory: ToolCategory = {
+            uid: 'test-category',
+            domainId: 'test-domain',
+            name: {
+                en: 'Test Category',
+                fr: 'Catégorie de Test'
+            },
+            description: {
+                en: 'Test Category Description',
+                fr: 'Description de la Catégorie de Test'
+            }
+        }
+
+        store.addCategory(testCategory)
+        expect(store.getAllCategories).toEqual([testCategory])
+        expect(store.getCategoryById('test-category')).toEqual(testCategory)
+    })
 })

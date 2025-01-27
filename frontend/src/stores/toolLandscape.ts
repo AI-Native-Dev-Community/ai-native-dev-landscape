@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import type { ToolDomain, ToolCategory, Tool } from '../types/ToolTypes'
-import toolData from '@/assets/tool-landscape.yaml'
+import toolData from '../assets/tool-landscape.yaml'
 
 interface ToolLandscapeState {
   domains: ToolDomain[]
