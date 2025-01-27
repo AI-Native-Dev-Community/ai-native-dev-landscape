@@ -1,9 +1,9 @@
 import { describe, it, expect } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import Landscape from '../Landscape.vue'
+import LandscapeCanvas from '../LandscapeCanvas.vue'
 
-describe('Landscape', () => {
+describe('LandscapeCanvas', () => {
   it('renders properly', () => {
     const toolDomains = [
         {
@@ -19,7 +19,7 @@ describe('Landscape', () => {
             level: 1
         }
     ]
-    const wrapper = mount(Landscape, { props: { domains: toolDomains  } })
+    const wrapper = mount(LandscapeCanvas, { props: { domains: toolDomains  } })
     expect(wrapper.text()).toContain('Development Tools')
   })
 })

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import Landscape from './components/Landscape.vue'
+import LandscapeCanvas from './components/LandscapeCanvas.vue'
 import { useToolLandscapeStore } from './stores/toolLandscape'
 
 const toolLandscapeStore = useToolLandscapeStore();
@@ -13,7 +13,7 @@ const toolDomains = toolLandscapeStore.getAllDomains;
 <template>
   <header>
     <div class="wrapper">
-      <Landscape :domains="toolDomains"  />
+      <LandscapeCanvas :domains="toolDomains"  />
 
       <nav>
         <RouterLink to="/">Landscape</RouterLink> |

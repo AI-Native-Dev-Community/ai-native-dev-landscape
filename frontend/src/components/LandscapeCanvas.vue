@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Tool } from '../types/ToolTypes';
+import LandscapeDomain from './LandscapeDomain.vue';
 
 defineProps<{
   domains: ToolDomain[]
@@ -10,10 +11,11 @@ const locale = navigator.language;
 
 <template>
   <div class="tool-domain">
-    <div v-for="domain in domains" :key="domain.id">
-      {{ domain.name }}
-      {{ domain.description }}
-    </div>
+    <LandscapeDomain 
+      v-for="domain in domains" 
+      :key="domain.uid"
+      :domain="domain"
+    />
   </div>
 </template>
 
