@@ -51,7 +51,7 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     },
 
     getToolsByCategoryId(categoryId: string) {
-      return this.tools.filter((tool : Tool) => tool.categoryId === categoryId)
+      return this.tools.filter((tool: Tool) => tool.categoryId === categoryId)
     },
   },
 

@@ -2,7 +2,6 @@
 import LandscapeDomain from './LandscapeDomain.vue'
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 
-
 // get the domains and categories from the store
 const toolLandscapeStore = useToolLandscapeStore()
 const domains = toolLandscapeStore.getAllDomains
