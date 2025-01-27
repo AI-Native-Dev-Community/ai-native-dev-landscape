@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import type { ToolDomain, ToolCategory, Tool } from '../types/ToolTypes'
-import toolData from '@/assets/tool-landscape.yaml'
+import toolYamlData from '@/assets/tool-landscape.yaml'
 
 interface ToolLandscapeState {
   domains: ToolDomain[]
@@ -57,7 +57,7 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     },
 
     initializeFromYaml() {
-      const data = toolData as { domains: ToolDomain[]; categories: ToolCategory[]; tools: Tool[] }
+      const data = toolYamlData as { domains: ToolDomain[]; categories: ToolCategory[]; tools: Tool[] }
       data.domains.forEach((domain) => this.addDomain(domain))
       data.categories.forEach((category) => this.addCategory(category))
       data.tools.forEach((tool) => this.addTool(tool))  
