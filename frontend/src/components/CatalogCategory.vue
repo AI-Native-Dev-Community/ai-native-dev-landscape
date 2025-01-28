@@ -14,7 +14,7 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 </script>
 
 <template>
-  <div class="tool-category">
+  <div class="catalog-category">
     {{ category.name.en }}
     {{ category.description.en }}
 

@@ -10,13 +10,13 @@ const domains = toolLandscapeStore.getAllDomains
 </script>
 
 <template>
-  <div class="tool-canvas">
+  <div class="landscape-canvas">
     <LandscapeDomain v-for="domain in domains" :key="domain.uid" :domain="domain" />
   </div>
 </template>
 
 <style scoped>
-.tool-canvas {
+.landscape-canvas {
   display: flex;
   flex-direction: column;
   align-items: center;

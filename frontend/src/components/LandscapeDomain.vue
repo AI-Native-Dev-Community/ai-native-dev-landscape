@@ -12,7 +12,7 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 </script>
 
 <template>
-  <div class="tool-domain">
+  <div class="landscape-domain">
     {{ domain.name.en }}
     {{ domain.description.en }}
     <LandscapeCategory v-for="category in categories" :key="category.uid" :category="category" />
@@ -20,7 +20,7 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 </template>
 
 <style scoped>
-.tool-domain {
+.landscape-domain {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;

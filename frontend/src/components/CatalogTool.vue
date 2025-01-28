@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <div 
-    class="landscape-tool" 
+    class="catalog -tool" 
     :title="tool.description.en"
   >
     <div class="tool-header">
