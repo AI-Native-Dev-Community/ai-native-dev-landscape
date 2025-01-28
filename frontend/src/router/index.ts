@@ -6,6 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      alias: '/landscape',
       name: 'landscape',
       component: LandscapeView,
     },
