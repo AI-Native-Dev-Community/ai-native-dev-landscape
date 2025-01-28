@@ -22,6 +22,7 @@ const domainsByLevel = computed(() => {
   )
 
   // Convert to array of arrays, sorted by level
+  /* eslint-disable  @typescript-eslint/no-unused-vars */
   return Object.entries(grouped)
     .sort(([levelA], [levelB]) => Number(levelA) - Number(levelB))
     .map(([_, domains]) => domains)

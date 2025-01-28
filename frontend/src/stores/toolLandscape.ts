@@ -66,6 +66,7 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     },
 
     initializeFromYaml() {
+      /* eslint-disable  @typescript-eslint/no-explicit-any */
       const data = toolYamlData as any
       const domains = data.domains
       domains.forEach((domain: any) => {
