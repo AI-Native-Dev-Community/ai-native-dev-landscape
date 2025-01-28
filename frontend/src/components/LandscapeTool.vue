@@ -4,32 +4,21 @@ import type { Tool } from '../types/ToolTypes'
 defineProps<{
   tool: Tool
 }>()
-
 </script>
 
 <template>
-  <div 
-    class="landscape-tool" 
-    :title="tool.description"
-  >
+  <div class="landscape-tool" :title="tool.description">
     <div class="landscape-tool-header">
       <h3>{{ tool.name }}</h3>
-      <a 
-        v-if="tool.website_url" 
-        :href="tool.website_url" 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
+      <a v-if="tool.website_url" :href="tool.website_url" target="_blank" rel="noopener noreferrer">
         🔗
       </a>
     </div>
-
   </div>
 </template>
 
 <style scoped>
 .landscape-tool {
-
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
@@ -40,4 +29,4 @@ defineProps<{
 .landscape-tool-header {
   padding: 1.5rem;
 }
-</style> 
+</style>

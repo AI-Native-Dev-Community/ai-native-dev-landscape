@@ -9,14 +9,17 @@ const domains = toolLandscapeStore.getAllDomains
 
 // Group domains by level and sort levels
 const domainsByLevel = computed(() => {
-  const grouped = domains.reduce((acc, domain) => {
-    const level = domain.level || 0
-    if (!acc[level]) {
-      acc[level] = []
-    }
-    acc[level].push(domain)
-    return acc
-  }, {} as Record<number, typeof domains>)
+  const grouped = domains.reduce(
+    (acc, domain) => {
+      const level = domain.level || 0
+      if (!acc[level]) {
+        acc[level] = []
+      }
+      acc[level].push(domain)
+      return acc
+    },
+    {} as Record<number, typeof domains>,
+  )
 
   // Convert to array of arrays, sorted by level
   return Object.entries(grouped)
@@ -29,12 +32,8 @@ const domainsByLevel = computed(() => {
 
 <template>
   <div class="landscape-canvas">
-    <div v-for="(levelDomains, index) in domainsByLevel" 
-         :key="index" 
-         class="domain-row">
-      <LandscapeDomain v-for="domain in levelDomains" 
-                       :key="domain.uid" 
-                       :domain="domain" />
+    <div v-for="(levelDomains, index) in domainsByLevel" :key="index" class="domain-row">
+      <LandscapeDomain v-for="domain in levelDomains" :key="domain.uid" :domain="domain" />
     </div>
   </div>
 </template>

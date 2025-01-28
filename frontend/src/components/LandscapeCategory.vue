@@ -43,7 +43,6 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left
+  justify-content: left;
 }
-
 </style>

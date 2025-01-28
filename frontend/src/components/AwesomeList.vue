@@ -14,14 +14,15 @@ const getCategoriesForDomain = computed(() => {
 const getToolsForCategory = computed(() => {
   return (categoryId: string) => toolLandscapeStore.getToolsByCategoryId(categoryId)
 })
-
 </script>
 
 <template>
   <div v-for="domain in domains" :key="domain.uid">
-    <h2>{{ domain.name }}</h2> <!-- Domain header -->
+    <h2>{{ domain.name }}</h2>
+    <!-- Domain header -->
     <div v-for="category in getCategoriesForDomain(domain.uid)" :key="category.uid">
-      <h3>{{ category.name }}</h3> <!-- Category header -->
+      <h3>{{ category.name }}</h3>
+      <!-- Category header -->
       <ul>
         <li v-for="tool in getToolsForCategory(category.uid)" :key="tool.uid">
           <!-- Render each tool here -->
@@ -32,7 +33,4 @@ const getToolsForCategory = computed(() => {
   </div>
 </template>
 
-
-<style scoped>
-
-</style>
+<style scoped></style>

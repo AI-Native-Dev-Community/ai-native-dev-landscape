@@ -8,11 +8,10 @@ const domains = toolLandscapeStore.getAllDomains
 </script>
 
 <template>
-    <div class="catalog-overview">
-        <CatalogDomain v-for="domain in domains" :key="domain.uid" :domain="domain" />
-    </div>
+  <div class="catalog-overview">
+    <CatalogDomain v-for="domain in domains" :key="domain.uid" :domain="domain" />
+  </div>
 </template>
-
 
 <style scoped>
 .catalog-overview {

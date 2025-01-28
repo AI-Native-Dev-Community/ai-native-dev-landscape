@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { ToolDomain } from '../types/ToolTypes'
 import { useToolLandscapeStore } from '../stores/toolLandscape'
-import LandscapeCategory from '@/components/LandscapeCategory.vue' 
+import LandscapeCategory from '@/components/LandscapeCategory.vue'
 
 const props = defineProps<{
   domain: ToolDomain
@@ -18,9 +18,7 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
       <p>{{ domain.description }}</p>
     </div>
     <div class="categories-container">
-      <LandscapeCategory v-for="category in categories" 
-                         :key="category.uid" 
-                         :category="category" />
+      <LandscapeCategory v-for="category in categories" :key="category.uid" :category="category" />
     </div>
   </div>
 </template>

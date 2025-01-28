@@ -1,388 +1,378 @@
 domains:
-  - name: "Integrated Platform"
-    description: "Platform domain components"
+  - name: 'Integrated Platform'
+    description: 'Platform domain components'
     level: 1
     categories:
-      - name: "Full AI Apps Workflow"
-        description: "Platform category 1"
+      - name: 'Full AI Apps Workflow'
+        description: 'Platform category 1'
         tools:
 
-
-  - name: "Intent Alignment"
-    description: "Specification driven components"
+  - name: 'Intent Alignment'
+    description: 'Specification driven components'
     level: 2
     categories:
-      - name: "Specifications"
+      - name: 'Specifications'
         tools:
-
-          - name: "SpecStory"
-            description: "Capture, search and learn from every AI coding journey"
-            url: "https://specstory.com/"
-            icon: "https://specstory.com/favicon.ico"
-          - name: "Full Stack Roadmap"
-            description: "Description of my tool"
-            url: "https://www.fullstackroadmap.com/"
-            icon: "https://www.fullstackroadmap.com/logo.svg"
-          - name: "Crowdbotics"
-            description: "AI-Supercharged Modernization . Transform legacy applications through an AI-powered, requirements-driven approach — speeding up delivery and reducing risk."
-            url: "https://crowdbotics.com/"
-            icon: "https://crowdbotics.com/wp-content/themes/wpx/assets/images/favicons/favicon.ico" 
-          - name: "Copilot Workspace"
-            url: "https://githubnext.com/projects/copilot-workspace"
-      - name: "Design"
+          - name: 'SpecStory'
+            description: 'Capture, search and learn from every AI coding journey'
+            url: 'https://specstory.com/'
+            icon: 'https://specstory.com/favicon.ico'
+          - name: 'Full Stack Roadmap'
+            description: 'Description of my tool'
+            url: 'https://www.fullstackroadmap.com/'
+            icon: 'https://www.fullstackroadmap.com/logo.svg'
+          - name: 'Crowdbotics'
+            description: 'AI-Supercharged Modernization . Transform legacy applications through an AI-powered, requirements-driven approach — speeding up delivery and reducing risk.'
+            url: 'https://crowdbotics.com/'
+            icon: 'https://crowdbotics.com/wp-content/themes/wpx/assets/images/favicons/favicon.ico'
+          - name: 'Copilot Workspace'
+            url: 'https://githubnext.com/projects/copilot-workspace'
+      - name: 'Design'
         tools:
-          - name: "Galileo"
-            description: "Description of my tool"
-            url: "https://www.usegalileo.ai/"
-            icon: "https://www.usegalileo.ai/assets/favicon/apple-touch-icon-57x57.png"
-          - name: "Builder.io"
-            description: "Take Ideas to Production in Seconds, Not Sprints. Accelerate your digital teams with AI-powered design-to-code, visual editing, and enterprise CMS, all in our Visual Development Platform."
-            url: "https://builder.io/"
-            icon: "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F160d3724e72b4f88af781e0887df5601?width=200"
-          - name: "Copycoder"
-            description: "Built for the next generation of AI coders. Upload images of full applications, UI mockups, or custom designs and use our generated prompts to build your apps faster."
-            url: "https://copycoder.ai/"
-            icon: "https://copycoder.ai/favicon-32x32.png"
+          - name: 'Galileo'
+            description: 'Description of my tool'
+            url: 'https://www.usegalileo.ai/'
+            icon: 'https://www.usegalileo.ai/assets/favicon/apple-touch-icon-57x57.png'
+          - name: 'Builder.io'
+            description: 'Take Ideas to Production in Seconds, Not Sprints. Accelerate your digital teams with AI-powered design-to-code, visual editing, and enterprise CMS, all in our Visual Development Platform.'
+            url: 'https://builder.io/'
+            icon: 'https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F160d3724e72b4f88af781e0887df5601?width=200'
+          - name: 'Copycoder'
+            description: 'Built for the next generation of AI coders. Upload images of full applications, UI mockups, or custom designs and use our generated prompts to build your apps faster.'
+            url: 'https://copycoder.ai/'
+            icon: 'https://copycoder.ai/favicon-32x32.png'
 
-
-      - name: "Prototyping"
-        description: "Prototyping category 1"
+      - name: 'Prototyping'
+        description: 'Prototyping category 1'
         tools:
-          - name: "Lovable"
-            description: "Lovable is your superhuman full stack engineer"
-            url: "https://lovable.dev/"
-            icon: "https://lovable.dev/favicon.ico"
-          - name: "Github Spark"
-            description: "Can we enable anyone to create or adapt software for themselves, using AI and a fully-managed runtime?"
-            url: "https://githubnext.com/projects/github-spark/"
-          - name: "OpenAI Canvas"
-            description: "A new way of working with ChatGPT to write and code"
-            url: "https://openai.com/index/introducing-canvas/"
-          - name: "Claude Artefacts"
-            description: "Claude Artefacts"
-            url: "https://www.anthropic.com/en/blog/introducing-claude-artefacts"
+          - name: 'Lovable'
+            description: 'Lovable is your superhuman full stack engineer'
+            url: 'https://lovable.dev/'
+            icon: 'https://lovable.dev/favicon.ico'
+          - name: 'Github Spark'
+            description: 'Can we enable anyone to create or adapt software for themselves, using AI and a fully-managed runtime?'
+            url: 'https://githubnext.com/projects/github-spark/'
+          - name: 'OpenAI Canvas'
+            description: 'A new way of working with ChatGPT to write and code'
+            url: 'https://openai.com/index/introducing-canvas/'
+          - name: 'Claude Artefacts'
+            description: 'Claude Artefacts'
+            url: 'https://www.anthropic.com/en/blog/introducing-claude-artefacts'
 
-      - name: "Code Style"
+      - name: 'Code Style'
         tools:
-          - name: "Cursor Rules"
-            description: "Cursor Rules to customize AI behavior, streamline the development and tailor code generation, suggestions and queries to your framework and language."
-            url: "https://dotcursorrules.com/"
-            icon: "https://dotcursorrules.com/favicon.jpg"
-          - name: "Cursor Directory"
-            description: "Description of my tool"
-            url: "https://cursor.directory/"
-            icon: "fas fa-wrench"
-  - name: "Optimizing Context"
-    description: "Context awareness components"
+          - name: 'Cursor Rules'
+            description: 'Cursor Rules to customize AI behavior, streamline the development and tailor code generation, suggestions and queries to your framework and language.'
+            url: 'https://dotcursorrules.com/'
+            icon: 'https://dotcursorrules.com/favicon.jpg'
+          - name: 'Cursor Directory'
+            description: 'Description of my tool'
+            url: 'https://cursor.directory/'
+            icon: 'fas fa-wrench'
+  - name: 'Optimizing Context'
+    description: 'Context awareness components'
     level: 2
     categories:
-      - name: "Documentation"
-        description: "Context Aware category 1"
+      - name: 'Documentation'
+        description: 'Context Aware category 1'
         tools:
-          - name: "Swimm"
-            description: "Description of my tool"
-            url: "https://swimm.io/"
-            icon: "https://swimm.io/wp-content/uploads/2023/03/cropped-favicon-32x32.png"
-          - name: "Komment"
-            description: "Ship faster with self-healing wikis. Unlock rich insights about any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost team productivity."
-            url: "https://komment.ai/"
-          - name: "Mutable.AI"
-            description: "Mutable.AI"
-            url: "https://mutable.ai/"
-            icon: "https://mutable.ai/favicon.ico"
+          - name: 'Swimm'
+            description: 'Description of my tool'
+            url: 'https://swimm.io/'
+            icon: 'https://swimm.io/wp-content/uploads/2023/03/cropped-favicon-32x32.png'
+          - name: 'Komment'
+            description: 'Ship faster with self-healing wikis. Unlock rich insights about any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost team productivity.'
+            url: 'https://komment.ai/'
+          - name: 'Mutable.AI'
+            description: 'Mutable.AI'
+            url: 'https://mutable.ai/'
+            icon: 'https://mutable.ai/favicon.ico'
             tags:
-              - "rip"
-          - name: "DevDocs"
-            description: "DevDocs combines multiple API documentations in a fast, organized, and searchable interface."
-            url: "https://devdocs.io/"
-            icon: "https://devdocs.io/favicon.ico"  
-      - name: "Maintenance"
-        description: "Context Aware category 2"
+              - 'rip'
+          - name: 'DevDocs'
+            description: 'DevDocs combines multiple API documentations in a fast, organized, and searchable interface.'
+            url: 'https://devdocs.io/'
+            icon: 'https://devdocs.io/favicon.ico'
+      - name: 'Maintenance'
+        description: 'Context Aware category 2'
         tools:
-          - name: "Run When"
-            description: "We offer libraries with thousands of automated keep-the-lights-on tasks you can use this afternoon. Our platform helps you build Engineering Assistants for your colleagues that find which to run when they get questions, alerts or tickets."
-            url: "https://runwhen.com/"
-            icon: "https://cdn.prod.website-files.com/64f9646ad0f39e9ee5c116c4/64f97d8d9f16d9a1af9296aa_Favicon.png" 
-          - name: "Dosu"
-            description: "Dosu"
-            url: "https://dosu.dev/"
-          - name: "Second Dev"
-            description: "Second Dev"
-            url: "https://second.dev/"
+          - name: 'Run When'
+            description: 'We offer libraries with thousands of automated keep-the-lights-on tasks you can use this afternoon. Our platform helps you build Engineering Assistants for your colleagues that find which to run when they get questions, alerts or tickets.'
+            url: 'https://runwhen.com/'
+            icon: 'https://cdn.prod.website-files.com/64f9646ad0f39e9ee5c116c4/64f97d8d9f16d9a1af9296aa_Favicon.png'
+          - name: 'Dosu'
+            description: 'Dosu'
+            url: 'https://dosu.dev/'
+          - name: 'Second Dev'
+            description: 'Second Dev'
+            url: 'https://second.dev/'
             tags:
-              - "rip"
-          - name: "Runme.dev"
-            description: "DevOps Notebooks. Built with Markdown. Codify your operational process as cloud-native, testable, interactive documentation."
-            url: "https://runme.dev/"
-      - name: "Content Transformers"
-        description: "Context Aware category 4"
+              - 'rip'
+          - name: 'Runme.dev'
+            description: 'DevOps Notebooks. Built with Markdown. Codify your operational process as cloud-native, testable, interactive documentation.'
+            url: 'https://runme.dev/'
+      - name: 'Content Transformers'
+        description: 'Context Aware category 4'
         tools:
-          - name: "Uithub"
-            description: "Easily Ask Your LLM Coding Questions"
-            url: "https://uithub.com/"
-          - name: "RepoPrompt"
-            description: "A macOS native app designed to remove all the friction involved in iterating on your local files with the most powerful language models"
-            url: "https://repoprompt.com/"
-            icon: "https://repoprompt.com/images/favicon.png"
+          - name: 'Uithub'
+            description: 'Easily Ask Your LLM Coding Questions'
+            url: 'https://uithub.com/'
+          - name: 'RepoPrompt'
+            description: 'A macOS native app designed to remove all the friction involved in iterating on your local files with the most powerful language models'
+            url: 'https://repoprompt.com/'
+            icon: 'https://repoprompt.com/images/favicon.png'
 
-
-
-      - name: "CRM"
+      - name: 'CRM'
         tools:
-          - name: "Salesforce Einstein"
-            description: "Salesforce Einstein"
-            url: "https://www.salesforce.com/products/einstein/ai/"
+          - name: 'Salesforce Einstein'
+            description: 'Salesforce Einstein'
+            url: 'https://www.salesforce.com/products/einstein/ai/'
 
-  - name: "Coder as a service"
-    description: "Technology delegation components"
+  - name: 'Coder as a service'
+    description: 'Technology delegation components'
     level: 1.5
     categories:
-      - name: "IDE"
-        description: "Technology delegation category 1"
+      - name: 'IDE'
+        description: 'Technology delegation category 1'
         tools:
-          - name: "Cursor"
-            description: "Description of my tool"
-            url: "https://www.cursor.com/"
-            icon: "https://www.cursor.com/favicon.ico"
-          - name: "Github Copilot"
-            description: "Github Copilot"
-            url: "https://github.com/features/copilot"
-            icon: "https://github.githubassets.com/favicons/favicon.png"
-          - name: "Windsurf"
-            description: "Windsurf"
-            url: "https://codeium.com/windsurf/"
-            icon: "https://codeium.com/logo/windsurf_teal_logo.svg"
-          - name: "Cline"
-            description: "Meet Cline, an AI assistant that can use your CLI aNd Editor."
-            url: "https://github.com/cline/cline"
-          - name: "Amazon Q"
+          - name: 'Cursor'
+            description: 'Description of my tool'
+            url: 'https://www.cursor.com/'
+            icon: 'https://www.cursor.com/favicon.ico'
+          - name: 'Github Copilot'
+            description: 'Github Copilot'
+            url: 'https://github.com/features/copilot'
+            icon: 'https://github.githubassets.com/favicons/favicon.png'
+          - name: 'Windsurf'
+            description: 'Windsurf'
+            url: 'https://codeium.com/windsurf/'
+            icon: 'https://codeium.com/logo/windsurf_teal_logo.svg'
+          - name: 'Cline'
+            description: 'Meet Cline, an AI assistant that can use your CLI aNd Editor.'
+            url: 'https://github.com/cline/cline'
+          - name: 'Amazon Q'
             description: "The most capable generative AI–powered assistant for accelerating software development and leveraging companies' internal data"
-            url: "https://aws.amazon.com/q/"
-          - name: "Cody"
-            description: "Cody"
-            url: "https://sourcegraph.com/demo/cody"
-            icon: "https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/677c47f4401537b9df943903_favicon.png"
-          - name: "Sweep AI"
-            description: "Self-hosted coding assistant for JetBrains IDEs. Accelerate your JetBrains developers with the latest in AI coding intelligence. No data ever leaves your VPC."
-            url: "https://sweep.dev/"
-            icon: "https://sweep.dev/static/media/icon.0e4801c4058ae7cceb14.png"
-          - name: "Continue Dev"
-            description: "Continue Dev"
-            url: "https://continue.dev/"
-            icon: "https://cdn.prod.website-files.com/663e06c56841363663ffbbcf/664c918ec47bacdd3acdc167_favicon%408x.png"
+            url: 'https://aws.amazon.com/q/'
+          - name: 'Cody'
+            description: 'Cody'
+            url: 'https://sourcegraph.com/demo/cody'
+            icon: 'https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/677c47f4401537b9df943903_favicon.png'
+          - name: 'Sweep AI'
+            description: 'Self-hosted coding assistant for JetBrains IDEs. Accelerate your JetBrains developers with the latest in AI coding intelligence. No data ever leaves your VPC.'
+            url: 'https://sweep.dev/'
+            icon: 'https://sweep.dev/static/media/icon.0e4801c4058ae7cceb14.png'
+          - name: 'Continue Dev'
+            description: 'Continue Dev'
+            url: 'https://continue.dev/'
+            icon: 'https://cdn.prod.website-files.com/663e06c56841363663ffbbcf/664c918ec47bacdd3acdc167_favicon%408x.png'
             tags:
-              - "oss" 
-          - name: "Pear AI"
-            description: "The Curated AI Code Editor. Supercharge your development with an up-to-date, curated inventory of the best AI tools, natively integrated for effortless AI-powered coding. Always open source."
-            url: "https://trypear.ai/"
-            icon: "https://pear.ai/favicon.ico"
+              - 'oss'
+          - name: 'Pear AI'
+            description: 'The Curated AI Code Editor. Supercharge your development with an up-to-date, curated inventory of the best AI tools, natively integrated for effortless AI-powered coding. Always open source.'
+            url: 'https://trypear.ai/'
+            icon: 'https://pear.ai/favicon.ico'
             tags:
-              - "oss"
+              - 'oss'
 
-      - name: "Platforms"
-        description: "Development Platform"
+      - name: 'Platforms'
+        description: 'Development Platform'
         tools:
-          - name: "Bolt.new"
-            description: "AI-powered code generation"
-            url: "https://bolt.new"
-            icon: "https://bolt.new/favicon.svg"
-          - name: "Vercel v0"
-            description: "What can I help you ship?"
-            url: "https://vercel.com/v0"
-            icon: "https://vercel.com/favicon.ico"
-          - name: "Tessl"
-            description: "Code written by AI, powered by your specs"
-            url: "https://tessl.io"
-            icon: "https://pbs.twimg.com/profile_images/1867608291951476740/-QM1vLMS_400x400.png"
+          - name: 'Bolt.new'
+            description: 'AI-powered code generation'
+            url: 'https://bolt.new'
+            icon: 'https://bolt.new/favicon.svg'
+          - name: 'Vercel v0'
+            description: 'What can I help you ship?'
+            url: 'https://vercel.com/v0'
+            icon: 'https://vercel.com/favicon.ico'
+          - name: 'Tessl'
+            description: 'Code written by AI, powered by your specs'
+            url: 'https://tessl.io'
+            icon: 'https://pbs.twimg.com/profile_images/1867608291951476740/-QM1vLMS_400x400.png'
 
-
-      - name: "Code Migrations"
-        description: "Migrations category 1"
+      - name: 'Code Migrations'
+        description: 'Migrations category 1'
         tools:
-          - name: "Open Rewrite"
-            url: "https://docs.openrewrite.org/"
-          - name: "Q Transform"
-            url: "https://aws.amazon.com/q/developer/transform/"
-          - name: "Cast Software"
-            url: "https://learn.castsoftware.com/ai-assisted-code-transformation"
-      - name: "Autonomous Coder"
-        description: "Technology delegation category 3"
+          - name: 'Open Rewrite'
+            url: 'https://docs.openrewrite.org/'
+          - name: 'Q Transform'
+            url: 'https://aws.amazon.com/q/developer/transform/'
+          - name: 'Cast Software'
+            url: 'https://learn.castsoftware.com/ai-assisted-code-transformation'
+      - name: 'Autonomous Coder'
+        description: 'Technology delegation category 3'
         tools:
-          - name: "Devin"
-            description: "Devin is a collaborative AI teammate"
-            url: "https://devin.ai/"
-            icon: "https://devin.ai/favicon.ico"
-          - name: "Bismuth"
-            description: "Bismuth is an AI coding agent that helps you tackle your backlog. It understands your codebase, follows your patterns, and works alongside you to ship code or asynchronously to find and fix bugs."
-            url: "https://bismuth.sh/"
-            icon: "https://bismuth.sh/favicon.svg"
-          - name: "All Hands"
-            description: "All Hands"
-            url: "https://allhands.dev/"
-            icon: "https://www.all-hands.dev/all-hands-logo-1.svg"
-          - name: "Auto Code Rover"
-            description: "AutoCodeRover"
-            url: "https://www.autocoderover.net/"
-            icon: "https://static.wixstatic.com/shapes/9149cb_e155bca2c61a4c1681580831c06cb838.svg"
+          - name: 'Devin'
+            description: 'Devin is a collaborative AI teammate'
+            url: 'https://devin.ai/'
+            icon: 'https://devin.ai/favicon.ico'
+          - name: 'Bismuth'
+            description: 'Bismuth is an AI coding agent that helps you tackle your backlog. It understands your codebase, follows your patterns, and works alongside you to ship code or asynchronously to find and fix bugs.'
+            url: 'https://bismuth.sh/'
+            icon: 'https://bismuth.sh/favicon.svg'
+          - name: 'All Hands'
+            description: 'All Hands'
+            url: 'https://allhands.dev/'
+            icon: 'https://www.all-hands.dev/all-hands-logo-1.svg'
+          - name: 'Auto Code Rover'
+            description: 'AutoCodeRover'
+            url: 'https://www.autocoderover.net/'
+            icon: 'https://static.wixstatic.com/shapes/9149cb_e155bca2c61a4c1681580831c06cb838.svg'
 
- 
-      - name: "iAC"
-        description: "Infrastructure as Code"
+      - name: 'iAC'
+        description: 'Infrastructure as Code'
         tools:
-          - name: "InfraCopilot"
-            description: "The Intelligent Infra-as-Code Editor"
-            url: "https://infracopilot.io/"
-          - name: "AIaC"
-            description: "Artificial Intelligence Infrastructure-as-Code Generator"
-            url: "https://aiac.dev/"
-            icon: "https://aiac.dev/assets/favicon.ico"
-          - name: "Stakpak"
-            description: "Make critical infrastructure changes in a snap🫰, not days! Stakpak is a DevOps IDE, with AI inside, that helps you build, maintain and self-serve software infrastructure."
-            url: "https://stakpak.dev/"
-            icon: "https://stakpak.dev/wp-content/uploads/2024/08/cropped-favicon-192x192.png"
-          - name: "GPTScript"
-            description: "GPTScript is a framework that allows Large Language Models (LLMs) to operate and interact with various systems."
-            url: "https://docs.gptscript.ai/"
-            icon: "https://docs.gptscript.ai/img/favicon.ico"
+          - name: 'InfraCopilot'
+            description: 'The Intelligent Infra-as-Code Editor'
+            url: 'https://infracopilot.io/'
+          - name: 'AIaC'
+            description: 'Artificial Intelligence Infrastructure-as-Code Generator'
+            url: 'https://aiac.dev/'
+            icon: 'https://aiac.dev/assets/favicon.ico'
+          - name: 'Stakpak'
+            description: 'Make critical infrastructure changes in a snap🫰, not days! Stakpak is a DevOps IDE, with AI inside, that helps you build, maintain and self-serve software infrastructure.'
+            url: 'https://stakpak.dev/'
+            icon: 'https://stakpak.dev/wp-content/uploads/2024/08/cropped-favicon-192x192.png'
+          - name: 'GPTScript'
+            description: 'GPTScript is a framework that allows Large Language Models (LLMs) to operate and interact with various systems.'
+            url: 'https://docs.gptscript.ai/'
+            icon: 'https://docs.gptscript.ai/img/favicon.ico'
 
-      - name: "Terminal"
-        description: "Technology delegation category 2"
+      - name: 'Terminal'
+        description: 'Technology delegation category 2'
         tools:
-          - name: "Aider"
-            description: "AI pair programming in your terminal"
-            url: "https://www.aider.chat/"
-            icon: "https://aider.chat/assets/icons/favicon-32x32.png"
-          - name: "Fig"
-            url: "https://fig.io/"
+          - name: 'Aider'
+            description: 'AI pair programming in your terminal'
+            url: 'https://www.aider.chat/'
+            icon: 'https://aider.chat/assets/icons/favicon-32x32.png'
+          - name: 'Fig'
+            url: 'https://fig.io/'
 
-      - name: "Web"
-        description: "Technology delegation category 4"
+      - name: 'Web'
+        description: 'Technology delegation category 4'
         tools:
-          - name: "Keak"
-            description: "Higher conversionrates driven by AI. The first AI agent that continuously improves your website"
-            url: "https://keak.com/"
-            icon: "https://framerusercontent.com/images/7O25asSN8XNyGB2KZM1hjlOLpBU.png"
-          - name: "Websim"
-            description: "Websim"
-            url: "https://websim.dev/"
-            icon: "https://websim.dev/favicon.ico"
+          - name: 'Keak'
+            description: 'Higher conversionrates driven by AI. The first AI agent that continuously improves your website'
+            url: 'https://keak.com/'
+            icon: 'https://framerusercontent.com/images/7O25asSN8XNyGB2KZM1hjlOLpBU.png'
+          - name: 'Websim'
+            description: 'Websim'
+            url: 'https://websim.dev/'
+            icon: 'https://websim.dev/favicon.ico'
 
-    
-  - name: "Human Oversight"
-    description: "Human oversight components"
+  - name: 'Human Oversight'
+    description: 'Human oversight components'
     level: 2
     categories:
-      - name: "Code Reviews"
-        description: "Code Reviews category 1"
+      - name: 'Code Reviews'
+        description: 'Code Reviews category 1'
         tools:
-          - name: "Baz"
-            description: "Build unbreakable things code review with ai context"
-            url: "https://baz.co/"
-            icon: "https://cdn.prod.website-files.com/6687c611cd9ac075eb1fc52f/668cfae143a2bf22b5cbdb59_fav.png"
-          - name: "Firstmate"
-            description: "Faster & Better Code Reviews. Ship better code faster with AI-driven & customizable.feedback. Use automated code reviews that actually work."
-            url: "https://firstmate.io/"
-            icon: "https://cdn.prod.website-files.com/6710cd8fea97e48a460b522a/67122b4ade22175efbf3ecd9_favicon-32x32.png"
-      - name: "QA & Testing"
-        description: "QA & Testing category 1"
+          - name: 'Baz'
+            description: 'Build unbreakable things code review with ai context'
+            url: 'https://baz.co/'
+            icon: 'https://cdn.prod.website-files.com/6687c611cd9ac075eb1fc52f/668cfae143a2bf22b5cbdb59_fav.png'
+          - name: 'Firstmate'
+            description: 'Faster & Better Code Reviews. Ship better code faster with AI-driven & customizable.feedback. Use automated code reviews that actually work.'
+            url: 'https://firstmate.io/'
+            icon: 'https://cdn.prod.website-files.com/6710cd8fea97e48a460b522a/67122b4ade22175efbf3ecd9_favicon-32x32.png'
+      - name: 'QA & Testing'
+        description: 'QA & Testing category 1'
         tools:
-          - name: "Ventrilo"
-            description: "Imagine a world where every developer has a dedicated test resource."
-            url: "https://ventrilo.ai/"
-            icon: "https://ventrilo.ai/favicon.png"
-      - name: "Agents"
-        description: "Agents category 1"
+          - name: 'Ventrilo'
+            description: 'Imagine a world where every developer has a dedicated test resource.'
+            url: 'https://ventrilo.ai/'
+            icon: 'https://ventrilo.ai/favicon.png'
+      - name: 'Agents'
+        description: 'Agents category 1'
         tools:
-          - name: "AgentOps"
+          - name: 'AgentOps'
             description: "Industry leading developer platform to test and debug AI agents. We built the tools so you don't have to."
-            url: "https://www.agentops.ai/"
-      - name: "SRE"
-        description: "Incident management"
+            url: 'https://www.agentops.ai/'
+      - name: 'SRE'
+        description: 'Incident management'
         tools:
-          - name: "Overmind"
-            description: "Predictive, AI-Powered Root Cause Analysis"
-            url: "https://overmind.tech/"
-            icon: "https://docs.overmind.tech/img/logo.svg"
-          - name: "Cleric"
-            description: "AI SRE teammate for on-call engineers, Cleric autonomously root causes alerts from production applications without requiring runbooks."
-            url: "https://cleric.io/"
-            icon: "https://cdn.prod.website-files.com/65840bae4da744feef0ea01f/6709152e4f520480e15fe6b4_cleric_logo-bl-no_background.svg"
-          - name: "SRE AI"
-            description: "SRE AI"
-            url: "https://sre.ai/"
-          - name: "Kubiya"
-            description: "Meet your AI-powered Teammates for Operations. Accelerate time-to-automation by delegating routine tasks to AI Teammates, available 24/7 to support dev and ops teams while you focus on the strategic work that drives impact."
-            url: "https://www.kubiya.ai/"
-            icon: "https://cdn.prod.website-files.com/66ac05ef155399c0a0aee1f3/66efe735bc7a93e14099a235_Kubi%20256.png"
-      - name: "Security"
-        description: "Security category 1" 
+          - name: 'Overmind'
+            description: 'Predictive, AI-Powered Root Cause Analysis'
+            url: 'https://overmind.tech/'
+            icon: 'https://docs.overmind.tech/img/logo.svg'
+          - name: 'Cleric'
+            description: 'AI SRE teammate for on-call engineers, Cleric autonomously root causes alerts from production applications without requiring runbooks.'
+            url: 'https://cleric.io/'
+            icon: 'https://cdn.prod.website-files.com/65840bae4da744feef0ea01f/6709152e4f520480e15fe6b4_cleric_logo-bl-no_background.svg'
+          - name: 'SRE AI'
+            description: 'SRE AI'
+            url: 'https://sre.ai/'
+          - name: 'Kubiya'
+            description: 'Meet your AI-powered Teammates for Operations. Accelerate time-to-automation by delegating routine tasks to AI Teammates, available 24/7 to support dev and ops teams while you focus on the strategic work that drives impact.'
+            url: 'https://www.kubiya.ai/'
+            icon: 'https://cdn.prod.website-files.com/66ac05ef155399c0a0aee1f3/66efe735bc7a93e14099a235_Kubi%20256.png'
+      - name: 'Security'
+        description: 'Security category 1'
         tools:
-          - name: "Dryrun Security"
-            description: "Codebase Risk Averted with Contextual Security Analysis"
-            url: "https://www.dryrun.security/"
-            icon: "https://cdn.prod.website-files.com/645932d9286e9c20dd8e0fca/645d576fcd2b8845137f43e1_favicon.png"
-          - name: "Semgrep"
-            description: "Meet Your New AI AppSec Engineer. Get all of the insights from static analysis, and none of the noise."
-            url: "https://semgrep.dev/"
-            icon: "https://semgrep.dev/build/assets/favicon-CIx-xpG_.svg"
+          - name: 'Dryrun Security'
+            description: 'Codebase Risk Averted with Contextual Security Analysis'
+            url: 'https://www.dryrun.security/'
+            icon: 'https://cdn.prod.website-files.com/645932d9286e9c20dd8e0fca/645d576fcd2b8845137f43e1_favicon.png'
+          - name: 'Semgrep'
+            description: 'Meet Your New AI AppSec Engineer. Get all of the insights from static analysis, and none of the noise.'
+            url: 'https://semgrep.dev/'
+            icon: 'https://semgrep.dev/build/assets/favicon-CIx-xpG_.svg'
 
-  - name: "Codegen Infra & Core components"
-    description: "Core system components"
+  - name: 'Codegen Infra & Core components'
+    description: 'Core system components'
     level: 3
     categories:
-      - name: "Code Models"
+      - name: 'Code Models'
         tools:
-          - name: "OpenAI Codex"
+          - name: 'OpenAI Codex'
             description: "We've created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today."
-            url: "https://openai.com/index/openai-codex/"
-            icon: "https://images.ctfassets.net/kftzwdyauwt9/44acb746-bccc-4a2d-9cb2acf9475b/47a13b8efdee3822388ed209e06abcfd/openai-codex.png?w=2048&q=90&fm=webp"
-          - name: "Starcoder"
-            description: "Starcoder"
-            url: "https://huggingface.co/bigcode/starcoder"
-          - name: "Code Llama"
-            description: "Code Llama"
-            url: "https://codellama.dev/about"
-            icon: "https://codellama.dev/icons/black-whitebg.png"
-          - name: "Magic Dev"
-            description: "building frontier code models to automate software engineering and research."
-            url: "https://magic.dev/"
-            icon: "https://magic.dev/favicon/favicon.ico"
-      - name: "Code Embeddings"
+            url: 'https://openai.com/index/openai-codex/'
+            icon: 'https://images.ctfassets.net/kftzwdyauwt9/44acb746-bccc-4a2d-9cb2acf9475b/47a13b8efdee3822388ed209e06abcfd/openai-codex.png?w=2048&q=90&fm=webp'
+          - name: 'Starcoder'
+            description: 'Starcoder'
+            url: 'https://huggingface.co/bigcode/starcoder'
+          - name: 'Code Llama'
+            description: 'Code Llama'
+            url: 'https://codellama.dev/about'
+            icon: 'https://codellama.dev/icons/black-whitebg.png'
+          - name: 'Magic Dev'
+            description: 'building frontier code models to automate software engineering and research.'
+            url: 'https://magic.dev/'
+            icon: 'https://magic.dev/favicon/favicon.ico'
+      - name: 'Code Embeddings'
         tools:
-          - name: "Jina"
-            description: "Jina"
-            url: "https://huggingface.co/jinaai/jina-embeddings-v2-base-code"
-      - name: "Code Search"
+          - name: 'Jina'
+            description: 'Jina'
+            url: 'https://huggingface.co/jinaai/jina-embeddings-v2-base-code'
+      - name: 'Code Search'
         tools:
-          - name: "Source Graph"
-            description: "Grok your entire codebase. Code Search makes it easy to find code, make large-scale changes, and track insights across codebases of any scale."
-            url: "https://sourcegraph.com/"
-            icon: "https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/677c1ed185acdeceabc0e7ca_Code-Search-squircle.svg"
-      - name: "Training"
+          - name: 'Source Graph'
+            description: 'Grok your entire codebase. Code Search makes it easy to find code, make large-scale changes, and track insights across codebases of any scale.'
+            url: 'https://sourcegraph.com/'
+            icon: 'https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/677c1ed185acdeceabc0e7ca_Code-Search-squircle.svg'
+      - name: 'Training'
         tools:
-          - name: "Outlier"
+          - name: 'Outlier'
             description: "Outlier is a platform that connects subject matter experts to help build the world's most advanced Generative AI. You will work on a variety of projects from generating training data in your discipline to advance these models to evaluating performance of models."
-            url: "https://outlier.ai/"
-            icon: "https://framerusercontent.com/images/dM8x8m8hYj4oSJficiz9ljlhi0.png"
+            url: 'https://outlier.ai/'
+            icon: 'https://framerusercontent.com/images/dM8x8m8hYj4oSJficiz9ljlhi0.png'
 
-      - name: "Code Evals & Benchmarks"
+      - name: 'Code Evals & Benchmarks'
         tools:
-          - name: "SWE Bench"
-            description: "SWE Bench"
-            url: "https://www.swebench.com/"
-            icon: "https://www.swebench.com/img/swellama.png"
-      - name: "Libraries"
+          - name: 'SWE Bench'
+            description: 'SWE Bench'
+            url: 'https://www.swebench.com/'
+            icon: 'https://www.swebench.com/img/swellama.png'
+      - name: 'Libraries'
         tools:
-          - name: "Priompt"
-            description: "Priompt (priority + prompt) is a JSX-based prompting library. It uses priorities to decide what to include in the context window."
-            url: "https://github.com/anysphere/priompt"
-            icon: "fas fa-wrench"
+          - name: 'Priompt'
+            description: 'Priompt (priority + prompt) is a JSX-based prompting library. It uses priorities to decide what to include in the context window.'
+            url: 'https://github.com/anysphere/priompt'
+            icon: 'fas fa-wrench'
 
-
-
-      - name: "Execution Sandboxes Runtimes"
+      - name: 'Execution Sandboxes Runtimes'
         tools:
-          - name: "E2B"
-            description: "RUN AI-GENERATED code SECURELY in your APP"
-            url: "https://e2b.dev/"
-            icon: "https://cdn.prod.website-files.com/6717bb6618f6a40d53ac2929/6751bc96a1a8a0ec9a69a57c_faviconV2.png"
+          - name: 'E2B'
+            description: 'RUN AI-GENERATED code SECURELY in your APP'
+            url: 'https://e2b.dev/'
+            icon: 'https://cdn.prod.website-files.com/6717bb6618f6a40d53ac2929/6751bc96a1a8a0ec9a69a57c_faviconV2.png'

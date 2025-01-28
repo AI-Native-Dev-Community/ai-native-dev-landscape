@@ -5,10 +5,10 @@ import toolYamlData from '@/assets/tool-landscape.yaml'
 function generateUUIDv4(): string {
   // Generate a random UUID (version 4)
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
-      const r = (Math.random() * 16) | 0;
-      const v = c === 'x' ? r : (r & 0x3) | 0x8;
-      return v.toString(16);
-  });
+    const r = (Math.random() * 16) | 0
+    const v = c === 'x' ? r : (r & 0x3) | 0x8
+    return v.toString(16)
+  })
 }
 
 interface ToolLandscapeState {
@@ -66,7 +66,7 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     },
 
     initializeFromYaml() {
-      const data = toolYamlData as any;
+      const data = toolYamlData as any
       const domains = data.domains
       domains.forEach((domain: any) => {
         domain.uid = generateUUIDv4()
@@ -96,10 +96,14 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     },
 
     initializeFromYamlOrig() {
-      const data = toolYamlData as { domains: ToolDomain[]; categories: ToolCategory[]; tools: Tool[] }
+      const data = toolYamlData as {
+        domains: ToolDomain[]
+        categories: ToolCategory[]
+        tools: Tool[]
+      }
       data.domains.forEach((domain) => this.addDomain(domain))
       data.categories.forEach((category) => this.addCategory(category))
-      data.tools.forEach((tool) => this.addTool(tool))  
+      data.tools.forEach((tool) => this.addTool(tool))
     },
 
     getToolsByCategoryId(categoryId: string) {

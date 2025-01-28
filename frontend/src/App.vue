@@ -31,7 +31,6 @@ import { RouterLink, RouterView } from 'vue-router'
   position: relative;
 }
 
-
 .content {
   width: 100%;
   margin-left: 0; /* Ensure no left margin */
@@ -39,4 +38,3 @@ import { RouterLink, RouterView } from 'vue-router'
   max-width: none;
 }
 </style>
-
