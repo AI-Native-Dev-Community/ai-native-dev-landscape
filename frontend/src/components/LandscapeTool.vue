@@ -12,7 +12,7 @@ defineProps<{
     class="landscape-tool" 
     :title="tool.description.en"
   >
-    <div class="tool-header">
+    <div class="landscape-tool-header">
       <h3>{{ tool.name.en }}</h3>
       <a 
         v-if="tool.website_url" 
@@ -35,5 +35,9 @@ defineProps<{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+
+.landscape-tool-header {
+  padding: 1.5rem;
 }
 </style> 

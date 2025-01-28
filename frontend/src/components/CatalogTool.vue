@@ -9,10 +9,10 @@ defineProps<{
 
 <template>
   <div 
-    class="catalog -tool" 
+    class="catalog-tool" 
     :title="tool.description.en"
   >
-    <div class="tool-header">
+    <div class="catalog-tool-header">
       <h3>{{ tool.name.en }}</h3>
       <a 
         v-if="tool.website_url" 
@@ -28,5 +28,10 @@ defineProps<{
 </template>
 
 <style scoped>
-
+.catalog-tool {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  min-width: 300px;
+}
 </style> 
