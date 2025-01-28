@@ -1,0 +1,17 @@
+Data:
+- import tool data from existing yaml file
+
+Views rendering:
+- canvas view
+- list view
+- notice on top of the page
+
+Deploy:
+- github action to build and deploy
+
+extra:
+- search 
+- export to csv
+
+- Different output file for each domain
+- Localization
