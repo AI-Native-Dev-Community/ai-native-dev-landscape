@@ -50,5 +50,5 @@ jobs:
       if: github.ref != 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+        publish_dir: ./frontend/dist
         destination_dir: ${{ env.PR_PATH }}
