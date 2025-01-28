@@ -11,15 +11,21 @@ This is very much a work in progress.
 - It's a Vue 3 project. 
 - The landscape data is in the `assets/tool-landscape.yaml` file.
 
+### Running it locally
 ```bash
 npm install
 npm run dev
 ```
 
+### Building it
 ```bash
 npm run format
 npm run build
 ```
+
+### Publishing to Github pages
+- <https://github.com/daiyi/gh-pages-pr-previews/blob/main/.github/workflows/gh-pages.yml>
+- <https://github.com/peaceiris/actions-gh-pages>
 
 ## Contributing
 - Changes need to be made using Pull Requests.
