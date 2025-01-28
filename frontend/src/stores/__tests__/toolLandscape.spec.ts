@@ -19,14 +19,8 @@ describe('toolLandscape Store', () => {
     const store = useToolLandscapeStore()
     const testDomain: ToolDomain = {
       uid: 'test-domain',
-      name: {
-        en: 'Test Domain',
-        fr: 'Domaine de Test',
-      },
-      description: {
-        en: 'Test Description',
-        fr: 'Description de Test',
-      },
+      name: 'Test Domain',
+      description: 'Test Description',
       level: 1,
     }
 
@@ -40,14 +34,8 @@ describe('toolLandscape Store', () => {
     const testCategory: ToolCategory = {
       uid: 'test-category',
       domainId: 'test-domain',
-      name: {
-        en: 'Test Category',
-        fr: 'Catégorie de Test',
-      },
-      description: {
-        en: 'Test Category Description',
-        fr: 'Description de la Catégorie de Test',
-      },
+      name: 'Test Category',
+      description: 'Test Category Description',
     }
 
     store.addCategory(testCategory)

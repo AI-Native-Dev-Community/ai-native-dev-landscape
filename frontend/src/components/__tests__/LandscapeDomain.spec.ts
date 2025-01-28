@@ -14,14 +14,8 @@ beforeEach(() => {
 
   toolLandscapeStore.addDomain({
     uid: 'tool-domain1',
-    name: {
-      en: 'Development Tools',
-      fr: 'Outils de développement',
-    },
-    description: {
-      en: 'Tools used for software development',
-      fr: 'Outils utilisés pour le développement logiciel',
-    },
+    name: 'Development Tools',
+    description: 'Tools used for software development',
     level: 1,
   })
 })
@@ -30,14 +24,8 @@ describe('LandscapeDomain.vue', () => {
   it('renders correctly with props', () => {
     const toolDomain = {
       uid: 'tool-domain1',
-      name: {
-        en: 'Development Tools',
-        fr: 'Outils de développement',
-      },
-      description: {
-        en: 'Tools used for software development',
-        fr: 'Outils utilisés pour le développement logiciel',
-      },
+      name: 'Development Tools',
+      description: 'Tools used for software development',
       level: 1,
     }
 

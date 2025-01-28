@@ -14,14 +14,8 @@ describe('LandscapeCanvas', () => {
 
     toolLandscapeStore.addDomain({
       uid: 'tool-domain1',
-      name: {
-        en: 'Development Tools',
-        fr: 'Outils de développement',
-      },
-      description: {
-        en: 'Tools used for software development',
-        fr: 'Outils utilisés pour le développement logiciel',
-      },
+      name: 'Development Tools',
+      description: 'Tools used for software development',
       level: 1,
     })
   })
