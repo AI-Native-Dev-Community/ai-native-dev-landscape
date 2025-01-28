@@ -20,5 +20,6 @@ const domains = toolLandscapeStore.getAllDomains
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: left;
+  width: 100%;
 }
 </style>

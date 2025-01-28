@@ -25,13 +25,24 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 
 <style scoped>
 .catalog-domain {
+  display: flex;
+  flex-direction: row;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 1rem;
+  width: 100%;
 }
 
 .catalog-domain-header {
   padding: 1rem;
+}
+
+.catalog-domain-categories {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: hidden;
 }
 </style>

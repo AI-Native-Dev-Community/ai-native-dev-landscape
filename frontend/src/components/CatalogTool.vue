@@ -29,9 +29,11 @@ defineProps<{
 
 <style scoped>
 .catalog-tool {
-  width: 100%;
-  height: 100%;
+
   padding: 1.5rem;
   min-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1rem;
 }
 </style> 
