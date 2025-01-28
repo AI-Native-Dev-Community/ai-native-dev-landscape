@@ -9,24 +9,39 @@ defineProps<{
 <template>
   <div class="landscape-tool" :title="tool.description">
     <div class="landscape-tool-header">
-      <h3>{{ tool.name }}</h3>
-      <a v-if="tool.website_url" :href="tool.website_url" target="_blank" rel="noopener noreferrer">
-        🔗
-      </a>
+      <img 
+        class="landscape-tool-icon" 
+        :src="tool.icon_url ? tool.icon_url : 'https://placehold.co/48x48'" 
+        alt="Tool Icon" 
+      /> 
+      <div class="landscape-tool-name"> {{ tool.name }} </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+
+.landscape-tool-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
 .landscape-tool {
-  border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  width: 100px;
+  height: 100px;
 }
 
 .landscape-tool-header {
   padding: 1.5rem;
 }
+
+.landscape-tool-name {
+  font-size: 12px;
+  font-weight: bold;
+} 
 </style>

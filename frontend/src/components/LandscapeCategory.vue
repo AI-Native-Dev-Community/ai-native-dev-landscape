@@ -25,6 +25,7 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   </div>
 </template>
 
+
 <style scoped>
 .landscape-category {
   height: auto; /* Set the height to 100% of the parent container */
@@ -33,6 +34,7 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   border: 1px solid #ccc;
   border-radius: 8px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Set a transparent dark background */
 }
 
 .landscape-category-header {
@@ -41,7 +43,7 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 
 .landscape-category-tools {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: left;
 }

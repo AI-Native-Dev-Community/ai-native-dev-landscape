@@ -26,7 +26,7 @@ const getToolsForCategory = computed(() => {
       <ul>
         <li v-for="tool in getToolsForCategory(category.uid)" :key="tool.uid">
           <!-- Render each tool here -->
-          {{ tool.name }}
+          <a :href="tool.website_url" target="_blank">{{ tool.name }}</a> : {{ tool.description }}
         </li>
       </ul>
     </div>

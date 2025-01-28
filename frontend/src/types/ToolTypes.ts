@@ -20,6 +20,7 @@ export interface ToolCompany {
   name: string
   description: string
   website_url: string
+  icon_url: string
 }
 
 export interface Tool {
@@ -30,4 +31,5 @@ export interface Tool {
   categoryId: string
   domainId: string
   website_url: string
+  icon_url: string
 }
