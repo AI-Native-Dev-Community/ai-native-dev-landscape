@@ -19,13 +19,13 @@ const getToolsForCategory = computed(() => {
 
 <template>
   <div v-for="domain in domains" :key="domain.uid">
-    <h2>{{ domain.name.en }}</h2> <!-- Domain header -->
+    <h2>{{ domain.name }}</h2> <!-- Domain header -->
     <div v-for="category in getCategoriesForDomain(domain.uid)" :key="category.uid">
-      <h3>{{ category.name.en }}</h3> <!-- Category header -->
+      <h3>{{ category.name }}</h3> <!-- Category header -->
       <ul>
         <li v-for="tool in getToolsForCategory(category.uid)" :key="tool.uid">
           <!-- Render each tool here -->
-          {{ tool.name.en }}
+          {{ tool.name }}
         </li>
       </ul>
     </div>

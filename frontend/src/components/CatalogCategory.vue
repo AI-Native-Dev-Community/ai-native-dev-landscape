@@ -16,8 +16,8 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 <template>
   <div class="catalog-category">
     <div class="catalog-category-header">
-      <h3>{{ category.name.en }}</h3>
-      <p>{{ category.description.en }}</p>
+      <h3>{{ category.name }}</h3>
+      <p>{{ category.description }}</p>
     </div>
     <div class="catalog-category-tools">
       <CatalogTool v-for="tool in tools" :key="tool.uid" :tool="tool" />

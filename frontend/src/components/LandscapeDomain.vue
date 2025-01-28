@@ -14,8 +14,8 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 <template>
   <div class="landscape-domain">
     <div class="domain-header">
-      <h2>{{ domain.name.en }}</h2>
-      <p>{{ domain.description.en }}</p>
+      <h2>{{ domain.name }}</h2>
+      <p>{{ domain.description }}</p>
     </div>
     <div class="categories-container">
       <LandscapeCategory v-for="category in categories" 

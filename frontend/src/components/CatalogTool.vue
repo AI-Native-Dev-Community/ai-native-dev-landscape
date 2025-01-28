@@ -10,10 +10,10 @@ defineProps<{
 <template>
   <div 
     class="catalog-tool" 
-    :title="tool.description.en"
+    :title="tool.description"
   >
     <div class="catalog-tool-header">
-      <h3>{{ tool.name.en }}</h3>
+      <h3>{{ tool.name }}</h3>
       <a 
         v-if="tool.website_url" 
         :href="tool.website_url" 
