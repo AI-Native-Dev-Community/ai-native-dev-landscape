@@ -21,6 +21,10 @@ npm run format
 npm run build
 ```
 
+## Contributing
+- Changes need to be made using Pull Requests.
+- [Commits need to be signed](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
