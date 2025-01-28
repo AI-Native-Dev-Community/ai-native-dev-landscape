@@ -3,17 +3,40 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Landscape</RouterLink> |
-        <RouterLink to="/catalog">Catalog</RouterLink> |
-        <RouterLink to="/awesome">Awesome</RouterLink>
-      </nav>
+  <div class="app-container">
+    <div class="menu">
+      <header>
+        <div class="wrapper">
+          <nav>
+            <RouterLink to="/">Landscape</RouterLink> |
+            <RouterLink to="/catalog">Catalog</RouterLink> |
+            <RouterLink to="/awesome">Awesome</RouterLink>
+          </nav>
+        </div>
+      </header>
     </div>
-  </header>
 
-  <RouterView />
+    <div class="content">
+      <RouterView />
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.app-container {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+.content {
+  width: 100%;
+  margin-left: 0; /* Ensure no left margin */
+  margin-right: 0; /* Ensure no right margin */
+  max-width: none;
+}
+</style>
+

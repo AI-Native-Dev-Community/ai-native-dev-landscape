@@ -22,4 +22,16 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.landscape-category {
+  height: auto; /* Set the height to 100% of the parent container */
+  display: flex; /* Use flexbox to align items if needed */
+  flex-direction: column; /* Align children vertically */
+}
+
+.categories-container {
+  display: flex; /* Ensure categories are in a row */
+  flex-direction: row; /* Align categories horizontally */
+  align-items: stretch; /* Make all categories stretch to the height of the tallest one */
+}
+</style>
