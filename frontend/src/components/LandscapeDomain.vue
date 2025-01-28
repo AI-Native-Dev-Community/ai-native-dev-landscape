@@ -28,7 +28,7 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 <style scoped>
 .landscape-domain {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 1.5rem;
   border: 1px solid #ccc;
   border-radius: 8px;

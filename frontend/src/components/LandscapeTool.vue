@@ -28,5 +28,12 @@ defineProps<{
 </template>
 
 <style scoped>
+.landscape-tool {
 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
 </style> 

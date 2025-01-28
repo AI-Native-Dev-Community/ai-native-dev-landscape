@@ -27,6 +27,9 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   height: auto; /* Set the height to 100% of the parent container */
   display: flex; /* Use flexbox to align items if needed */
   flex-direction: column; /* Align children vertically */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .categories-container {
