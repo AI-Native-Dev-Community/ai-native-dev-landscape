@@ -29,7 +29,7 @@ describe('LandscapeDomain.vue', () => {
       level: 1,
     }
 
-    const wrapper = mount(LandscapeDomain, { props: { domain: toolDomain } })
+    const wrapper = mount(LandscapeDomain, { props: { domain: toolDomain, index: 0 } })
     expect(wrapper.text()).toContain('Development Tools')
   })
 })

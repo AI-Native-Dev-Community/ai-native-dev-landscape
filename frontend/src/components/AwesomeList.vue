@@ -2,7 +2,6 @@
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 import { computed } from 'vue'
 import benchIcon from '@/assets/tool-icon.png'
-import CatalogTool from './CatalogTool.vue'
 // get the domains and categories from the store
 const toolLandscapeStore = useToolLandscapeStore()
 const domains = toolLandscapeStore.getAllDomains
