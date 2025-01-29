@@ -15,6 +15,7 @@ interface ToolLandscapeState {
   domains: ToolDomain[]
   categories: ToolCategory[]
   tools: Tool[]
+  searchQuery: string
 }
 
 export const useToolLandscapeStore = defineStore('toolLandscape', {
@@ -22,6 +23,7 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     domains: [],
     categories: [],
     tools: [],
+    searchQuery: '',
   }),
 
   actions: {
@@ -114,10 +116,21 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     getToolsByDomainId(domainId: string) {
       return this.tools.filter((tool: Tool) => tool.domainId === domainId)
     },
+
+    setSearchQuery(query: string) {
+      this.searchQuery = query
+    }
   },
 
   getters: {
     getAllDomains: (state) => state.domains,
     getAllCategories: (state) => state.categories,
+    filteredTools: (state) => {
+      const query = state.searchQuery.toLowerCase().trim()
+      if (!query) return state.tools
+      
+      return state.tools.filter(tool => 
+        (tool.name?.toLowerCase() || '').includes(query)      )
+    }
   },
 })

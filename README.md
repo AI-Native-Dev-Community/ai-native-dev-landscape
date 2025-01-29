@@ -26,6 +26,7 @@ npm run build
 ### Publishing to Github pages
 - <https://github.com/daiyi/gh-pages-pr-previews/blob/main/.github/workflows/gh-pages.yml>
 - <https://github.com/peaceiris/actions-gh-pages>
+- <https://stackoverflow.com/questions/76267018/how-can-i-protect-a-github-branch-and-allow-only-github-actions-to-push-to-it-an>
 
 ## Contributing
 - Changes need to be made using Pull Requests.
