@@ -17,7 +17,6 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   <div class="landscape-category">
     <div class="landscape-category-header">
       <h3>{{ category.name }}</h3>
-      <p>{{ category.description }}</p>
     </div>
     <div class="landscape-category-tools">
       <LandscapeTool v-for="tool in tools" :key="tool.uid" :tool="tool" />
@@ -43,7 +42,7 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 
 .landscape-category-tools {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
 }

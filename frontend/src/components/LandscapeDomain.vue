@@ -41,7 +41,6 @@ const backgroundColor = colorPool[props.index % colorPool.length]
   <div class="landscape-domain" :style="{ backgroundColor }">
     <div class="domain-header">
       <h2>{{ domain.name }}</h2>
-      <p>{{ domain.description }}</p>
     </div>
     <div class="categories-container">
       <LandscapeCategory v-for="category in categories" :key="category.uid" :category="category" />
@@ -53,12 +52,12 @@ const backgroundColor = colorPool[props.index % colorPool.length]
 .landscape-domain {
   width: 100%;
   height: auto;
-  padding: 1.5rem;
+
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   transition: background-color 0.3s ease;
 }
 
@@ -77,7 +76,7 @@ const backgroundColor = colorPool[props.index % colorPool.length]
 
 .categories-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
   flex: 1;
 }
