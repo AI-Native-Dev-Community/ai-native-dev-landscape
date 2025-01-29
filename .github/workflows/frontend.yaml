@@ -54,7 +54,7 @@ jobs:
       #   destination_dir: ${{ env.PR_PATH }}
 
   # Deployment job
-artifact:
+  artifact:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -65,7 +65,7 @@ artifact:
         id: deployment
         uses: actions/deploy-pages@v4
 
-deploy:
+  deploy:
     # Add a dependency to the build job
     needs: artifact
 
