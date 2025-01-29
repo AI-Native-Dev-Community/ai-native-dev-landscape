@@ -68,7 +68,6 @@ domains:
           - name: 'Cursor Directory'
             description: 'Description of my tool'
             website_url: 'https://cursor.directory/'
-            icon_url: 'fas fa-wrench'
   - name: 'Optimizing Context'
     description: 'Context awareness components'
     level: 2
@@ -136,7 +135,7 @@ domains:
         description: 'Technology delegation category 1'
         tools:
           - name: 'Cursor'
-            description: 'Description of my tool'
+            description: 'A coding tool'
             website_url: 'https://www.cursor.com/'
             icon_url: 'https://www.cursor.com/favicon.ico'
           - name: 'Github Copilot'
@@ -170,7 +169,7 @@ domains:
           - name: 'Pear AI'
             description: 'The Curated AI Code Editor. Supercharge your development with an up-to-date, curated inventory of the best AI tools, natively integrated for effortless AI-powered coding. Always open source.'
             website_url: 'https://trypear.ai/'
-            icon_url: 'https://pear.ai/favicon.ico'
+            icon_url: 'https://www.pear.ai/themes/custom/bartlett/logo.svg'
             tags:
               - 'oss'
 
@@ -368,7 +367,6 @@ domains:
           - name: 'Priompt'
             description: 'Priompt (priority + prompt) is a JSX-based prompting library. It uses priorities to decide what to include in the context window.'
             website_url: 'https://github.com/anysphere/priompt'
-            icon_url: 'fas fa-wrench'
 
       - name: 'Execution Sandboxes Runtimes'
         tools:

@@ -31,19 +31,22 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   display: flex; /* Use flexbox to align items if needed */
   flex-direction: column; /* Align children vertically */
   border: 1px solid #ccc;
+  margin-bottom: 0.2em;
   border-radius: 8px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5); /* Set a transparent dark background */
 }
 
 .landscape-category-header {
-  padding: 1.5rem;
+  padding: 0.5rem;
+  color:white;
 }
 
 .landscape-category-tools {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: left;
+  padding-bottom: 1em;
 }
 </style>

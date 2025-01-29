@@ -59,10 +59,13 @@ const backgroundColor = colorPool[props.index % colorPool.length]
   display: flex;
   flex-direction: column;
   transition: background-color 0.3s ease;
+  padding: 1rem;
 }
 
 .domain-header {
   text-align: center;
+  margin-top: 0.2rem;
+  color: white;
 }
 
 .domain-header h2 {
@@ -75,8 +78,8 @@ const backgroundColor = colorPool[props.index % colorPool.length]
 }
 
 .categories-container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   flex: 1;
 }

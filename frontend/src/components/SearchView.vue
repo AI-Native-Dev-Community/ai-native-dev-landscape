@@ -15,6 +15,14 @@
         class="tool-card"
         @click="navigateToTool(tool.uid)"
       >
+
+      <img 
+              :src="tool.icon_url || benchIcon" 
+              @error="onImageError"
+              alt="tool.name" 
+              class="catalog-tool-icon" 
+            />
+
         <h3>{{ tool.name }}</h3>
         <p>{{ tool.description }}</p>
         <span class="category">{{ getCategoryName(tool.categoryId) }}</span>
@@ -27,7 +35,7 @@
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
-
+import benchIcon from '@/assets/tool-icon.png'
 const router = useRouter()
 const store = useToolLandscapeStore()
 const searchQuery = ref('')
@@ -46,11 +54,21 @@ const getCategoryName = (categoryId: string) => {
 const navigateToTool = (toolId: string) => {
   router.push(`/tool/${toolId}`)
 }
+
+const onImageError = (event: Event) => {
+  const target = event.target as HTMLImageElement;
+  target.src = benchIcon; // Set to benchIcon if the image fails to load
+}
 </script>
 
 <style scoped>
 .search-container {
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .search-input {
@@ -63,18 +81,25 @@ const navigateToTool = (toolId: string) => {
   font-size: 16px;
 }
 
+
+.catalog-tool-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
 .tools-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
-  color: black;
+  color: green;
 }
 
 .tool-card {
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  background: rgb(183, 227, 8);
+  background: lightgreen;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
 }

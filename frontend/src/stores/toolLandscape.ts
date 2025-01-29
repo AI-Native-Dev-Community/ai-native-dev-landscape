@@ -86,7 +86,6 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
 
             // If there are tools, add them
             if (tools) {
-              console.log(tools)
               tools.forEach((tool: any) => {
                 tool.uid = generateUUIDv4()
                 tool.categoryId = category.uid

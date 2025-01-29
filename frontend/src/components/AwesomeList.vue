@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 import { computed } from 'vue'
-
+import benchIcon from '@/assets/tool-icon.png'
+import CatalogTool from './CatalogTool.vue'
 // get the domains and categories from the store
 const toolLandscapeStore = useToolLandscapeStore()
 const domains = toolLandscapeStore.getAllDomains
@@ -14,6 +15,12 @@ const getCategoriesForDomain = computed(() => {
 const getToolsForCategory = computed(() => {
   return (categoryId: string) => toolLandscapeStore.getToolsByCategoryId(categoryId)
 })
+
+const onImageError = (event: Event) => {
+  const target = event.target as HTMLImageElement;
+  target.src = benchIcon; // Set to benchIcon if the image fails to load
+}
+
 </script>
 
 <template>
@@ -26,11 +33,32 @@ const getToolsForCategory = computed(() => {
       <ul>
         <li v-for="tool in getToolsForCategory(category.uid)" :key="tool.uid">
           <!-- Render each tool here -->
-          <a :href="tool.website_url" target="_blank">{{ tool.name }}</a> : {{ tool.description }}
+          <div class="catalog-tool">  
+            <img 
+              :src="tool.icon_url || benchIcon" 
+              @error="onImageError"
+              alt="tool.name" 
+              class="catalog-tool-icon" 
+            />
+            <a :href="tool.website_url" target="_blank">{{ tool.name }}</a> : {{ tool.description }}
+          </div>
         </li>
       </ul>
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.catalog-tool-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
+.catalog-tool {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem
+}
+</style>
+

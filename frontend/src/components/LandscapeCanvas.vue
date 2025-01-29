@@ -44,20 +44,16 @@ const domainsByLevel = computed(() => {
   width: 100%;
   max-width: 100vw;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .domain-row {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 2rem;
   width: 100%;
 }
 
-/* Make domains take equal width within their row */
-.domain-row :deep(.landscape-domain) {
-  flex: 1;
-  min-width: 0; /* Prevents flex items from overflowing */
-}
 </style>
