@@ -6,12 +6,13 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="app-container">
     <div class="menu">
       <header>
-        <div class="wrapper">
+        <div class="menu-content">
           <nav>
             <RouterLink to="/">Landscape</RouterLink> |
             <RouterLink to="/catalog">Catalog</RouterLink> |
             <RouterLink to="/awesome">Awesome</RouterLink> |
-            <RouterLink to="/search">Search</RouterLink>
+            <RouterLink to="/search">Search</RouterLink> |
+            <RouterLink to="/chat">Chat</RouterLink>
           </nav>
         </div>
       </header>
@@ -30,6 +31,33 @@ import { RouterLink, RouterView } from 'vue-router'
   margin: 0;
   padding: 0;
   position: relative;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+}
+
+.menu nav a {
+  color: purple;
+  text-decoration: none;
+}
+
+.menu nav a:hover {
+  text-decoration: underline;
+}
+
+.menu nav a.router-link-active {
+  font-weight: bold;
+}
+
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
