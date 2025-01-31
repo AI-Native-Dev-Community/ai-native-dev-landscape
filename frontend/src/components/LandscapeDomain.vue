@@ -40,7 +40,7 @@ const colorPool = [
 const toolLandscapeStore = useToolLandscapeStore()
 const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 
-const backgroundColor = generateColor(props.index, colorPool.length)
+const backgroundColor = generateColor(props.index)
 //const backgroundColor = colorPool[props.index % colorPool.length]
 </script>
 
