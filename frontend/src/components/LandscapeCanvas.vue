@@ -41,19 +41,11 @@ const domainsByLevel = computed(() => {
 
 <style scoped>
 .landscape-canvas {
-  width: 100%;
-  max-width: 100vw;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 1rem;
 }
 
-.domain-row {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  width: 100%;
-}
+
 
 </style>

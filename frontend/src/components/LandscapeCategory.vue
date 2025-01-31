@@ -16,7 +16,7 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 <template>
   <div class="landscape-category">
     <div class="landscape-category-header">
-      <h3>{{ category.name }}</h3>
+      {{ category.name }}
     </div>
     <div class="landscape-category-tools">
       <LandscapeTool v-for="tool in tools" :key="tool.uid" :tool="tool" />
@@ -27,26 +27,26 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 
 <style scoped>
 .landscape-category {
-  height: auto; /* Set the height to 100% of the parent container */
-  display: flex; /* Use flexbox to align items if needed */
-  flex-direction: column; /* Align children vertically */
   border: 1px solid #ccc;
-  margin-bottom: 0.2em;
+  padding: 0.25em;
   border-radius: 8px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Set a transparent dark background */
+  background-color: rgba(0, 0, 0, 0.1); /* Set a transparent dark background */
 }
 
 .landscape-category-header {
-  padding: 0.5rem;
-  color:white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .landscape-category-tools {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 80px);
+  padding: 0.25em;
+  gap: 0.25em;
   justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 1em;
 }
+
+
 </style>

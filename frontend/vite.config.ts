@@ -8,6 +8,7 @@ import yaml from '@rollup/plugin-yaml'
 
 // https://vite.dev/config/
 export default defineConfig({
+  //base: '/ai-native-dev-landscape/',
   plugins: [
     vue(),
     vueJsx(),
@@ -16,6 +17,9 @@ export default defineConfig({
       include: 'src/**/*.{yml,yaml}'
     }),
   ],
+  optimizeDeps: {
+    exclude: ['@electric-sql/pglite'] // https://pglite.dev/docs/bundler-support
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

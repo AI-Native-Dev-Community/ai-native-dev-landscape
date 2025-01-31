@@ -35,28 +35,19 @@ const onImageError = (event: Event) => {
 }
 
 .landscape-tool {
-  padding-left: 2px;
-  margin-left: 5px;
   border-radius: 8px;
   background-color: white;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  width: 60px;
-  height: 60px;
   margin: 0.3em;
 }
 
 .landscape-tool-header {
   padding: 0.25rem;
+  text-align: center;
 }
 
 .landscape-tool-name {
   font-size: 10px;
   font-weight: bold;
-  color: black;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 } 
 </style>

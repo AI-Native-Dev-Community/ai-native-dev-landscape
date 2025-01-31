@@ -50,16 +50,12 @@ jobs:
       uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
       with:
         path: ./frontend/dist
-    # - name: deploy
-      # uses: peaceiris/actions-gh-pages@v4
-      # if: github.ref != 'refs/heads/main'
-      # with:
-      #   github_token: ${{ secrets.GITHUB_TOKEN }}
-      #   publish_dir: ./frontend/dist
-      #   destination_dir: ${{ env.PR_PATH }}
 
   # Deployment job
   deploy:
+    permissions: # To allow deployment to github pages
+      id-token: write
+      pages: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

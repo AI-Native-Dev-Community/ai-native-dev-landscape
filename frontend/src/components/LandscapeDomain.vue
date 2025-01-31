@@ -8,17 +8,23 @@ const props = defineProps<{
   index: number
 }>()
 
+// Function to generate HSL colors with good contrast
+const generateColor = (index: number, total: number): string => {
+  // Use golden ratio for even color distribution
+  const goldenRatio = 0.618033988749895
+  
+  // Calculate hue using golden ratio
+  const hue = (index * goldenRatio * 360) % 360
+  
+  // Keep saturation and lightness constant for pastel colors
+  const saturation = 85
+  const lightness = 90
+  
+  return `hsl(${hue}, ${saturation}%, ${lightness}%)`
+}
+
 const colorPool = [
-  '#007bff',  // Blue
-  '#28a745',  // Green
-  '#dc3545',  // Red
-  '#ffc107',  // Yellow
-  '#6f42c1',  // Purple
-  '#e83e8c',  // Pink
-  '#17a2b8',  // Teal
-  '#6f42c1',  // Lavender
-  '#fd7e14',  // Orange
-  '#20c997',  // Mint
+
   '#f8d7da',  // Light Rose
   '#c3e6cb',  // Light Green
   '#d1ecf1',  // Light Cyan
@@ -34,7 +40,8 @@ const colorPool = [
 const toolLandscapeStore = useToolLandscapeStore()
 const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 
-const backgroundColor = colorPool[props.index % colorPool.length]
+const backgroundColor = generateColor(props.index, colorPool.length)
+//const backgroundColor = colorPool[props.index % colorPool.length]
 </script>
 
 <template>
@@ -50,14 +57,10 @@ const backgroundColor = colorPool[props.index % colorPool.length]
 
 <style scoped>
 .landscape-domain {
-  width: 100%;
   height: auto;
-
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
   transition: background-color 0.3s ease;
   padding: 1rem;
 }
@@ -65,7 +68,6 @@ const backgroundColor = colorPool[props.index % colorPool.length]
 .domain-header {
   text-align: center;
   margin-top: 0.2rem;
-  color: white;
 }
 
 .domain-header h2 {
@@ -81,6 +83,6 @@ const backgroundColor = colorPool[props.index % colorPool.length]
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  flex: 1;
+  justify-content: stretch;
 }
 </style>

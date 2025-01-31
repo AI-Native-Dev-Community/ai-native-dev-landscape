@@ -14,7 +14,7 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 <template>
   <div class="catalog-domain">
     <div class="catalog-domain-header">
-      <h3>{{ domain.name }}</h3>
+      {{ domain.name }}
       <p>{{ domain.description }}</p>
     </div>
     <div class="catalog-domain-categories">
@@ -36,6 +36,10 @@ const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 
 .catalog-domain-header {
   padding: 1rem;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  text-align: center;
 }
 
 .catalog-domain-categories {
