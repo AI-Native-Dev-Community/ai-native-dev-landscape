@@ -11,8 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink to="/">Landscape</RouterLink> |
             <RouterLink to="/catalog">Catalog</RouterLink> |
             <RouterLink to="/awesome">Awesome</RouterLink> |
-            <RouterLink to="/search">Search</RouterLink> |
-            <RouterLink to="/chat">Chat</RouterLink>
+            <RouterLink to="/search">Search</RouterLink>
           </nav>
         </div>
       </header>

@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LandscapeView from '../views/LandscapeView.vue'
 import SearchView from '../components/SearchView.vue'
 import ToolDetail from '../components/ToolDetail.vue'
-import ChatView from '../views/ChatView.vue'
 const router = createRouter({
 
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -36,11 +35,7 @@ const router = createRouter({
       name: 'tool-detail',
       component: ToolDetail
     },
-    {
-      path: '/chat',
-      name: 'chat',
-      component: ChatView
-    }
+
   ],
 })
 
