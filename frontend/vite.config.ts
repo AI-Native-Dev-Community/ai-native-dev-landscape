@@ -18,7 +18,10 @@ export default defineConfig({
     }),
   ],
   optimizeDeps: {
-    exclude: ['@electric-sql/pglite'] // https://pglite.dev/docs/bundler-support
+    exclude: ['@electric-sql/pglite', '@mlc-ai/web-llm'] // https://pglite.dev/docs/bundler-support
+  },
+  build: {
+    target: "ES2022",
   },
   resolve: {
     alias: {
