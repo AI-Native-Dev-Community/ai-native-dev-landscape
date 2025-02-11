@@ -16,10 +16,9 @@ const getToolsForCategory = computed(() => {
 })
 
 const onImageError = (event: Event) => {
-  const target = event.target as HTMLImageElement;
-  target.src = benchIcon; // Set to benchIcon if the image fails to load
+  const target = event.target as HTMLImageElement
+  target.src = benchIcon // Set to benchIcon if the image fails to load
 }
-
 </script>
 
 <template>
@@ -32,12 +31,12 @@ const onImageError = (event: Event) => {
       <ul>
         <li v-for="tool in getToolsForCategory(category.uid)" :key="tool.uid">
           <!-- Render each tool here -->
-          <div class="catalog-tool">  
-            <img 
-              :src="tool.icon_url || benchIcon" 
+          <div class="catalog-tool">
+            <img
+              :src="tool.icon_url || benchIcon"
               @error="onImageError"
-              alt="tool.name" 
-              class="catalog-tool-icon" 
+              alt="tool.name"
+              class="catalog-tool-icon"
             />
             <a :href="tool.website_url" target="_blank">{{ tool.name }}</a> : {{ tool.description }}
           </div>
@@ -57,7 +56,6 @@ const onImageError = (event: Event) => {
 .catalog-tool {
   display: flex;
   align-items: center;
-  padding: 0.2rem
+  padding: 0.2rem;
 }
 </style>
-

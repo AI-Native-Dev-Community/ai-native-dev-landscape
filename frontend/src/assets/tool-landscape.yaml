@@ -1,663 +1,658 @@
 domains:
-- name: Integrated Platform
-  description: Platform domain components
-  level: 1
-  categories:
-  - name: Full AI Apps Workflow
-    description: Platform category 1
-    tools: null
-- name: Intent Alignment
-  description: Specification driven components
-  level: 2
-  categories:
-  - name: Specifications
-    tools:
-    - name: SpecStory
-      description: Capture, search and learn from every AI coding journey
-      website_url: https://specstory.com/
-      icon_url: https://specstory.com/favicon.ico
-    - name: Full Stack Roadmap
-      description: Description of my tool
-      website_url: https://www.fullstackroadmap.com/
-      icon_url: https://www.fullstackroadmap.com/favicon.ico
-    - name: Specmatic
-      description: 'Transform your API Specs into Executable Contracts with #NoCode
-        in Seconds'
-      website_url: https://specmatic.io/
-      icon_url: https://specmatic.io/favicon.ico
-    - name: Crowdbotics
-      description: AI-Supercharged Modernization . Transform legacy applications through
-        an AI-powered, requirements-driven approach — speeding up delivery and reducing
-        risk.
-      website_url: https://crowdbotics.com/
-      icon_url: https://crowdbotics.com/favicon.ico
-    - name: Copilot Workspace
-      website_url: https://githubnext.com/projects/copilot-workspace
-      icon_url: https://githubnext.com/favicon/favicon.png
-    - name: Try Nigel
-      website_url: https://www.trynigel.ai/
-      icon_url: https://www.trynigel.ai/favicon.ico
-    - name: Carrot
-      description: 'Carrot: Simplifying and Enhancing PRD Creation'
-      website_url: https://github.com/talvinder/carrot-product-requirements-document-prd
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-    - name: Delibr
-      description: Go from idea and feedback to a crisp document linked to Jira tickets
-        with the help of a generative AI assistant.
-      website_url: https://delibr.com/
-      icon_url: https://cdn.prod.website-files.com/607405e57d7f7c6426ed0d07/607563f221a2b8a25f336625_favicon.png
-    - name: Product Monkey
-      description: Convert product design and wireframe images to drafts of Product
-        Requirements Documents and Engineering Task Tickets in seconds
-      website_url: https://productmonkey.ai/
-      icon_url: https://productmonkey.ai/favicon.ico
-    - name: Docuopia
-      description: Spend less time on docs. Let Docuopia AI craft product requirements,
-        help docs, and wikis in a few minutes. Start streamlining now
-      website_url: https://docuopia.com/
-      icon_url: https://cdn.prod.website-files.com/65dd4d9e255fe9f3d0990645/65e1839bfcbafca49807425e_favicon-32x32.png
-    - name: Write my PRD
-      description: Make Writing PRDs a Breeze with ChatGPT
-      website_url: https://writemyprd.com/
-      icon_url: https://writemyprd.com/favicon.ico
-    - name: Reqi
-      description: An online requirements management tool for systems engineering
-        to bring your teams together in one simple platform. Built for project teams,
-        systems engineers, and asset owners
-      website_url: https://reqi.io/
-      icon_url: https://reqi.io/favicon.ico
-    - name: Chat PRD
-      description: 'the #1 AI tool for product managers & their teams.Write great
-        product docs—fast, and use AI to become an elite PM.'
-      website_url: https://chatprd.ai/
-      icon_url: https://chatprd.ai/favicon.ico
-    - name: AIspec
-      description: A specification language for AI-first development that shifts focus
-        from implementation to intent through structured solution space reduction.
-      website_url: https://github.com/cbora/aispec
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-    - name: CodeGuide
-      description: Give Your AI Models a Clear. Blueprint with CodeGuide
-      website_url: https://www.codeguide.dev/
-      icon_url: https://www.codeguide.dev/icon.png?754055a3ebc2f898
-  - name: Design
-    tools:
-    - name: Galileo
-      description: Description of my tool
-      website_url: https://www.usegalileo.ai/
-      icon_url: https://www.usegalileo.ai/assets/favicon/apple-touch-icon-57x57.png
-    - name: Builder.io
-      description: Take Ideas to Production in Seconds, Not Sprints. Accelerate your
-        digital teams with AI-powered design-to-code, visual editing, and enterprise
-        CMS, all in our Visual Development Platform.
-      website_url: https://builder.io/
-      icon_url: https://builder.io/favicon.ico
-    - name: Copycoder
-      description: Built for the next generation of AI coders. Upload images of full
-        applications, UI mockups, or custom designs and use our generated prompts
-        to build your apps faster.
-      website_url: https://copycoder.ai/
-      icon_url: https://copycoder.ai/favicon.ico
-    - name: Fig4AI
-      description: A CLI tool that uses AI to generate design rules and documentation
-        from your Figma files. It analyzes your Figma designs and automatically extracts
-        design tokens, components, and layout information into a structured format.
-      website_url: https://github.com/f/fig4ai
-      icon_url: https://github.com/favicon.ico
-    - name: Locofy.ai
-      description: Turn your designs into developer-friendly frontend <code> for mobile
-        apps and web
-      website_url: https://www.locofy.ai/convert/design-to-code
-      icon_url: https://www.locofy.ai/favicon.ico
-    - name: Design2Code
-      description: converting visual design (screenshot) into code implementation
-      website_url: https://github.com/NoviScl/Design2Code
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-    - name: Code
-      description: Convert your figma, sketch and adobe xd design to flutter, react,
-        vue and more.
-      website_url: https://github.com/gridaco/code
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-    - name: Visily
-      description: Visily’s AI converts any user design input—text prompt, screenshot,
-        and more—to a fully customizable high-fidelity design. Unlike other software,
-        getting started is the easiest part!
-      website_url: https://github.com/visily-ai/visily
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-    - name: A0
-      description: Mobile Apps in minutes. Quickly prototype a react native screen
-      website_url: https://a0.dev/
-      icon_url: https://a0.dev/favicon.ico
-  - name: NoCode
-    description: Prototyping category 1
-    tools:
-    - name: Lovable
-      description: Lovable is your superhuman full stack engineer
-      website_url: https://lovable.dev/
-      icon_url: https://lovable.dev/favicon.ico
-    - name: Github Spark
-      description: Can we enable anyone to create or adapt software for themselves,
-        using AI and a fully-managed runtime?
-      website_url: https://githubnext.com/projects/github-spark/
-      icon_url: https://githubnext.com/favicon/favicon.png
-    - name: OpenAI Canvas
-      description: A new way of working with ChatGPT to write and code
-      website_url: https://openai.com/index/introducing-canvas/
-    - name: Claude Artefacts
-      description: Claude Artefacts
-      website_url: https://www.anthropic.com/en/blog/introducing-claude-artefacts
-      icon_url: https://www.anthropic.com/favicon.ico
-    - name: Mage
-      description: Generate your full-stack web app in Wasp, React, Node.js and Prisma
-      website_url: https://usemage.ai/
-      icon_url: https://usemage.ai/favicon.ico
-    - name: Softgen
-      description: Softgen is your AI Web App Developer. Describe your vision, give
-        instructions, and build full-stack web apps. No coding required.
-      website_url: https://softgen.ai/
-      icon_url: https://softgen.ai/favicon.ico
-    - name: Webdraw
-      description: Draw-to-app instantly! Meet your AI Smartboard.
-      website_url: https://webdraw.com/
-      icon_url: https://webdraw.com/favicon.ico
-    - name: Data Button
-      description: Let AI build your next big idea. Get unprecedented speed and control
-        with Databutton, the worlds first fully AI app developer.
-      website_url: https://databutton.com/
-      icon_url: https://databutton.com/favicon.ico
-    - name: Base44
-      description: Turn your ideas into products, in minutes. The first all-in-one
-        AI platform to easily build fully functioning apps - without coding.
-      website_url: https://base44.com/
-      icon_url: https://base44.com/favicon.ico
-    - name: Squillo
-      description: Squillo is the easiest way to build AI-powered apps. No coding
-        required.
-      website_url: https://squillo.io/
-      icon_url: https://squillo.io/favicon.ico
-  - name: Code Style
-    tools:
-    - name: Cursor Rules
-      description: Cursor Rules to customize AI behavior, streamline the development
-        and tailor code generation, suggestions and queries to your framework and
-        language.
-      website_url: https://dotcursorrules.com/
-      icon_url: https://dotcursorrules.com/favicon.ico
-    - name: Cursor Directory
-      description: Description of my tool
-      website_url: https://cursor.directory/
-      icon_url: https://cursor.directory/favicon.ico
-    - name: Wrapifai
-      description: Make your own AI tools without any coding. Share them or embed
-        into your website to get more traffic and turn visitors into customers.
-      website_url: https://wrapifai.com/
-- name: Optimizing Context
-  description: Context awareness components
-  level: 2
-  categories:
-  - name: Documentation
-    description: Context Aware category 1
-    tools:
-    - name: Swimm
-      description: Description of my tool
-      website_url: https://swimm.io/
-      icon_url: https://swimm.io/favicon.ico
-    - name: Komment
-      description: Ship faster with self-healing wikis. Unlock rich insights about
-        any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost
-        team productivity.
-      website_url: https://komment.ai/
-    - name: Mutable.AI
-      description: Mutable.AI
-      website_url: https://mutable.ai/
-      icon_url: https://mutable.ai/favicon.ico
-      tags:
-      - rip
-    - name: DevDocs
-      description: DevDocs combines multiple API documentations in a fast, organized,
-        and searchable interface.
-      website_url: https://devdocs.io/
-      icon_url: https://devdocs.io/favicon.ico
-    - name: Swark
-      description: Automate code diagram generation with LLMs
-      website_url: https://github.com/swark-io/swark
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-  - name: Maintenance
-    description: Context Aware category 2
-    tools:
-    - name: Run When
-      description: We offer libraries with thousands of automated keep-the-lights-on
-        tasks you can use this afternoon. Our platform helps you build Engineering
-        Assistants for your colleagues that find which to run when they get questions,
-        alerts or tickets.
-      website_url: https://runwhen.com/
-      icon_url: https://cdn.prod.website-files.com/64f9646ad0f39e9ee5c116c4/64f97d8d9f16d9a1af9296aa_Favicon.png
-    - name: Dosu
-      description: Dosu
-      website_url: https://dosu.dev/
-      icon_url: https://dosu.dev/favicon.ico
-    - name: Second Dev
-      description: Second Dev
-      website_url: https://second.dev/
-      tags:
-      - rip
-    - name: Runme.dev
-      description: DevOps Notebooks. Built with Markdown. Codify your operational
-        process as cloud-native, testable, interactive documentation.
-      website_url: https://runme.dev/
-      icon_url: https://runme.dev/favicon.ico
-    - name: Logic Star
-      description: AI Agent for Application Maintenance
-      website_url: https://logicstar.ai/
-      icon_url: https://logicstar.ai/assets/images/website/icons/favicon.ico
-  - name: Content Transformers
-    description: Context Aware category 4
-    tools:
-    - name: Uithub
-      description: Easily Ask Your LLM Coding Questions
-      website_url: https://uithub.com/
-      icon_url: https://uithub.com/favicon.ico
-    - name: RepoPrompt
-      description: A macOS native app designed to remove all the friction involved
-        in iterating on your local files with the most powerful language models
-      website_url: https://repoprompt.com/
-      icon_url: https://repoprompt.com/favicon.ico
-    - name: Github GG
-      description: A powerful tool for analyzing GitHub repositories and providing
-        valuable insights about code quality, dependencies, and more.
-      website_url: https://github.gg/
-      tags:
-      - oss
-      icon_url: https://github.gg/static/images/favicon/apple-touch-icon.png
-  - name: CRM
-    tools:
-    - name: Salesforce Einstein
-      description: Salesforce Einstein
-      website_url: https://www.salesforce.com/products/einstein/ai/
-      icon_url: https://www.salesforce.com/c2/public/app/favicon.ico
-- name: Coder as a service
-  description: Technology delegation components
-  level: 1.5
-  categories:
-  - name: IDE
-    description: Technology delegation category 1
-    tools:
-    - name: Cursor
-      description: A coding tool
-      website_url: https://www.cursor.com/
-      icon_url: https://www.cursor.com/favicon.ico
-    - name: Github Copilot
-      description: Github Copilot
-      website_url: https://github.com/features/copilot
-      icon_url: https://github.com/favicon.ico
-    - name: Windsurf
-      description: Windsurf
-      website_url: https://codeium.com/windsurf/
-      icon_url: https://codeium.com/favicon.ico
-    - name: Trae
-      description: Ship Faster with Trae. Trae is an adaptive AI IDE that transforms
-        how you work, collaborating with you to run faster.
-      website_url: https://trae.ai/
-      icon_url: https://lf-cdn.trae.ai/obj/trae-ai-us/trae_website_prod/static/image/favicon.ico
-    - name: Cline
-      description: Meet Cline, an AI assistant that can use your CLI aNd Editor.
-      website_url: https://github.com/cline/cline
-      icon_url: https://github.com/favicon.ico
-    - name: Roo-Code
-      description: Roo Code is an AI-powered autonomous coding agent that lives in
-        your editor
-      website_url: https://github.com/RooVetGit/Roo-Code
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-    - name: Amazon Q
-      description: The most capable generative AI–powered assistant for accelerating
-        software development and leveraging companies' internal data
-      website_url: https://aws.amazon.com/q/
-      icon_url: https://aws.amazon.com/favicon.ico
-    - name: Project IDX
-      description: Project IDX is an AI-assisted workspace for full-stack, multiplatform
-        app development in the cloud.
-      website_url: https://idx.dev/
-      icon_url: https://idx.dev/favicon.ico
-    - name: Cody
-      description: Cody
-      website_url: https://sourcegraph.com/demo/cody
-      icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
-    - name: Sweep AI
-      description: Self-hosted coding assistant for JetBrains IDEs. Accelerate your
-        JetBrains developers with the latest in AI coding intelligence. No data ever
-        leaves your VPC.
-      website_url: https://sweep.dev/
-      icon_url: https://sweep.dev/favicon.ico
-    - name: Continue Dev
-      description: Continue Dev
-      website_url: https://continue.dev/
-      icon_url: https://cdn.prod.website-files.com/663e06c56841363663ffbbcf/665253511c9fe499ba28f6c5_Logo_32x32%20(1).png
-      tags:
-      - oss
-    - name: Qodo
-      description: Generate confidence, not just code. Agentic AI for testing, reviewing,
-        and writing code—continuous quality at every step. Formerly known as Codium
-      website_url: https://qodo.ai/
-      icon_url: https://www.qodo.ai/wp-content/uploads/2024/09/favicon.png
-    - name: Pear AI
-      description: The Curated AI Code Editor. Supercharge your development with an
-        up-to-date, curated inventory of the best AI tools, natively integrated for
-        effortless AI-powered coding. Always open source.
-      website_url: https://trypear.ai/
-      icon_url: https://trypear.ai/favicon.ico
-      tags:
-      - oss
-    - name: Cursor Tools
-      description: Give Cursor Agent an AI team and advanced skills
-      website_url: https://github.com/eastlondoner/cursor-tools
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-    - name: Refactor
-      description: Customizable AI Coding Assistant that Boosts Developers
-      website_url: https://refactor.ai/
-    - name: MarsX
-      description: Changing the game of software development
-      website_url: https://marsx.dev/
-    - name: Tempo Labs
-      description: Build React apps 10x Faster with AI
-      website_url: https://tempolabs.ai/
-      icon_url: https://tempolabs.ai/favicon.ico
-  - name: Platforms
-    description: Development Platform
-    tools:
-    - name: Bolt.new
-      description: AI-powered code generation
-      website_url: https://bolt.new
-      icon_url: https://bolt.new/static/favicon.svg
-    - name: Vercel v0
-      description: What can I help you ship?
-      website_url: https://vercel.com/v0
-      icon_url: https://vercel.com/favicon.ico
-    - name: Replit
-      description: Build software, better
-      website_url: https://replit.com/
-      icon_url: https://cdn.replit.com/dotcom/favicon-196.png
-    - name: Tessl
-      description: Code written by AI, powered by your specs
-      website_url: https://tessl.io
-      icon_url: https://cdn.prod.website-files.com/67192008f31ee7b52371fe29/6733c87768b5bfe41ab30e63_Favicon.png
-    - name: Durable
-      description: Custom software. Inspired by you. Built by Generative AI. All without
-        touching any code.
-      website_url: https://durable.ai/
-      icon_url: https://durable.ai/favicon.ico
-  - name: Code Migrations
-    description: Migrations category 1
-    tools:
-    - name: Open Rewrite
-      website_url: https://docs.openrewrite.org/
-      icon_url: https://docs.openrewrite.org/img/favicon.svg
-    - name: Q Transform
-      website_url: https://aws.amazon.com/q/developer/transform/
-      icon_url: https://aws.amazon.com/favicon.ico
-    - name: Cast Software
-      website_url: https://learn.castsoftware.com/ai-assisted-code-transformation
-      icon_url: https://learn.castsoftware.com/hubfs/favicon-96x96.png
-    - name: GPT Migrate
-      description: GPT Migrate
-      website_url: https://github.com/joshpxyne/gpt-migrate
-      tags:
-      - oss
-      icon_url: https://github.com/favicon.ico
-  - name: Autonomous Coder
-    description: Technology delegation category 3
-    tools:
-    - name: Devin
-      description: Devin is a collaborative AI teammate
-      website_url: https://devin.ai/
-      icon_url: https://devin.ai/favicon.ico
-    - name: Bismuth
-      description: Bismuth is an AI coding agent that helps you tackle your backlog.
-        It understands your codebase, follows your patterns, and works alongside you
-        to ship code or asynchronously to find and fix bugs.
-      website_url: https://bismuth.sh/
-      icon_url: https://bismuth.sh/favicon.svg
-    - name: All Hands
-      description: All Hands
-      website_url: https://allhands.dev/
-      icon_url: https://www.all-hands.dev/all-hands-logo-1.svg
-    - name: Auto Code Rover
-      description: AutoCodeRover
-      website_url: https://www.autocoderover.net/
-      icon_url: https://www.autocoderover.net/favicon.ico
-  - name: iAC
-    description: Infrastructure as Code
-    tools:
-    - name: InfraCopilot
-      description: The Intelligent Infra-as-Code Editor
-      website_url: https://infracopilot.io/
-      icon_url: https://infracopilot.io/favicon.ico
-    - name: AIaC
-      description: Artificial Intelligence Infrastructure-as-Code Generator
-      website_url: https://aiac.dev/
-      icon_url: https://aiac.dev/favicon.ico
-    - name: Stakpak
-      description: Make critical infrastructure changes in a snap🫰, not days! Stakpak
-        is a DevOps IDE, with AI inside, that helps you build, maintain and self-serve
-        software infrastructure.
-      website_url: https://stakpak.dev/
-      icon_url: https://stakpak.dev/wp-content/uploads/2024/08/cropped-favicon-32x32.png
-    - name: GPTScript
-      description: GPTScript is a framework that allows Large Language Models (LLMs)
-        to operate and interact with various systems.
-      website_url: https://docs.gptscript.ai/
-      icon_url: https://docs.gptscript.ai/img/favicon.ico
-  - name: Terminal
-    description: Technology delegation category 2
-    tools:
-    - name: Aider
-      description: AI pair programming in your terminal
-      website_url: https://www.aider.chat/
-      icon_url: https://www.aider.chat/assets/icons/favicon-32x32.png
-    - name: Fig
-      website_url: https://fig.io/
-      icon_url: https://fig.io/icons/fig.png
-  - name: Web
-    description: Technology delegation category 4
-    tools:
-    - name: Keak
-      description: Higher conversionrates driven by AI. The first AI agent that continuously
-        improves your website
-      website_url: https://keak.com/
-      icon_url: https://framerusercontent.com/images/7O25asSN8XNyGB2KZM1hjlOLpBU.png
-    - name: Websim
-      description: Websim
-      website_url: https://websim.dev/
-      icon_url: https://websim.dev/favicon.ico
-- name: Human Oversight
-  description: Human oversight components
-  level: 2
-  categories:
-  - name: Code Reviews
-    description: Code Reviews category 1
-    tools:
-    - name: Baz
-      description: Build unbreakable things code review with ai context
-      website_url: https://baz.co/
-      icon_url: https://cdn.prod.website-files.com/6687c611cd9ac075eb1fc52f/668cfae143a2bf22b5cbdb59_fav.png
-    - name: Firstmate
-      description: Faster & Better Code Reviews. Ship better code faster with AI-driven
-        & customizable.feedback. Use automated code reviews that actually work.
-      website_url: https://firstmate.io/
-      icon_url: https://firstmate.io/favicon.ico
-  - name: QA & Testing
-    description: QA & Testing category 1
-    tools:
-    - name: Ventrilo
-      description: Imagine a world where every developer has a dedicated test resource.
-      website_url: https://ventrilo.ai/
-      icon_url: https://ventrilo.ai/favicon.svg
-    - name: Spur
-      description: Spur
-      website_url: https://www.spurtest.com/
-      icon_url: https://cdn.prod.website-files.com/66c3e4ffe16480b253b3458d/66c4c6e18ad2a54fc53beb44_Favicon.png
-    - name: CodeYam
-      description: software simulator that accelerates software teams
-      website_url: https://codeyam.com/
-      icon_url: https://codeyam.com/favicon.ico
-  - name: Agents
-    description: Agents category 1
-    tools:
-    - name: AgentOps
-      description: Industry leading developer platform to test and debug AI agents.
-        We built the tools so you don't have to.
-      website_url: https://www.agentops.ai/
-      icon_url: https://www.agentops.ai/favicon.ico
-    - name: Restack
-      description: Restack backend framework provides long-running workflows and infrastructure
-        for reliable & accurate AI agents.
-      website_url: https://www.restack.io/
-      icon_url: https://www.restack.io/favicon.ico
-  - name: SRE
-    description: Incident management
-    tools:
-    - name: Overmind
-      description: Predictive, AI-Powered Root Cause Analysis
-      website_url: https://overmind.tech/
-      icon_url: https://cdn.prod.website-files.com/6241e92445c21f9c1245a940/6242132abc15217cbca24084_Logo-02.png
-    - name: Cleric
-      description: AI SRE teammate for on-call engineers, Cleric autonomously root
-        causes alerts from production applications without requiring runbooks.
-      website_url: https://cleric.io/
-      icon_url: https://cdn.prod.website-files.com/65840bae4da744feef0ea01f/66549a6a5a8bc6388f822492_favicon-32x32.png
-    - name: SRE AI
-      description: SRE AI
-      website_url: https://sre.ai/
-      icon_url: https://cdn.prod.website-files.com/66d14bf912cb9ef1ebeabe13/672ff1d81bb7070409cd3a1d_Group%20116046599.svg
-    - name: Kubiya
-      description: Meet your AI-powered Teammates for Operations. Accelerate time-to-automation
-        by delegating routine tasks to AI Teammates, available 24/7 to support dev
-        and ops teams while you focus on the strategic work that drives impact.
-      website_url: https://www.kubiya.ai/
-      icon_url: https://cdn.prod.website-files.com/66ac05ef155399c0a0aee1f3/66efe730a11a1dc1451e0118_Kubi%2032.png
-    - name: Otto8
-      description: ChatGPT for DevOps. Don`t ask AI, do with AI.
-      website_url: https://otto8.ai/
-      icon_url: https://otto8.ai/favicon.png
-    - name: Spec Coder
-      description: You can also enjoy AI-driven chat support for instant coding assistance,
-        making your coding experience more efficient and enjoyable
-      website_url: https://github.com/qirolab/spec-coder-issues
-      icon_url: https://github.com/favicon.ico
-    - name: Unblocked
-      description: Unblocked brings all the context about your codebase together,
-        so your team gets expert-level answers, no matter where they’re working.
-      website_url: https://getunblocked.com/
-      icon_url: https://getunblocked.com/favicon.ico
-  - name: Security
-    description: Security category 1
-    tools:
-    - name: Dryrun Security
-      description: Codebase Risk Averted with Contextual Security Analysis
-      website_url: https://www.dryrun.security/
-      icon_url: https://cdn.prod.website-files.com/645932d9286e9c20dd8e0fca/645d576fcd2b8845137f43e1_favicon.png
-    - name: Semgrep
-      description: Meet Your New AI AppSec Engineer. Get all of the insights from
-        static analysis, and none of the noise.
-      website_url: https://semgrep.dev/
-      icon_url: https://semgrep.dev/favicon.ico
-    - name: Autonomous Plane
-      description: 'Security maintenance autopilot for application dependencies: powered
-        by DockerSlim, enabled by generative AI'
-      website_url: https://autonomousplane.dev/
-- name: Codegen Infra & Core components
-  description: Core system components
-  level: 3
-  categories:
-  - name: Code Models
-    tools:
-    - name: OpenAI Codex
-      description: We've created an improved version of OpenAI Codex, our AI system
-        that translates natural language to code, and we are releasing it through
-        our API in private beta starting today.
-      website_url: https://openai.com/index/openai-codex/
-      icon_url: https://images.ctfassets.net/kftzwdyauwt9/44acb746-bccc-4a2d-9cb2acf9475b/47a13b8efdee3822388ed209e06abcfd/openai-codex.png?w=2048&q=90&fm=webp
-    - name: Starcoder
-      description: Starcoder
-      website_url: https://huggingface.co/bigcode/starcoder
-      icon_url: https://huggingface.co/favicon.ico
-    - name: Code Llama
-      description: Code Llama
-      website_url: https://codellama.dev/about
-      icon_url: https://codellama.dev/favicon.ico
-    - name: Magic Dev
-      description: building frontier code models to automate software engineering
-        and research.
-      website_url: https://magic.dev/
-      icon_url: https://magic.dev/favicon/favicon.ico
-  - name: Code Embeddings
-    tools:
-    - name: Jina
-      description: Jina
-      website_url: https://huggingface.co/jinaai/jina-embeddings-v2-base-code
-      icon_url: https://huggingface.co/favicon.ico
-  - name: Code Search
-    tools:
-    - name: Source Graph
-      description: Grok your entire codebase. Code Search makes it easy to find code,
-        make large-scale changes, and track insights across codebases of any scale.
-      website_url: https://sourcegraph.com/
-      icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
-  - name: MCP
-    tools:
-    - name: Smithery
-      description: Extend your language via Model Context Protocol providers
-      website_url: https://smithery.ai/
-      icon_url: https://smithery.ai/icon.svg?d16eab68faeeea71
-  - name: Training
-    tools:
-    - name: Outlier
-      description: Outlier is a platform that connects subject matter experts to help
-        build the world's most advanced Generative AI. You will work on a variety
-        of projects from generating training data in your discipline to advance these
-        models to evaluating performance of models.
-      website_url: https://outlier.ai/
-      icon_url: https://framerusercontent.com/images/dM8x8m8hYj4oSJficiz9ljlhi0.png
-  - name: Code Evals & Benchmarks
-    tools:
-    - name: SWE Bench
-      description: SWE Bench
-      website_url: https://www.swebench.com/
-      icon_url: https://www.swebench.com/favicon.ico
-  - name: Libraries
-    tools:
-    - name: Priompt
-      description: Priompt (priority + prompt) is a JSX-based prompting library. It
-        uses priorities to decide what to include in the context window.
-      website_url: https://github.com/anysphere/priompt
-      icon_url: https://github.com/favicon.ico
-  - name: Execution Sandboxes Runtimes
-    tools:
-    - name: E2B
-      description: RUN AI-GENERATED code SECURELY in your APP
-      website_url: https://e2b.dev/
-      icon_url: https://e2b.dev/favicon.ico
-    - name: Baseten
-      description: Fast, scalable inference in our cloud or yours
-      website_url: https://baseten.co/
-      icon_url: https://baseten.co/icon.png?65f0e6c4c057d471
-    - name: ForeverVM
-      description: The sessionless code interpreter. Securely run AI-generated code
-        in stateful sandboxes that run forever.
-      website_url: https://forevervm.com/
-      icon_url: https://forevervm.com/icon.png?3e41cd107354ef72
+  - name: Intent Alignment
+    description: Specification driven components
+    level: 2
+    categories:
+      - name: Specifications
+        tools:
+          - name: SpecStory
+            description: Capture, search and learn from every AI coding journey
+            website_url: https://specstory.com/
+            icon_url: https://specstory.com/favicon.ico
+          - name: Full Stack Roadmap
+            description: Description of my tool
+            website_url: https://www.fullstackroadmap.com/
+            icon_url: https://www.fullstackroadmap.com/favicon.ico
+          - name: Specmatic
+            description: 'Transform your API Specs into Executable Contracts with #NoCode
+              in Seconds'
+            website_url: https://specmatic.io/
+            icon_url: https://specmatic.io/favicon.ico
+          - name: Crowdbotics
+            description: AI-Supercharged Modernization . Transform legacy applications through
+              an AI-powered, requirements-driven approach — speeding up delivery and reducing
+              risk.
+            website_url: https://crowdbotics.com/
+            icon_url: https://crowdbotics.com/favicon.ico
+          - name: Copilot Workspace
+            website_url: https://githubnext.com/projects/copilot-workspace
+            icon_url: https://githubnext.com/favicon/favicon.png
+          - name: Try Nigel
+            website_url: https://www.trynigel.ai/
+            icon_url: https://www.trynigel.ai/favicon.ico
+          - name: Carrot
+            description: 'Carrot: Simplifying and Enhancing PRD Creation'
+            website_url: https://github.com/talvinder/carrot-product-requirements-document-prd
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+          - name: Delibr
+            description: Go from idea and feedback to a crisp document linked to Jira tickets
+              with the help of a generative AI assistant.
+            website_url: https://delibr.com/
+            icon_url: https://cdn.prod.website-files.com/607405e57d7f7c6426ed0d07/607563f221a2b8a25f336625_favicon.png
+          - name: Product Monkey
+            description: Convert product design and wireframe images to drafts of Product
+              Requirements Documents and Engineering Task Tickets in seconds
+            website_url: https://productmonkey.ai/
+            icon_url: https://productmonkey.ai/favicon.ico
+          - name: Docuopia
+            description: Spend less time on docs. Let Docuopia AI craft product requirements,
+              help docs, and wikis in a few minutes. Start streamlining now
+            website_url: https://docuopia.com/
+            icon_url: https://cdn.prod.website-files.com/65dd4d9e255fe9f3d0990645/65e1839bfcbafca49807425e_favicon-32x32.png
+          - name: Write my PRD
+            description: Make Writing PRDs a Breeze with ChatGPT
+            website_url: https://writemyprd.com/
+            icon_url: https://writemyprd.com/favicon.ico
+          - name: Reqi
+            description: An online requirements management tool for systems engineering
+              to bring your teams together in one simple platform. Built for project teams,
+              systems engineers, and asset owners
+            website_url: https://reqi.io/
+            icon_url: https://reqi.io/favicon.ico
+          - name: Chat PRD
+            description: 'the #1 AI tool for product managers & their teams.Write great
+              product docs—fast, and use AI to become an elite PM.'
+            website_url: https://chatprd.ai/
+            icon_url: https://chatprd.ai/favicon.ico
+          - name: AIspec
+            description: A specification language for AI-first development that shifts focus
+              from implementation to intent through structured solution space reduction.
+            website_url: https://github.com/cbora/aispec
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+          - name: CodeGuide
+            description: Give Your AI Models a Clear. Blueprint with CodeGuide
+            website_url: https://www.codeguide.dev/
+            icon_url: https://www.codeguide.dev/icon.png?754055a3ebc2f898
+      - name: Design
+        tools:
+          - name: Galileo
+            description: Description of my tool
+            website_url: https://www.usegalileo.ai/
+            icon_url: https://www.usegalileo.ai/assets/favicon/apple-touch-icon-57x57.png
+          - name: Builder.io
+            description: Take Ideas to Production in Seconds, Not Sprints. Accelerate your
+              digital teams with AI-powered design-to-code, visual editing, and enterprise
+              CMS, all in our Visual Development Platform.
+            website_url: https://builder.io/
+            icon_url: https://builder.io/favicon.ico
+          - name: Copycoder
+            description: Built for the next generation of AI coders. Upload images of full
+              applications, UI mockups, or custom designs and use our generated prompts
+              to build your apps faster.
+            website_url: https://copycoder.ai/
+            icon_url: https://copycoder.ai/favicon.ico
+          - name: Fig4AI
+            description: A CLI tool that uses AI to generate design rules and documentation
+              from your Figma files. It analyzes your Figma designs and automatically extracts
+              design tokens, components, and layout information into a structured format.
+            website_url: https://github.com/f/fig4ai
+            icon_url: https://github.com/favicon.ico
+          - name: Locofy.ai
+            description: Turn your designs into developer-friendly frontend <code> for mobile
+              apps and web
+            website_url: https://www.locofy.ai/convert/design-to-code
+            icon_url: https://www.locofy.ai/favicon.ico
+          - name: Design2Code
+            description: converting visual design (screenshot) into code implementation
+            website_url: https://github.com/NoviScl/Design2Code
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+          - name: Code
+            description: Convert your figma, sketch and adobe xd design to flutter, react,
+              vue and more.
+            website_url: https://github.com/gridaco/code
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+          - name: Visily
+            description: Visily’s AI converts any user design input—text prompt, screenshot,
+              and more—to a fully customizable high-fidelity design. Unlike other software,
+              getting started is the easiest part!
+            website_url: https://github.com/visily-ai/visily
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+          - name: A0
+            description: Mobile Apps in minutes. Quickly prototype a react native screen
+            website_url: https://a0.dev/
+            icon_url: https://a0.dev/favicon.ico
+      - name: NoCode
+        description: Prototyping category 1
+        tools:
+          - name: Lovable
+            description: Lovable is your superhuman full stack engineer
+            website_url: https://lovable.dev/
+            icon_url: https://lovable.dev/favicon.ico
+          - name: Github Spark
+            description: Can we enable anyone to create or adapt software for themselves,
+              using AI and a fully-managed runtime?
+            website_url: https://githubnext.com/projects/github-spark/
+            icon_url: https://githubnext.com/favicon/favicon.png
+          - name: OpenAI Canvas
+            description: A new way of working with ChatGPT to write and code
+            website_url: https://openai.com/index/introducing-canvas/
+          - name: Claude Artefacts
+            description: Claude Artefacts
+            website_url: https://www.anthropic.com/en/blog/introducing-claude-artefacts
+            icon_url: https://www.anthropic.com/favicon.ico
+          - name: Mage
+            description: Generate your full-stack web app in Wasp, React, Node.js and Prisma
+            website_url: https://usemage.ai/
+            icon_url: https://usemage.ai/favicon.ico
+          - name: Softgen
+            description: Softgen is your AI Web App Developer. Describe your vision, give
+              instructions, and build full-stack web apps. No coding required.
+            website_url: https://softgen.ai/
+            icon_url: https://softgen.ai/favicon.ico
+          - name: Webdraw
+            description: Draw-to-app instantly! Meet your AI Smartboard.
+            website_url: https://webdraw.com/
+            icon_url: https://webdraw.com/favicon.ico
+          - name: Data Button
+            description: Let AI build your next big idea. Get unprecedented speed and control
+              with Databutton, the worlds first fully AI app developer.
+            website_url: https://databutton.com/
+            icon_url: https://databutton.com/favicon.ico
+          - name: Base44
+            description: Turn your ideas into products, in minutes. The first all-in-one
+              AI platform to easily build fully functioning apps - without coding.
+            website_url: https://base44.com/
+            icon_url: https://base44.com/favicon.ico
+          - name: Squillo
+            description: Squillo is the easiest way to build AI-powered apps. No coding
+              required.
+            website_url: https://squillo.io/
+            icon_url: https://squillo.io/favicon.ico
+      - name: Code Style
+        tools:
+          - name: Cursor Rules
+            description: Cursor Rules to customize AI behavior, streamline the development
+              and tailor code generation, suggestions and queries to your framework and
+              language.
+            website_url: https://dotcursorrules.com/
+            icon_url: https://dotcursorrules.com/favicon.ico
+          - name: Cursor Directory
+            description: Description of my tool
+            website_url: https://cursor.directory/
+            icon_url: https://cursor.directory/favicon.ico
+          - name: Wrapifai
+            description: Make your own AI tools without any coding. Share them or embed
+              into your website to get more traffic and turn visitors into customers.
+            website_url: https://wrapifai.com/
+  - name: Optimizing Context
+    description: Context awareness components
+    level: 2
+    categories:
+      - name: Documentation
+        description: Context Aware category 1
+        tools:
+          - name: Swimm
+            description: Description of my tool
+            website_url: https://swimm.io/
+            icon_url: https://swimm.io/favicon.ico
+          - name: Komment
+            description: Ship faster with self-healing wikis. Unlock rich insights about
+              any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost
+              team productivity.
+            website_url: https://komment.ai/
+          - name: Mutable.AI
+            description: Mutable.AI
+            website_url: https://mutable.ai/
+            icon_url: https://mutable.ai/favicon.ico
+            tags:
+              - rip
+          - name: DevDocs
+            description: DevDocs combines multiple API documentations in a fast, organized,
+              and searchable interface.
+            website_url: https://devdocs.io/
+            icon_url: https://devdocs.io/favicon.ico
+          - name: Swark
+            description: Automate code diagram generation with LLMs
+            website_url: https://github.com/swark-io/swark
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+      - name: Maintenance
+        description: Context Aware category 2
+        tools:
+          - name: Run When
+            description: We offer libraries with thousands of automated keep-the-lights-on
+              tasks you can use this afternoon. Our platform helps you build Engineering
+              Assistants for your colleagues that find which to run when they get questions,
+              alerts or tickets.
+            website_url: https://runwhen.com/
+            icon_url: https://cdn.prod.website-files.com/64f9646ad0f39e9ee5c116c4/64f97d8d9f16d9a1af9296aa_Favicon.png
+          - name: Dosu
+            description: Dosu
+            website_url: https://dosu.dev/
+            icon_url: https://dosu.dev/favicon.ico
+          - name: Second Dev
+            description: Second Dev
+            website_url: https://second.dev/
+            tags:
+              - rip
+          - name: Runme.dev
+            description: DevOps Notebooks. Built with Markdown. Codify your operational
+              process as cloud-native, testable, interactive documentation.
+            website_url: https://runme.dev/
+            icon_url: https://runme.dev/favicon.ico
+          - name: Logic Star
+            description: AI Agent for Application Maintenance
+            website_url: https://logicstar.ai/
+            icon_url: https://logicstar.ai/assets/images/website/icons/favicon.ico
+      - name: Content Transformers
+        description: Context Aware category 4
+        tools:
+          - name: Uithub
+            description: Easily Ask Your LLM Coding Questions
+            website_url: https://uithub.com/
+            icon_url: https://uithub.com/favicon.ico
+          - name: RepoPrompt
+            description: A macOS native app designed to remove all the friction involved
+              in iterating on your local files with the most powerful language models
+            website_url: https://repoprompt.com/
+            icon_url: https://repoprompt.com/favicon.ico
+          - name: Github GG
+            description: A powerful tool for analyzing GitHub repositories and providing
+              valuable insights about code quality, dependencies, and more.
+            website_url: https://github.gg/
+            tags:
+              - oss
+            icon_url: https://github.gg/static/images/favicon/apple-touch-icon.png
+      - name: CRM
+        tools:
+          - name: Salesforce Einstein
+            description: Salesforce Einstein
+            website_url: https://www.salesforce.com/products/einstein/ai/
+            icon_url: https://www.salesforce.com/c2/public/app/favicon.ico
+  - name: Coder as a service
+    description: Technology delegation components
+    level: 1.5
+    categories:
+      - name: IDE
+        description: Technology delegation category 1
+        tools:
+          - name: Cursor
+            description: A coding tool
+            website_url: https://www.cursor.com/
+            icon_url: https://www.cursor.com/favicon.ico
+          - name: Github Copilot
+            description: Github Copilot
+            website_url: https://github.com/features/copilot
+            icon_url: https://github.com/favicon.ico
+          - name: Windsurf
+            description: Windsurf
+            website_url: https://codeium.com/windsurf/
+            icon_url: https://codeium.com/favicon.ico
+          - name: Trae
+            description: Ship Faster with Trae. Trae is an adaptive AI IDE that transforms
+              how you work, collaborating with you to run faster.
+            website_url: https://trae.ai/
+            icon_url: https://lf-cdn.trae.ai/obj/trae-ai-us/trae_website_prod/static/image/favicon.ico
+          - name: Cline
+            description: Meet Cline, an AI assistant that can use your CLI aNd Editor.
+            website_url: https://github.com/cline/cline
+            icon_url: https://github.com/favicon.ico
+          - name: Roo-Code
+            description: Roo Code is an AI-powered autonomous coding agent that lives in
+              your editor
+            website_url: https://github.com/RooVetGit/Roo-Code
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+          - name: Amazon Q
+            description: The most capable generative AI–powered assistant for accelerating
+              software development and leveraging companies' internal data
+            website_url: https://aws.amazon.com/q/
+            icon_url: https://aws.amazon.com/favicon.ico
+          - name: Project IDX
+            description: Project IDX is an AI-assisted workspace for full-stack, multiplatform
+              app development in the cloud.
+            website_url: https://idx.dev/
+            icon_url: https://idx.dev/favicon.ico
+          - name: Cody
+            description: Cody
+            website_url: https://sourcegraph.com/demo/cody
+            icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
+          - name: Sweep AI
+            description: Self-hosted coding assistant for JetBrains IDEs. Accelerate your
+              JetBrains developers with the latest in AI coding intelligence. No data ever
+              leaves your VPC.
+            website_url: https://sweep.dev/
+            icon_url: https://sweep.dev/favicon.ico
+          - name: Continue Dev
+            description: Continue Dev
+            website_url: https://continue.dev/
+            icon_url: https://cdn.prod.website-files.com/663e06c56841363663ffbbcf/665253511c9fe499ba28f6c5_Logo_32x32%20(1).png
+            tags:
+              - oss
+          - name: Qodo
+            description: Generate confidence, not just code. Agentic AI for testing, reviewing,
+              and writing code—continuous quality at every step. Formerly known as Codium
+            website_url: https://qodo.ai/
+            icon_url: https://www.qodo.ai/wp-content/uploads/2024/09/favicon.png
+          - name: Pear AI
+            description: The Curated AI Code Editor. Supercharge your development with an
+              up-to-date, curated inventory of the best AI tools, natively integrated for
+              effortless AI-powered coding. Always open source.
+            website_url: https://trypear.ai/
+            icon_url: https://trypear.ai/favicon.ico
+            tags:
+              - oss
+          - name: Cursor Tools
+            description: Give Cursor Agent an AI team and advanced skills
+            website_url: https://github.com/eastlondoner/cursor-tools
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+          - name: Refactor
+            description: Customizable AI Coding Assistant that Boosts Developers
+            website_url: https://refactor.ai/
+          - name: MarsX
+            description: Changing the game of software development
+            website_url: https://marsx.dev/
+          - name: Tempo Labs
+            description: Build React apps 10x Faster with AI
+            website_url: https://tempolabs.ai/
+            icon_url: https://tempolabs.ai/favicon.ico
+      - name: Platforms
+        description: Development Platform
+        tools:
+          - name: Bolt.new
+            description: AI-powered code generation
+            website_url: https://bolt.new
+            icon_url: https://bolt.new/static/favicon.svg
+          - name: Vercel v0
+            description: What can I help you ship?
+            website_url: https://v0.dev/
+            icon_url: https://vercel.com/favicon.ico
+          - name: Replit
+            description: Build software, better
+            website_url: https://replit.com/
+            icon_url: https://cdn.replit.com/dotcom/favicon-196.png
+          - name: Tessl
+            description: Code written by AI, powered by your specs
+            website_url: https://tessl.io
+            icon_url: https://cdn.prod.website-files.com/67192008f31ee7b52371fe29/6733c87768b5bfe41ab30e63_Favicon.png
+          - name: Durable
+            description: Custom software. Inspired by you. Built by Generative AI. All without
+              touching any code.
+            website_url: https://durable.ai/
+            icon_url: https://durable.ai/favicon.ico
+      - name: Code Migrations
+        description: Migrations category 1
+        tools:
+          - name: Open Rewrite
+            website_url: https://docs.openrewrite.org/
+            icon_url: https://docs.openrewrite.org/img/favicon.svg
+          - name: Q Transform
+            website_url: https://aws.amazon.com/q/developer/transform/
+            icon_url: https://aws.amazon.com/favicon.ico
+          - name: Cast Software
+            website_url: https://learn.castsoftware.com/ai-assisted-code-transformation
+            icon_url: https://learn.castsoftware.com/hubfs/favicon-96x96.png
+          - name: GPT Migrate
+            description: GPT Migrate
+            website_url: https://github.com/joshpxyne/gpt-migrate
+            tags:
+              - oss
+            icon_url: https://github.com/favicon.ico
+      - name: Autonomous Coder
+        description: Technology delegation category 3
+        tools:
+          - name: Devin
+            description: Devin is a collaborative AI teammate
+            website_url: https://devin.ai/
+            icon_url: https://devin.ai/favicon.ico
+          - name: Bismuth
+            description: Bismuth is an AI coding agent that helps you tackle your backlog.
+              It understands your codebase, follows your patterns, and works alongside you
+              to ship code or asynchronously to find and fix bugs.
+            website_url: https://bismuth.sh/
+            icon_url: https://bismuth.sh/favicon.svg
+          - name: All Hands
+            description: All Hands
+            website_url: https://allhands.dev/
+            icon_url: https://www.all-hands.dev/all-hands-logo-1.svg
+          - name: Auto Code Rover
+            description: AutoCodeRover
+            website_url: https://www.autocoderover.net/
+            icon_url: https://www.autocoderover.net/favicon.ico
+      - name: iAC
+        description: Infrastructure as Code
+        tools:
+          - name: InfraCopilot
+            description: The Intelligent Infra-as-Code Editor
+            website_url: https://infracopilot.io/
+            icon_url: https://infracopilot.io/favicon.ico
+          - name: AIaC
+            description: Artificial Intelligence Infrastructure-as-Code Generator
+            website_url: https://aiac.dev/
+            icon_url: https://aiac.dev/favicon.ico
+          - name: Stakpak
+            description: Make critical infrastructure changes in a snap🫰, not days! Stakpak
+              is a DevOps IDE, with AI inside, that helps you build, maintain and self-serve
+              software infrastructure.
+            website_url: https://stakpak.dev/
+            icon_url: https://stakpak.dev/wp-content/uploads/2024/08/cropped-favicon-32x32.png
+          - name: GPTScript
+            description: GPTScript is a framework that allows Large Language Models (LLMs)
+              to operate and interact with various systems.
+            website_url: https://docs.gptscript.ai/
+            icon_url: https://docs.gptscript.ai/img/favicon.ico
+      - name: Terminal
+        description: Technology delegation category 2
+        tools:
+          - name: Aider
+            description: AI pair programming in your terminal
+            website_url: https://www.aider.chat/
+            icon_url: https://www.aider.chat/assets/icons/favicon-32x32.png
+          - name: Fig
+            website_url: https://fig.io/
+            icon_url: https://fig.io/icons/fig.png
+      - name: Web
+        description: Technology delegation category 4
+        tools:
+          - name: Keak
+            description: Higher conversionrates driven by AI. The first AI agent that continuously
+              improves your website
+            website_url: https://keak.com/
+            icon_url: https://framerusercontent.com/images/7O25asSN8XNyGB2KZM1hjlOLpBU.png
+          - name: Websim
+            description: Websim
+            website_url: https://websim.dev/
+            icon_url: https://websim.dev/favicon.ico
+  - name: Human Oversight
+    description: Human oversight components
+    level: 2
+    categories:
+      - name: Code Reviews
+        description: Code Reviews category 1
+        tools:
+          - name: Baz
+            description: Build unbreakable things code review with ai context
+            website_url: https://baz.co/
+            icon_url: https://cdn.prod.website-files.com/6687c611cd9ac075eb1fc52f/668cfae143a2bf22b5cbdb59_fav.png
+          - name: Firstmate
+            description: Faster & Better Code Reviews. Ship better code faster with AI-driven
+              & customizable.feedback. Use automated code reviews that actually work.
+            website_url: https://firstmate.io/
+            icon_url: https://firstmate.io/favicon.ico
+      - name: QA & Testing
+        description: QA & Testing category 1
+        tools:
+          - name: Ventrilo
+            description: Imagine a world where every developer has a dedicated test resource.
+            website_url: https://ventrilo.ai/
+            icon_url: https://ventrilo.ai/favicon.svg
+          - name: Spur
+            description: Spur
+            website_url: https://www.spurtest.com/
+            icon_url: https://cdn.prod.website-files.com/66c3e4ffe16480b253b3458d/66c4c6e18ad2a54fc53beb44_Favicon.png
+          - name: CodeYam
+            description: software simulator that accelerates software teams
+            website_url: https://codeyam.com/
+            icon_url: https://codeyam.com/favicon.ico
+      - name: Agents
+        description: Agents category 1
+        tools:
+          - name: AgentOps
+            description: Industry leading developer platform to test and debug AI agents.
+              We built the tools so you don't have to.
+            website_url: https://www.agentops.ai/
+            icon_url: https://www.agentops.ai/favicon.ico
+          - name: Restack
+            description:
+              Restack backend framework provides long-running workflows and infrastructure
+              for reliable & accurate AI agents.
+            website_url: https://www.restack.io/
+            icon_url: https://www.restack.io/favicon.ico
+      - name: SRE
+        description: Incident management
+        tools:
+          - name: Overmind
+            description: Predictive, AI-Powered Root Cause Analysis
+            website_url: https://overmind.tech/
+            icon_url: https://cdn.prod.website-files.com/6241e92445c21f9c1245a940/6242132abc15217cbca24084_Logo-02.png
+          - name: Cleric
+            description: AI SRE teammate for on-call engineers, Cleric autonomously root
+              causes alerts from production applications without requiring runbooks.
+            website_url: https://cleric.io/
+            icon_url: https://cdn.prod.website-files.com/65840bae4da744feef0ea01f/66549a6a5a8bc6388f822492_favicon-32x32.png
+          - name: SRE AI
+            description: SRE AI
+            website_url: https://sre.ai/
+            icon_url: https://cdn.prod.website-files.com/66d14bf912cb9ef1ebeabe13/672ff1d81bb7070409cd3a1d_Group%20116046599.svg
+          - name: Kubiya
+            description:
+              Meet your AI-powered Teammates for Operations. Accelerate time-to-automation
+              by delegating routine tasks to AI Teammates, available 24/7 to support dev
+              and ops teams while you focus on the strategic work that drives impact.
+            website_url: https://www.kubiya.ai/
+            icon_url: https://cdn.prod.website-files.com/66ac05ef155399c0a0aee1f3/66efe730a11a1dc1451e0118_Kubi%2032.png
+          - name: Otto8
+            description: ChatGPT for DevOps. Don`t ask AI, do with AI.
+            website_url: https://otto8.ai/
+            icon_url: https://otto8.ai/favicon.png
+          - name: Spec Coder
+            description: You can also enjoy AI-driven chat support for instant coding assistance,
+              making your coding experience more efficient and enjoyable
+            website_url: https://github.com/qirolab/spec-coder-issues
+            icon_url: https://github.com/favicon.ico
+          - name: Unblocked
+            description: Unblocked brings all the context about your codebase together,
+              so your team gets expert-level answers, no matter where they’re working.
+            website_url: https://getunblocked.com/
+            icon_url: https://getunblocked.com/favicon.ico
+      - name: Security
+        description: Security category 1
+        tools:
+          - name: Dryrun Security
+            description: Codebase Risk Averted with Contextual Security Analysis
+            website_url: https://www.dryrun.security/
+            icon_url: https://cdn.prod.website-files.com/645932d9286e9c20dd8e0fca/645d576fcd2b8845137f43e1_favicon.png
+          - name: Semgrep
+            description: Meet Your New AI AppSec Engineer. Get all of the insights from
+              static analysis, and none of the noise.
+            website_url: https://semgrep.dev/
+            icon_url: https://semgrep.dev/favicon.ico
+          - name: Autonomous Plane
+            description: 'Security maintenance autopilot for application dependencies: powered
+              by DockerSlim, enabled by generative AI'
+            website_url: https://autonomousplane.dev/
+  - name: Codegen Infra & Core components
+    description: Core system components
+    level: 3
+    categories:
+      - name: Code Models
+        tools:
+          - name: OpenAI Codex
+            description: We've created an improved version of OpenAI Codex, our AI system
+              that translates natural language to code, and we are releasing it through
+              our API in private beta starting today.
+            website_url: https://openai.com/index/openai-codex/
+            icon_url: https://images.ctfassets.net/kftzwdyauwt9/44acb746-bccc-4a2d-9cb2acf9475b/47a13b8efdee3822388ed209e06abcfd/openai-codex.png?w=2048&q=90&fm=webp
+          - name: Starcoder
+            description: Starcoder
+            website_url: https://huggingface.co/bigcode/starcoder
+            icon_url: https://huggingface.co/favicon.ico
+          - name: Code Llama
+            description: Code Llama
+            website_url: https://codellama.dev/about
+            icon_url: https://codellama.dev/favicon.ico
+          - name: Magic Dev
+            description: building frontier code models to automate software engineering
+              and research.
+            website_url: https://magic.dev/
+            icon_url: https://magic.dev/favicon/favicon.ico
+      - name: Code Embeddings
+        tools:
+          - name: Jina
+            description: Jina
+            website_url: https://huggingface.co/jinaai/jina-embeddings-v2-base-code
+            icon_url: https://huggingface.co/favicon.ico
+      - name: Code Search
+        tools:
+          - name: Source Graph
+            description: Grok your entire codebase. Code Search makes it easy to find code,
+              make large-scale changes, and track insights across codebases of any scale.
+            website_url: https://sourcegraph.com/
+            icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
+      - name: MCP
+        tools:
+          - name: Smithery
+            description: Extend your language via Model Context Protocol providers
+            website_url: https://smithery.ai/
+            icon_url: https://smithery.ai/icon.svg?d16eab68faeeea71
+      - name: Training
+        tools:
+          - name: Outlier
+            description: Outlier is a platform that connects subject matter experts to help
+              build the world's most advanced Generative AI. You will work on a variety
+              of projects from generating training data in your discipline to advance these
+              models to evaluating performance of models.
+            website_url: https://outlier.ai/
+            icon_url: https://framerusercontent.com/images/dM8x8m8hYj4oSJficiz9ljlhi0.png
+      - name: Code Evals & Benchmarks
+        tools:
+          - name: SWE Bench
+            description: SWE Bench
+            website_url: https://www.swebench.com/
+            icon_url: https://www.swebench.com/favicon.ico
+      - name: Libraries
+        tools:
+          - name: Priompt
+            description: Priompt (priority + prompt) is a JSX-based prompting library. It
+              uses priorities to decide what to include in the context window.
+            website_url: https://github.com/anysphere/priompt
+            icon_url: https://github.com/favicon.ico
+      - name: Execution Sandboxes Runtimes
+        tools:
+          - name: E2B
+            description: RUN AI-GENERATED code SECURELY in your APP
+            website_url: https://e2b.dev/
+            icon_url: https://e2b.dev/favicon.ico
+          - name: Baseten
+            description: Fast, scalable inference in our cloud or yours
+            website_url: https://baseten.co/
+            icon_url: https://baseten.co/icon.png?65f0e6c4c057d471
+          - name: ForeverVM
+            description: The sessionless code interpreter. Securely run AI-generated code
+              in stateful sandboxes that run forever.
+            website_url: https://forevervm.com/
+            icon_url: https://forevervm.com/icon.png?3e41cd107354ef72

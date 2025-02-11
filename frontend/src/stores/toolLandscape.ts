@@ -118,7 +118,7 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
 
     setSearchQuery(query: string) {
       this.searchQuery = query
-    }
+    },
   },
 
   getters: {
@@ -127,9 +127,8 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     filteredTools: (state) => {
       const query = state.searchQuery.toLowerCase().trim()
       if (!query) return state.tools
-      
-      return state.tools.filter(tool => 
-        (tool.name?.toLowerCase() || '').includes(query)      )
-    }
+
+      return state.tools.filter((tool) => (tool.name?.toLowerCase() || '').includes(query))
+    },
   },
 })

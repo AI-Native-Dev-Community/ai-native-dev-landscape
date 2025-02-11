@@ -34,7 +34,12 @@ const domainsByLevel = computed(() => {
 <template>
   <div class="landscape-canvas">
     <div v-for="(levelDomains, index) in domainsByLevel" :key="index" class="domain-row">
-      <LandscapeDomain v-for="domain in levelDomains" :key="domain.uid" :domain="domain" :index="index" />
+      <LandscapeDomain
+        v-for="domain in levelDomains"
+        :key="domain.uid"
+        :domain="domain"
+        :index="index"
+      />
     </div>
   </div>
 </template>
@@ -45,7 +50,4 @@ const domainsByLevel = computed(() => {
   grid-template-rows: repeat(auto-fit, 1fr);
   gap: 1rem;
 }
-
-
-
 </style>

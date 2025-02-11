@@ -7,20 +7,19 @@ defineProps<{
 }>()
 
 const onImageError = (event: Event) => {
-  const target = event.target as HTMLImageElement;
-  target.src = benchIcon; // Set to benchIcon if the image fails to load
+  const target = event.target as HTMLImageElement
+  target.src = benchIcon // Set to benchIcon if the image fails to load
 }
 </script>
 
 <template>
   <div class="catalog-tool" :title="tool.description">
     <div class="catalog-tool-header">
-
-      <img 
-        :src="tool.icon_url || benchIcon" 
+      <img
+        :src="tool.icon_url || benchIcon"
         @error="onImageError"
-        alt="tool.name" 
-        class="catalog-tool-icon" 
+        alt="tool.name"
+        class="catalog-tool-icon"
       />
       {{ tool.name }} : {{ tool.description }}
     </div>

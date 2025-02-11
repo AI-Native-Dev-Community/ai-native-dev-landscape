@@ -3,7 +3,6 @@ import LandscapeView from '../views/LandscapeView.vue'
 import SearchView from '../components/SearchView.vue'
 import ToolDetail from '../components/ToolDetail.vue'
 const router = createRouter({
-
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
@@ -28,14 +27,13 @@ const router = createRouter({
     {
       path: '/search',
       name: 'search',
-      component: SearchView
+      component: SearchView,
     },
     {
       path: '/tool/:id',
       name: 'tool-detail',
-      component: ToolDetail
+      component: ToolDetail,
     },
-
   ],
 })
 

@@ -6,22 +6,21 @@
       placeholder="Search tools..."
       class="search-input"
       @input="updateSearch"
-    >
-    
+    />
+
     <div class="tools-grid">
-      <div 
-        v-for="tool in filteredTools" 
-        :key="tool.uid" 
+      <div
+        v-for="tool in filteredTools"
+        :key="tool.uid"
         class="tool-card"
         @click="navigateToTool(tool.uid)"
       >
-
-      <img 
-              :src="tool.icon_url || benchIcon" 
-              @error="onImageError"
-              alt="tool.name" 
-              class="catalog-tool-icon" 
-            />
+        <img
+          :src="tool.icon_url || benchIcon"
+          @error="onImageError"
+          alt="tool.name"
+          class="catalog-tool-icon"
+        />
 
         <h3>{{ tool.name }}</h3>
         <p>{{ tool.description }}</p>
@@ -56,8 +55,8 @@ const navigateToTool = (toolId: string) => {
 }
 
 const onImageError = (event: Event) => {
-  const target = event.target as HTMLImageElement;
-  target.src = benchIcon; // Set to benchIcon if the image fails to load
+  const target = event.target as HTMLImageElement
+  target.src = benchIcon // Set to benchIcon if the image fails to load
 }
 </script>
 
@@ -81,7 +80,6 @@ const onImageError = (event: Event) => {
   font-size: 16px;
 }
 
-
 .catalog-tool-icon {
   width: 24px;
   height: 24px;
@@ -101,7 +99,9 @@ const onImageError = (event: Event) => {
   border-radius: 8px;
   background: lightgreen;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .tool-card:hover {
@@ -116,4 +116,4 @@ const onImageError = (event: Event) => {
   border-radius: 4px;
   font-size: 14px;
 }
-</style> 
+</style>

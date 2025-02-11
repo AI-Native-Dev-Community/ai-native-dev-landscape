@@ -1,14 +1,13 @@
 <template>
   <div class="chat">
     <div class="chat-messages" ref="messagesContainer">
-      <div v-for="(message, index) in messages" :key="index" 
-           :class="['message', message.role]">
+      <div v-for="(message, index) in messages" :key="index" :class="['message', message.role]">
         <div class="message-content">{{ message.content }}</div>
       </div>
     </div>
-    
+
     <div class="chat-input">
-      <textarea 
+      <textarea
         v-model="userInput"
         @keydown.enter.prevent="sendMessage"
         placeholder="Type your message here..."
@@ -20,19 +19,18 @@
 </template>
 
 <script lang="ts">
-import { CreateMLCEngine } from "@mlc-ai/web-llm";
+import { CreateMLCEngine } from '@mlc-ai/web-llm'
 
 interface Message {
-  role: 'user' | 'assistant' | 'system';
-  content: string;
+  role: 'user' | 'assistant' | 'system'
+  content: string
 }
 
-const llm = await CreateMLCEngine( 'Llama-3.2-1B-Instruct-q4f32_1-MLC')
-
+const llm = await CreateMLCEngine('Llama-3.2-1B-Instruct-q4f32_1-MLC')
 
 export default {
   name: 'ChatView',
-  
+
   data() {
     return {
       messages: [] as Message[],
@@ -45,21 +43,18 @@ export default {
     try {
       this.messages.push({
         role: 'system',
-        content: 'Initializing WebLLM...'
+        content: 'Initializing WebLLM...',
       })
-      
-     
- 
 
       this.messages.push({
         role: 'system',
-        content: 'WebLLM initialized successfully!'
+        content: 'WebLLM initialized successfully!',
       })
     } catch (error) {
       console.error('Failed to initialize WebLLM:', error)
       this.messages.push({
         role: 'system',
-        content: 'Failed to initialize WebLLM. Please try refreshing the page.'
+        content: 'Failed to initialize WebLLM. Please try refreshing the page.',
       })
     }
   },
@@ -71,7 +66,7 @@ export default {
       // Add user message
       this.messages.push({
         role: 'user',
-        content: this.userInput.trim()
+        content: this.userInput.trim(),
       })
 
       const userMessage = this.userInput
@@ -86,13 +81,13 @@ export default {
         console.log(response)
         this.messages.push({
           role: 'assistant',
-          content: response.choices[0].message.content || 'No response from the model.'
+          content: response.choices[0].message.content || 'No response from the model.',
         })
       } catch (error) {
         console.error('Error processing message:', error)
         this.messages.push({
           role: 'system',
-          content: 'Sorry, there was an error processing your message.'
+          content: 'Sorry, there was an error processing your message.',
         })
       } finally {
         this.isProcessing = false
@@ -102,8 +97,8 @@ export default {
         const container = this.$refs.messagesContainer as HTMLDivElement
         container.scrollTop = container.scrollHeight
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -176,4 +171,4 @@ button:disabled {
   background: #ccc;
   cursor: not-allowed;
 }
-</style> 
+</style>

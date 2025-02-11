@@ -16,14 +16,16 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 <template>
   <div class="landscape-category">
     <div class="landscape-category-header">
-      {{ category.name }}
+      <div class="category-title">{{ category.name }}</div>
+      <div class="category-tooltip">
+        {{ category.description }}
+      </div>
     </div>
     <div class="landscape-category-tools">
       <LandscapeTool v-for="tool in tools" :key="tool.uid" :tool="tool" />
     </div>
   </div>
 </template>
-
 
 <style scoped>
 .landscape-category {
@@ -34,10 +36,52 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
 }
 
 .landscape-category-header {
+  position: relative;
   text-align: center;
   padding: 1rem;
+}
+
+.category-title {
   font-size: 1.2rem;
   font-weight: bold;
+  cursor: help;
+  display: inline-block;
+}
+
+.category-tooltip {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  width: max-content;
+  max-width: 250px;
+  z-index: 1000;
+  margin-top: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* Add arrow to tooltip */
+.category-tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+}
+
+.category-title:hover + .category-tooltip,
+.category-tooltip:hover {
+  display: block;
 }
 
 .landscape-category-tools {
@@ -47,6 +91,4 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   gap: 0.25em;
   justify-content: center;
 }
-
-
 </style>

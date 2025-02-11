@@ -50,7 +50,6 @@ import { RouterLink, RouterView } from 'vue-router'
   font-weight: bold;
 }
 
-
 .menu-content {
   width: 100%;
   height: 100%;

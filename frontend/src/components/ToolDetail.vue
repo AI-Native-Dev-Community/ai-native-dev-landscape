@@ -6,16 +6,14 @@
       <span class="domain-tag">{{ getDomainName(tool.domainId) }}</span>
     </div>
     <p class="description">{{ tool.description }}</p>
-    
+
     <div class="links" v-if="tool.website_url">
       <a :href="tool.website_url" target="_blank" rel="noopener noreferrer" class="tool-link">
         Visit Website →
       </a>
     </div>
   </div>
-  <div v-else class="not-found">
-    Tool not found
-  </div>
+  <div v-else class="not-found">Tool not found</div>
 </template>
 
 <script setup lang="ts">
@@ -50,7 +48,8 @@ const getDomainName = (domainId: string) => {
   margin: 20px 0;
 }
 
-.category-tag, .domain-tag {
+.category-tag,
+.domain-tag {
   display: inline-block;
   padding: 4px 12px;
   border-radius: 16px;
@@ -92,4 +91,4 @@ const getDomainName = (domainId: string) => {
   padding: 40px;
   color: #666;
 }
-</style> 
+</style>
