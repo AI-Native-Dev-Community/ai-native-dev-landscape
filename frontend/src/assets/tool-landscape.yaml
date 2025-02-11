@@ -247,6 +247,12 @@ domains:
             icon_url: https://www.aider.chat/assets/icons/favicon-32x32.png
             tags:
               - terminal
+          - name: Source AI
+            description: ""
+            website_url: https://sourceai.dev/
+            icon_url: https://sourceai.dev/favicon.ico
+            tags:
+              - ide
 
       - name: Platforms
         description: Coding tools that provide a platform for development
@@ -319,6 +325,8 @@ domains:
             description: AutoCodeRover
             website_url: https://www.autocoderover.net/
             icon_url: https://www.autocoderover.net/favicon.ico
+
+
 
       - name: NoCode
         description: Prototyping category 1
@@ -568,8 +576,12 @@ domains:
               so your team gets expert-level answers, no matter where they’re working.
             website_url: https://getunblocked.com/
             icon_url: https://getunblocked.com/favicon.ico
+
+          - name: Clio
+            description: "Clio is an AI-powered copilot designed to help you with DevOps-related tasks using CLI programs. It leverages OpenAI's capabilities to provide intelligent assistance directly from your command line."
+            website_url: "https://github.com/gptscript-ai/clio"
       - name: Security
-        description: Security category 1
+        description: Tools that help with code security
         tools:
           - name: Dryrun Security
             description: Codebase Risk Averted with Contextual Security Analysis
@@ -584,6 +596,10 @@ domains:
             description: 'Security maintenance autopilot for application dependencies: powered
               by DockerSlim, enabled by generative AI'
             website_url: https://autonomousplane.dev/
+          - name: DeepCode
+            description: "the fastest, most accurate, and most intelligently prioritized SAST and AI code review tool on the market"
+            website_url: https://snyk.io/platform/deepcode-ai/
+            icon_url: https://snyk.io/favicon.ico
 
 
 
