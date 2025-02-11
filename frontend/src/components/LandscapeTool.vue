@@ -27,8 +27,13 @@ const openToolWebsite = (url: string) => {
       />
       <div class="landscape-tool-name">{{ tool.name }}</div>
     </div>
-    <div class="landscape-tool-description">
-      {{ tool.description }}
+    <div class="landscape-tool-tooltip">
+      <div class="tooltip-description">{{ tool.description }}</div>
+      <div v-if="tool.tags?.length" class="tooltip-tags">
+        <span v-for="tag in tool.tags" :key="tag" class="tooltip-tag">
+          {{ tag }}
+        </span>
+      </div>
     </div>
   </div>
 </template>
@@ -67,7 +72,7 @@ const openToolWebsite = (url: string) => {
   font-weight: bold;
 }
 
-.landscape-tool-description {
+.landscape-tool-tooltip {
   display: none;
   position: absolute;
   bottom: 100%;
@@ -84,8 +89,28 @@ const openToolWebsite = (url: string) => {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.tooltip-description {
+  margin-bottom: 8px;
+}
+
+.tooltip-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tooltip-tag {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
 /* Add arrow to tooltip */
-.landscape-tool-description::after {
+.landscape-tool-tooltip::after {
   content: '';
   position: absolute;
   top: 100%;
@@ -96,7 +121,7 @@ const openToolWebsite = (url: string) => {
   border-color: #333 transparent transparent transparent;
 }
 
-.landscape-tool:hover .landscape-tool-description {
+.landscape-tool:hover .landscape-tool-tooltip {
   display: block;
 }
 </style>

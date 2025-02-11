@@ -281,71 +281,101 @@ domains:
             website_url: https://www.salesforce.com/products/einstein/ai/
             icon_url: https://www.salesforce.com/c2/public/app/favicon.ico
   - name: Coder as a service
-    description: Technology delegation components
+    description: Tools focused on generating code and assisting developers
     level: 1.5
     categories:
       - name: IDE
-        description: Technology delegation category 1
+        description: Coding tools that provide a local IDE experience
         tools:
           - name: Cursor
-            description: A coding tool
+            description: "The AI Code Editor. Built to make you extraordinarily productive, Cursor is the best way to code with AI."
             website_url: https://www.cursor.com/
             icon_url: https://www.cursor.com/favicon.ico
+            tags:
+              - ide
           - name: Github Copilot
             description: Github Copilot
             website_url: https://github.com/features/copilot
             icon_url: https://github.com/favicon.ico
+            tags:
+              - ide
           - name: Windsurf
-            description: Windsurf
+            description: "Built to keep you in flow state
+The first agentic IDE, and then some. The Windsurf Editor is where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic."
             website_url: https://codeium.com/windsurf/
             icon_url: https://codeium.com/favicon.ico
+            tags:
+              - ide
+
           - name: Trae
             description: Ship Faster with Trae. Trae is an adaptive AI IDE that transforms
               how you work, collaborating with you to run faster.
             website_url: https://trae.ai/
             icon_url: https://lf-cdn.trae.ai/obj/trae-ai-us/trae_website_prod/static/image/favicon.ico
+            tags:
+              - ide
+
           - name: Cline
             description: Meet Cline, an AI assistant that can use your CLI aNd Editor.
             website_url: https://github.com/cline/cline
             icon_url: https://github.com/favicon.ico
+            tags:
+              - ide
+
           - name: Roo-Code
             description: Roo Code is an AI-powered autonomous coding agent that lives in
               your editor
             website_url: https://github.com/RooVetGit/Roo-Code
             tags:
               - oss
+              - ide
             icon_url: https://github.com/favicon.ico
           - name: Amazon Q
             description: The most capable generative AI–powered assistant for accelerating
               software development and leveraging companies' internal data
             website_url: https://aws.amazon.com/q/
             icon_url: https://aws.amazon.com/favicon.ico
+            tags:
+              - ide
+
           - name: Project IDX
             description: Project IDX is an AI-assisted workspace for full-stack, multiplatform
               app development in the cloud.
             website_url: https://idx.dev/
             icon_url: https://idx.dev/favicon.ico
+            tags:
+              - ide
+
           - name: Cody
-            description: Cody
+            description: "The enterprise AI code assistant. Cody uses the latest LLMs and all your development context to help you understand, write, and fix code faster"
             website_url: https://sourcegraph.com/demo/cody
             icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
+            tags:
+              - ide
+
           - name: Sweep AI
             description: Self-hosted coding assistant for JetBrains IDEs. Accelerate your
               JetBrains developers with the latest in AI coding intelligence. No data ever
               leaves your VPC.
             website_url: https://sweep.dev/
             icon_url: https://sweep.dev/favicon.ico
+            tags:
+              - ide
+
           - name: Continue Dev
-            description: Continue Dev
+            description: "Amplified developers, AI-enhanced development. The leading open-source AI code assistant. You can connect any models and any context to create custom autocomplete and chat experiences inside the IDE"
             website_url: https://continue.dev/
             icon_url: https://cdn.prod.website-files.com/663e06c56841363663ffbbcf/665253511c9fe499ba28f6c5_Logo_32x32%20(1).png
             tags:
               - oss
+              - ide
           - name: Qodo
             description: Generate confidence, not just code. Agentic AI for testing, reviewing,
               and writing code—continuous quality at every step. Formerly known as Codium
             website_url: https://qodo.ai/
             icon_url: https://www.qodo.ai/wp-content/uploads/2024/09/favicon.png
+            tags:
+              - ide
           - name: Pear AI
             description: The Curated AI Code Editor. Supercharge your development with an
               up-to-date, curated inventory of the best AI tools, natively integrated for
@@ -354,6 +384,7 @@ domains:
             icon_url: https://trypear.ai/favicon.ico
             tags:
               - oss
+              - ide
           - name: Cursor Tools
             description: Give Cursor Agent an AI team and advanced skills
             website_url: https://github.com/eastlondoner/cursor-tools
@@ -363,51 +394,76 @@ domains:
           - name: Refactor
             description: Customizable AI Coding Assistant that Boosts Developers
             website_url: https://refactor.ai/
+            tags:
+              - ide
           - name: MarsX
             description: Changing the game of software development
             website_url: https://marsx.dev/
+            tags:
+              - ide
           - name: Tempo Labs
             description: Build React apps 10x Faster with AI
             website_url: https://tempolabs.ai/
             icon_url: https://tempolabs.ai/favicon.ico
+            tags:
+              - ide
+              - react
       - name: Platforms
-        description: Development Platform
+        description: Coding tools that provide a platform for development
         tools:
           - name: Bolt.new
-            description: AI-powered code generation
+            description: "AI-powered code generation. Prompt, run, edit, and deploy full-stack web apps."
             website_url: https://bolt.new
             icon_url: https://bolt.new/static/favicon.svg
+            tags:
+              - platform
           - name: Vercel v0
             description: What can I help you ship?
             website_url: https://v0.dev/
             icon_url: https://vercel.com/favicon.ico
+            tags:
+              - platform
+
           - name: Replit
             description: Build software, better
             website_url: https://replit.com/
             icon_url: https://cdn.replit.com/dotcom/favicon-196.png
+            tags:
+              - platform
+
           - name: Tessl
             description: Code written by AI, powered by your specs
             website_url: https://tessl.io
             icon_url: https://cdn.prod.website-files.com/67192008f31ee7b52371fe29/6733c87768b5bfe41ab30e63_Favicon.png
+            tags:
+              - spec-centric
+              - platform
           - name: Durable
             description: Custom software. Inspired by you. Built by Generative AI. All without
               touching any code.
             website_url: https://durable.ai/
             icon_url: https://durable.ai/favicon.ico
+            tags:
+              - platform
       - name: Code Migrations
         description: Migrations category 1
         tools:
           - name: Open Rewrite
+            description: OpenRewrite is an open-source automated refactoring ecosystem for source code, enabling developers to effectively eliminate technical debt within their repositories.
             website_url: https://docs.openrewrite.org/
             icon_url: https://docs.openrewrite.org/img/favicon.svg
           - name: Q Transform
+            description: "Amazon Q Developer: Transform
+The first generative AI–powered assistant for transforming .NET, mainframe, VMware, and Java workloads"
             website_url: https://aws.amazon.com/q/developer/transform/
             icon_url: https://aws.amazon.com/favicon.ico
           - name: Cast Software
+            description: "Making AI understand massive custom software systems
+CAST technology can analyze 40 KLOC per minute, mapping the explicit and implicit interactions between all elements, across all layers, into deterministic metadata of the entire application"
             website_url: https://learn.castsoftware.com/ai-assisted-code-transformation
             icon_url: https://learn.castsoftware.com/hubfs/favicon-96x96.png
           - name: GPT Migrate
-            description: GPT Migrate
+            description: "Easily migrate your codebase from one framework or language to another. "
             website_url: https://github.com/joshpxyne/gpt-migrate
             tags:
               - oss
