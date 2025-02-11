@@ -32,4 +32,5 @@ export interface Tool {
   domainId: string
   website_url: string
   icon_url: string
+  tags: string[]
 }
