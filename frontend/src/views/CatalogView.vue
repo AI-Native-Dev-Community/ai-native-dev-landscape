@@ -32,7 +32,7 @@
         </div>
         <div class="tags">
           <span class="category, tag">{{ getCategoryName(tool.categoryId) }}</span>
-          <span class="domain, tag">{{ tool.domainId }} {{ store.getDomainById(store.getCategoryById(tool.categoryId)?.domainId)?.name }}</span>
+          <span class="domain, tag">{{ tool.domainId || '' }} {{ store.getDomainById(store.getCategoryById(tool.categoryId)?.domainId || '')?.name }}</span>
           <span v-for="tag in tool.tags" :key="tag" class="tag">{{ tag }}</span>
         </div>
       </div>
