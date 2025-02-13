@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LandscapeView from '../views/LandscapeView.vue'
-import SearchView from '../components/SearchView.vue'
+import CatalogView from '../views/CatalogView.vue'
 import ToolDetail from '../components/ToolDetail.vue'
+import AboutView from '../views/AboutView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -11,28 +12,16 @@ const router = createRouter({
       name: 'landscape',
       component: LandscapeView,
     },
+
     {
       path: '/catalog',
       name: 'catalog',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/CatalogView.vue'),
+      component: CatalogView,
     },
     {
-      path: '/awesome',
-      name: 'awesome',
-      component: () => import('../views/AwesomeView.vue'),
-    },
-    {
-      path: '/search',
-      name: 'search',
-      component: SearchView,
-    },
-    {
-      path: '/tool/:id',
-      name: 'tool-detail',
-      component: ToolDetail,
+      path: '/about',
+      name: 'about',
+      component: AboutView,
     },
   ],
 })
