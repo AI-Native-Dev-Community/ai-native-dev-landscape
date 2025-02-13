@@ -15,17 +15,26 @@
         class="tool-card"
         @click="navigateToTool(tool.uid)"
       >
-      <h3>
-      <img
-          :src="tool.icon_url || benchIcon"
-          @error="onImageError"
-          alt="tool.name"
-          class="catalog-tool-icon"
-        />
-
- {{ tool.name }}</h3>
-        <p>{{ tool.description }}</p>
-        <span class="category">{{ getCategoryName(tool.categoryId) }}</span>
+        <div class="tool-header" style="text-align: center;">
+          <img
+            :src="tool.icon_url || benchIcon"
+            @error="onImageError"
+            alt="tool.name"
+            class="catalog-tool-icon"
+          />
+          <h3 class="tool-title">{{ tool.name }}</h3>
+        </div>
+        <div class="tool-url" style="text-align: center; margin-top: 5px;">
+          <p class="tool-website">{{ tool.website_url }}</p>
+        </div>
+        <div class="tool-description">
+          <p>{{ tool.description }}</p>
+        </div>
+        <div class="tags">
+          <span class="category, tag">{{ getCategoryName(tool.categoryId) }}</span>
+          <span class="domain, tag">{{ tool.domainId }} {{ store.getDomainById(store.getCategoryById(tool.categoryId)?.domainId)?.name }}</span>
+          <span v-for="tag in tool.tags" :key="tag" class="tag">{{ tag }}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -52,7 +61,10 @@ const getCategoryName = (categoryId: string) => {
 }
 
 const navigateToTool = (toolId: string) => {
-//  router.push(`/tool/${toolId}`)
+  const tool = store.getToolById(toolId); // Fetch the tool object using its ID
+  if (tool && tool.website_url) {
+    window.open(tool.website_url, '_blank'); // Open the website URL in a new window
+  }
 }
 
 const onImageError = (event: Event) => {
@@ -94,6 +106,10 @@ const onImageError = (event: Event) => {
 }
 
 .tool-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -108,11 +124,35 @@ const onImageError = (event: Event) => {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.category {
+.tool-description {
+  flex-grow: 1;
+}
+
+.tag {
   display: inline-block;
-  padding: 4px 8px;
   background: lightblue;
-  border-radius: 4px;
-  font-size: 14px;
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #00796b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+}
+
+.tool-title {
+  margin-left: 0.5rem;
+}
+
+.tool-website {
+  margin-top: 5px;
+  margin-left: 0.5rem;
+  font-size: 12px;
+  color: #666;
 }
 </style>
