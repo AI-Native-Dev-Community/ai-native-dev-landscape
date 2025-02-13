@@ -4,6 +4,7 @@ export interface ToolDomain {
   name: string
   description: string
   level: number
+  tags?: string[]
 }
 
 // Category is a high level category of tools

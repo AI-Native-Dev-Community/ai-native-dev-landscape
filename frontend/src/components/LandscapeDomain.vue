@@ -2,6 +2,7 @@
 import type { ToolDomain } from '../types/ToolTypes'
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 import LandscapeCategory from '@/components/LandscapeCategory.vue'
+import { computed } from 'vue'
 
 const props = defineProps<{
   domain: ToolDomain
@@ -38,9 +39,15 @@ const colorPool = [
 
 const toolLandscapeStore = useToolLandscapeStore()
 const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
+const selectedTag = computed(() => toolLandscapeStore.getSelectedTag)
 
 const backgroundColor = generateColor(props.index)
 //const backgroundColor = colorPool[props.index % colorPool.length]
+
+const isToolHighlighted = (tool: Tool) => {
+  if (!selectedTag.value) return true
+  return tool.tags?.includes(selectedTag.value) ?? false
+}
 </script>
 
 <template>
@@ -128,5 +135,15 @@ const backgroundColor = generateColor(props.index)
 .domain-title:hover + .domain-tooltip,
 .domain-tooltip:hover {
   display: block;
+}
+
+.tool-dimmed {
+  opacity: 0.3;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.tool-item {
+  transition: all 0.3s ease;
 }
 </style>

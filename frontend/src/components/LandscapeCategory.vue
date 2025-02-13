@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ToolCategory } from '../types/ToolTypes'
+import type { ToolCategory, Tool } from '../types/ToolTypes'
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 import { computed } from 'vue'
 import LandscapeTool from '@/components/LandscapeTool.vue'
@@ -10,7 +10,13 @@ const props = defineProps<{
 
 // get tools from the store
 const toolLandscapeStore = useToolLandscapeStore()
-const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.category.uid))
+const tools = toolLandscapeStore.getToolsByCategoryId(props.category.uid)
+const selectedTag = computed(() => toolLandscapeStore.getSelectedTag)
+
+const isToolHighlighted = (tool: Tool) => {
+  if (!selectedTag.value) return true
+  return tool.tags?.includes(selectedTag.value) ?? false
+}
 </script>
 
 <template>
@@ -22,7 +28,14 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
       </div>
     </div>
     <div class="landscape-category-tools">
-      <LandscapeTool v-for="tool in tools" :key="tool.uid" :tool="tool" />
+      <div
+        v-for="tool in tools"
+        :key="tool.uid"
+        class="tool-item"
+        :class="{ 'tool-dimmed': !isToolHighlighted(tool) }"
+      >
+        <LandscapeTool :tool="tool" />
+      </div>
     </div>
   </div>
 </template>
@@ -90,5 +103,15 @@ const tools = computed(() => toolLandscapeStore.getToolsByCategoryId(props.categ
   padding: 0.25em;
   gap: 0.25em;
   justify-content: center;
+}
+
+.tool-item {
+  transition: all 0.3s ease;
+}
+
+.tool-dimmed {
+  opacity: 0.3;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
 }
 </style>

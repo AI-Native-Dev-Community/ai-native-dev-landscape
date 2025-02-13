@@ -16,6 +16,8 @@ interface ToolLandscapeState {
   categories: ToolCategory[]
   tools: Tool[]
   searchQuery: string
+  tags: string[]
+  selectedTag: string | null
 }
 
 export const useToolLandscapeStore = defineStore('toolLandscape', {
@@ -24,6 +26,8 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     categories: [],
     tools: [],
     searchQuery: '',
+    tags: [],
+    selectedTag: null,
   }),
 
   actions: {
@@ -71,8 +75,10 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
       /* eslint-disable  @typescript-eslint/no-explicit-any */
       const data = toolYamlData as any
       const domains = data.domains
+      console.log('Loading YAML data:', data) // Debug log
       domains.forEach((domain: any) => {
         domain.uid = generateUUIDv4()
+        console.log('Processing domain:', domain) // Debug log
         this.addDomain(domain)
         const categories = domain.categories
 
@@ -119,6 +125,10 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
     setSearchQuery(query: string) {
       this.searchQuery = query
     },
+
+    setSelectedTag(tag: string | null) {
+      this.selectedTag = tag
+    },
   },
 
   getters: {
@@ -134,5 +144,13 @@ export const useToolLandscapeStore = defineStore('toolLandscape', {
         return nameMatches || descriptionMatches
       })
     },
+    getAllTags: (state) => {
+      const tagSet = new Set<string>()
+      state.tools.forEach(tool => {
+        tool.tags?.forEach(tag => tagSet.add(tag))
+      })
+      return Array.from(tagSet).sort()
+    },
+    getSelectedTag: (state) => state.selectedTag,
   },
 })
