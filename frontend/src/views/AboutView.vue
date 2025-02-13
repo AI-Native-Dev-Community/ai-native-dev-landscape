@@ -28,7 +28,7 @@ export default {
         return {
             contributors: [
                 { id: 1, name: 'Patrick Debois', profileUrl: 'https://github.com/jedi4ever', avatarUrl: 'https://avatars.githubusercontent.com/u/70908?v=4' },
-                { id: 2, name: 'Simon Maples', profileUrl: 'https://github.com/sjmaple', avatarUrl: 'https://avatars.githubusercontent.com/u/3339230' },
+                { id: 2, name: 'Simon Maple', profileUrl: 'https://github.com/sjmaple', avatarUrl: 'https://avatars.githubusercontent.com/u/3339230' },
                 { id: 3, name: 'Dion Almaer', profileUrl: 'https://github.com/dalmaer', avatarUrl: 'https://avatars.githubusercontent.com/u/4770' },
                 // ... add more contributors as needed ...
             ]
