@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ToolDomain } from '../types/ToolTypes'
+import type { ToolDomain , Tool } from '../types/ToolTypes'
 import { useToolLandscapeStore } from '../stores/toolLandscape'
 import LandscapeCategory from '@/components/LandscapeCategory.vue'
 import { computed } from 'vue'
