@@ -224,7 +224,7 @@ domains:
             tags:
               - license:oss
               - interface:ide
-          - name: Augmented Code
+          - name: Augment Code
             description: The first AI coding assistant built for professional software engineers and large codebases.
             website_url: https://augmentedcode.com/
             icon_url: https://cdn.prod.website-files.com/66d76c2202b335e39ad2b5e8/66f302d663108ca67c19ddbc_Favicon.png
