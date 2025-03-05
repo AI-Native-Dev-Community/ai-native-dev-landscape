@@ -60,6 +60,24 @@ domains:
             website_url: https://github.com/visily-ai/visily
             tags:
               - license:oss
+          - name: Octopus
+            description: AI-powered design system generator that creates consistent UI components from design specifications
+            website_url: https://octopus.design/
+            icon_url: https://octopus.design/favicon.ico
+            tags:
+              - persona:designer
+          - name: Automattic Design
+            description: Convert sketches to React/Vue components with accessibility built-in
+            website_url: https://automattic.design/
+            icon_url: https://automattic.design/favicon.ico
+            tags:
+              - persona:designer
+          - name: Sigmoid
+            description: AI-powered UI design system creator with focus on consistency and scalability
+            website_url: https://sigmoid.design/
+            icon_url: https://sigmoid.design/favicon.ico
+            tags:
+              - persona:designer
 
       - name: iAC
         description: Infrastructure as Code
@@ -91,6 +109,25 @@ domains:
             icon_url: https://docs.gptscript.ai/img/favicon.ico
             tags:
               - persona:devops
+          - name: Pulumi AI
+            description: Natural language interface for infrastructure as code, enabling faster cloud deployment
+            website_url: https://www.pulumi.com/ai/
+            icon_url: https://www.pulumi.com/favicon.ico
+            tags:
+              - persona:devops
+          - name: Terraform Labs
+            description: AI assistant for generating and debugging Terraform configurations
+            website_url: https://www.terraform-labs.io/
+            icon_url: https://www.terraform-labs.io/favicon.ico
+            tags:
+              - persona:devops
+          - name: Kubernetes Pilot
+            description: AI-assisted Kubernetes manifest generation and troubleshooting
+            website_url: https://k8spilot.dev/
+            icon_url: https://k8spilot.dev/favicon.ico
+            tags:
+              - persona:devops
+
       - name: Frontend
         description: Frontend development tools
         tools:
@@ -110,6 +147,30 @@ domains:
               improves your website
             website_url: https://keak.com/
             icon_url: https://framerusercontent.com/images/7O25asSN8XNyGB2KZM1hjlOLpBU.png
+          - name: Spline
+            description: 3D design tool with code export for web interfaces
+            website_url: https://spline.design/
+            icon_url: https://spline.design/favicon.ico
+            tags:
+              - persona:designer
+          - name: UI Drafter
+            description: Convert wireframes and sketches into React components with AI
+            website_url: https://uidrafter.com/
+            icon_url: https://uidrafter.com/favicon.ico
+            tags:
+              - language:react
+          - name: Wized
+            description: No-code tool for creating dynamic web interfaces with AI assistance
+            website_url: https://www.wized.com/
+            icon_url: https://www.wized.com/favicon.ico
+            tags:
+              - persona:designer
+          - name: Framer AI
+            description: AI-powered website builder with design components and code generation
+            website_url: https://www.framer.com/ai/
+            icon_url: https://www.framer.com/favicon.ico
+            tags:
+              - persona:designer
       - name: Code Migrations
         description: Tools specialized in code migrations
         tools:
@@ -159,7 +220,6 @@ domains:
             icon_url: https://codeium.com/favicon.ico
             tags:
               - interface:ide
-
           - name: Trae
             description: Ship Faster with Trae. Trae is an adaptive AI IDE that transforms
               how you work, collaborating with you to run faster.
@@ -167,7 +227,6 @@ domains:
             icon_url: https://lf-cdn.trae.ai/obj/trae-ai-us/trae_website_prod/static/image/favicon.ico
             tags:
               - interface:ide
-
           - name: Cline
             description: Meet Cline, an AI assistant that can use your CLI aNd Editor.
             website_url: https://github.com/cline/cline
@@ -175,7 +234,6 @@ domains:
             tags:
               - interface:plugin
               - license:oss
-
           - name: Roo-Code
             description: Roo Code is an AI-powered autonomous coding agent that lives in your editor
             website_url: https://github.com/RooVetGit/Roo-Code
@@ -190,15 +248,12 @@ domains:
             icon_url: https://aws.amazon.com/favicon.ico
             tags:
               - interface:plugin
-
-
-          - name: Cody
-            description: "The enterprise AI code assistant. Cody uses the latest LLMs and all your development context to help you understand, write, and fix code faster"
-            website_url: https://sourcegraph.com/demo/cody
+          - name: Sourcegraph Code AI
+            description: "The enterprise AI code assistant. Sourcegraph goes beyond individual dev productivity, helping enterprises achieve consistency and quality at scale with AI."
+            website_url: https://sourcegraph.com/cody
             icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
             tags:
               - interface:ide
-
           - name: Sweep AI
             description: Self-hosted coding assistant for JetBrains IDEs. Accelerate your
               JetBrains developers with the latest in AI coding intelligence. No data ever
@@ -207,7 +262,6 @@ domains:
             icon_url: https://sweep.dev/favicon.ico
             tags:
               - interface:plugin
-
           - name: Continue Dev
             description: "Amplified developers, AI-enhanced development. The leading open-source AI code assistant. You can connect any models and any context to create custom autocomplete and chat experiences inside the IDE"
             website_url: https://continue.dev/
@@ -224,13 +278,12 @@ domains:
             tags:
               - license:oss
               - interface:ide
-          - name: Augmented Code
+          - name: Augment Code
             description: The first AI coding assistant built for professional software engineers and large codebases.
-            website_url: https://augmentedcode.com/
+            website_url: https://augmentcode.com/
             icon_url: https://cdn.prod.website-files.com/66d76c2202b335e39ad2b5e8/66f302d663108ca67c19ddbc_Favicon.png
             tags:
               - interface:plugin
-              
           - name: Cursor Tools
             description: Give Cursor Agent an AI team and advanced skills
             website_url: https://github.com/eastlondoner/cursor-tools
@@ -248,6 +301,31 @@ domains:
             icon_url: https://www.aider.chat/assets/icons/favicon-32x32.png
             tags:
               - interface:cli
+          - name: JetBrains AI Assistant
+            description: AI coding assistant integrated across all JetBrains IDEs
+            website_url: https://www.jetbrains.com/ai/
+            icon_url: https://www.jetbrains.com/favicon.ico
+            tags:
+              - interface:plugin
+          - name: Visual Studio IntelliCode
+            description: Microsoft's AI-powered code completion for Visual Studio
+            website_url: https://visualstudio.microsoft.com/services/intellicode/
+            icon_url: https://visualstudio.microsoft.com/favicon.ico
+            tags:
+              - interface:plugin
+          - name: CodeLlama VSCode
+            description: Open-source local LLM integration for VS Code
+            website_url: https://github.com/codellama/vscode-extension
+            icon_url: https://github.com/favicon.ico
+            tags:
+              - interface:plugin
+              - license:oss
+          - name: Tabnine
+            description: AI code assistant supporting multiple IDEs and privacy-focused deployment options
+            website_url: https://www.tabnine.com/
+            icon_url: https://www.tabnine.com/favicon.ico
+            tags:
+              - interface:plugin
 
       - name: Platforms
         description: Coding tools that provide a platform for development
@@ -278,7 +356,6 @@ domains:
             icon_url: https://vercel.com/favicon.ico
             tags:
               - interface:platform
-
           - name: Replit
             description: Build software, better
             website_url: https://replit.com/
@@ -395,6 +472,26 @@ domains:
               required.
             website_url: https://squillo.io/
             icon_url: https://squillo.io/favicon.ico
+          - name: Plasmic
+            description: Visual builder for React applications with code export
+            website_url: https://www.plasmic.app/
+            icon_url: https://www.plasmic.app/favicon.ico
+            tags:
+              - language:react
+          - name: Bubble
+            description: No-code platform for web applications with API integration capabilities
+            website_url: https://bubble.io/
+            icon_url: https://bubble.io/favicon.ico
+          - name: Retool
+            description: Low-code platform for building internal tools and business applications
+            website_url: https://retool.com/
+            icon_url: https://retool.com/favicon.ico
+          - name: AppSmith
+            description: Open source framework for building admin panels and internal tools
+            website_url: https://www.appsmith.com/
+            icon_url: https://www.appsmith.com/favicon.ico
+            tags:
+              - license:oss
 
   - name: Software Development Lifecycle
     description: Software Development Lifecycle
@@ -416,7 +513,6 @@ domains:
               in Seconds'
             website_url: https://specmatic.io/
             icon_url: https://specmatic.io/favicon.ico
- 
           - name: Try Nigel
             website_url: https://www.trynigel.ai/
             icon_url: https://www.trynigel.ai/favicon.ico
@@ -482,6 +578,22 @@ domains:
             description: software simulator that accelerates software teams
             website_url: https://codeyam.com/
             icon_url: https://codeyam.com/favicon.ico
+          - name: Testim
+            description: AI-powered test automation tool
+            website_url: https://www.testim.io/
+            icon_url: https://www.testim.io/favicon.ico
+          - name: Mabl
+            description: Low-code test automation with AI healing capabilities
+            website_url: https://www.mabl.com/
+            icon_url: https://www.mabl.com/favicon.ico
+          - name: TestSigma
+            description: AI-driven no-code test automation platform
+            website_url: https://testsigma.com/
+            icon_url: https://testsigma.com/favicon.ico
+          - name: Virtuoso
+            description: AI-based testing that writes and maintains tests
+            website_url: https://www.virtuoso.ai/
+            icon_url: https://www.virtuoso.ai/favicon.ico
       - name: Documentation
         description: Tools that help write and maintain documentation
         tools:
@@ -515,6 +627,22 @@ domains:
             description: "Maintaining code should be easier than writing it"
             website_url: https://dosu.dev/
             icon_url: https://dosu.dev/favicon.ico
+          - name: Mintlify
+            description: AI-powered documentation generation and management
+            website_url: https://mintlify.com/
+            icon_url: https://mintlify.com/favicon.ico
+          - name: GitBook AI
+            description: Documentation platform with AI assistance
+            website_url: https://www.gitbook.com/
+            icon_url: https://www.gitbook.com/favicon.ico
+          - name: ReadMe
+            description: API documentation with AI-powered suggestions
+            website_url: https://readme.com/
+            icon_url: https://readme.com/favicon.ico
+          - name: Doctave
+            description: Documentation site generator with AI content creation
+            website_url: https://doctave.com/
+            icon_url: https://doctave.com/favicon.ico
       - name: Code Reviews
         description: Code Reviews category 1
         tools:
@@ -540,7 +668,6 @@ domains:
     description: Tools that help with operations
     level: 2
     categories:
-
       - name: Maintenance
         description: Context Aware category 2
         tools:
@@ -551,7 +678,6 @@ domains:
               alerts or tickets.
             website_url: https://runwhen.com/
             icon_url: https://cdn.prod.website-files.com/64f9646ad0f39e9ee5c116c4/64f97d8d9f16d9a1af9296aa_Favicon.png
-
           - name: Second Dev
             description: Second Dev
             website_url: https://second.dev/
@@ -604,7 +730,6 @@ domains:
               so your team gets expert-level answers, no matter where they’re working.
             website_url: https://getunblocked.com/
             icon_url: https://getunblocked.com/favicon.ico
-
           - name: Clio
             description: "Clio is an AI-powered copilot designed to help you with DevOps-related tasks using CLI programs. It leverages OpenAI's capabilities to provide intelligent assistance directly from your command line."
             website_url: "https://github.com/gptscript-ai/clio"
@@ -624,17 +749,37 @@ domains:
             description: 'Security maintenance autopilot for application dependencies: powered
               by DockerSlim, enabled by generative AI'
             website_url: https://autonomousplane.dev/
-          - name: DeepCode
+          - name: Snyk DeepCode
             description: "the fastest, most accurate, and most intelligently prioritized SAST and AI code review tool on the market"
             website_url: https://snyk.io/platform/deepcode-ai/
             icon_url: https://snyk.io/favicon.ico
-
-
-
-
- 
- 
-
+          - name: SonarQube AI
+            description: Code quality and security with AI remediation
+            website_url: https://www.sonarqube.org/
+            icon_url: https://www.sonarqube.org/favicon.ico
+          - name: GitGuardian
+            description: AI-powered secret detection and remediation
+            website_url: https://www.gitguardian.com/
+            icon_url: https://www.gitguardian.com/favicon.ico
+          - name: CheckMarx
+            description: AI-assisted SAST and code security
+            website_url: https://checkmarx.com/
+            icon_url: https://checkmarx.com/favicon.ico
+      - name: Performance
+        description: Tools that help with performance
+        tools:
+          - name: Blackfire AI
+            description: Performance monitoring with AI insights
+            website_url: https://www.blackfire.io/
+            icon_url: https://www.blackfire.io/favicon.ico
+          - name: Rookout
+            description: Non-breaking production debugging with AI assistance
+            website_url: https://www.rookout.com/
+            icon_url: https://www.rookout.com/favicon.ico
+          - name: Datadog Code Analysis
+            description: Performance and error detection with AI recommendations
+            website_url: https://www.datadoghq.com/
+            icon_url: https://www.datadoghq.com/favicon.ico
 
   - name: Codegen Infra & Core components
     description: Core system components
