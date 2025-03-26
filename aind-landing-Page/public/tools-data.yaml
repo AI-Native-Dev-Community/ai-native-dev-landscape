@@ -160,6 +160,20 @@ domains:
       - Product
       verified: false
       website_url: https://writemyprd.com/
+  - date_added: 26/03/2025
+    description: Self-hostable intelligent cloud architecture design tool to visualize, plan, and implement cloud infrastructure using AI.
+    icon_url: https://github.com/favicon.ico
+    name: Cloud Architect AI
+    oss: true
+    popular: false
+    tags:
+    - GA
+    - Product
+    - Architecture
+    - Infrastructure
+    - Requirements
+    verified: false
+    website_url: https://github.com/Siddhant-K-code/cloud-architect-ai
   - description: Help convert design into code
     level: 2
     name: Design
