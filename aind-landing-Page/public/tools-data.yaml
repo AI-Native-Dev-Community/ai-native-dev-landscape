@@ -1303,6 +1303,52 @@ domains:
       - Code
       verified: true
       website_url: https://docs.openrewrite.org/
+    - date_added: 24/03/2025
+      description: |
+        Tern automates code migrations, cutting the effort required by 90%. By
+        combining deep search, AI-driven transformations, and small, reviewable
+        PRs, Tern finds every line of code to change, automates the fix, and
+        guides you to ship incrementally with minimal disruption. 
+      icon_url: "https://tern.sh/tern-logo-filled.png"
+      keywords:
+      - agile development
+      - AI code generation
+      - AI-assisted coding
+      - AI-assisted development
+      - API-first development
+      - backend development
+      - CI/CD
+      - code automation
+      - continuous deployment
+      - developer productivity
+      - developer tools
+      - DevOps
+      - digital transformation
+      - frontend development
+      - full-stack development
+      - migrations
+      - modernization
+      - MVP development
+      - product-led growth
+      - refactoring
+      - scalability
+      - software automation
+      - software development
+      - tech startups
+      - workflow automation
+      name: Tern
+      oss: false
+      popular: false
+      tags:
+      - OSS
+      - Prototyping
+      - Verified
+      - Code
+      - Terminal
+      - Migration
+      - SaaS
+      verified: true
+      website_url: "https://tern.sh"
   - description: Collections of prompts and generating prompts
     level: 8
     name: Prompting
