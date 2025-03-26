@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 .gitok
 .gitsigned
+
+.DS_Store

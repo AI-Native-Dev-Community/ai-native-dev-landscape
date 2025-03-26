@@ -1392,6 +1392,19 @@ domains:
       - Code
       verified: false
       website_url: https://github.gg/
+    - date_added: 03/26/2025
+      description: Turn any GitHub repository into an interactive diagram for visualization.
+      icon_url: https://gitdiagram.com/favicon.ico
+      name: GitDiagram
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Documentation
+      - Code
+      verified: false
+      website_url: https://github.gg/
     - date_added: 24/03/2025
       description: 'Level up your prompts
 
@@ -1674,6 +1687,7 @@ domains:
       - GA
       - Testing
       - Quality Assurance
+      - Review
       verified: true
       website_url: https://qodo.ai/
     - date_added: 24/03/2025
@@ -1902,6 +1916,38 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.greptile.com/
+    - date_added: 26/03/2025
+      description: 'Bito brings contextual awareness to each review, offering insights just like a senior engineer.
+
+        Supports GitHub cloud, GitHub Enterprise (self-hosted), GitLab cloud, GitLab (self-hosted), and Bitbucket cloud. AzureDevOps coming soon.
+
+        Suggestions and code fixes at the line level and inline. Accept suggestions with 1 click.'
+      icon_url: https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg
+      name: Bito
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://bito.ai/
+    - date_added: 26/03/2025
+      description: 'Sourcery is an AI code reviewer that finds bugs, improves quality, and shares knowledge. 
+
+        Get instant, actionable feedback across 30+ languages in GitHub, GitLab, or your IDE.
+
+        Get in-line code suggestions and improvements on every PR.'
+      icon_url: https://avatars.githubusercontent.com/u/36609879?s=200&v=4
+      name: Sourcery
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://sourcery.ai/
   - description: Help with mananging documentation
     level: 14
     name: Documentation
