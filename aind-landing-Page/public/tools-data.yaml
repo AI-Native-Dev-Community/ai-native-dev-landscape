@@ -897,6 +897,19 @@ domains:
       - Code
       verified: false
       website_url: https://githubnext.com/projects/copilot-workspace
+      - date_added: 26/03/2025
+      description: A next-generation code editor designed for high-performance 
+        collaboration with humans and AI.
+      icon_url: https://zed.dev/favicon_black_64.png
+      name: Zed
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://zed.dev/
     - date_added: 12/03/2025
       description: The AI Code Editor. Built to make you extraordinarily productive,
         Cursor is the best way to code with AI.
