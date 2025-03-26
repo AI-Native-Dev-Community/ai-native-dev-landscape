@@ -1260,6 +1260,20 @@ domains:
       - Code
       verified: false
       website_url: https://learn.castsoftware.com/ai-assisted-code-transformation
+    - date_added: 26/03/2025
+      description: Legacy modernization technology company that applies AI-enhanced tools 
+        and disciplined methods to continuously modernize, operate, and innovate on 
+        critical business applications, especially those on mainframes.
+      icon_url: https://cdn.prod.website-files.com/6582d7e2f6a63e5e80e6d1b8/65ccf821ffc51234af225ec3_favicon-MO.ico
+      name: Mechanical Orchard
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Migration
+      - Code
+      verified: false
+      website_url: https://www.mechanical-orchard.com/
     - date_added: 12/03/2025
       description: 'Easily migrate your codebase from one framework or language to
         another. '
