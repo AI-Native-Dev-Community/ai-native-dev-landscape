@@ -1912,6 +1912,18 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.ellipsis.dev/
+    - date_added: 26/03/2025
+      description: Save hours on every pull request with immediate, actionable feedback.
+      icon_url: https://graphite.dev/favicon/apple-touch-icon.png
+      name: Graphite
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://graphite.dev/
     - date_added: 24/03/2025
       description: 'The AI Code Review Bot
 
