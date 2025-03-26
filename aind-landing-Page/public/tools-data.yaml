@@ -2599,6 +2599,28 @@ domains:
       - DevSecOps
       verified: false
       website_url: https://snyk.io/solutions/secure-ai-generated-code/
+    - date_added: 26/03/2025
+      description: "Corgea helps developers ship code quickly without compromising security.\
+        \ By combining advanced LLMs and deep code analysis, Corgea deeply understands your codebase,\
+        \ detecting and automatically fixing previously undetectable vulnerabilities like business logic flaws,\
+        \ broken authentication, and API security issues—all while significantly reducing false positives.\
+        \ It integrates seamlessly into your workflow, reviewing code directly during pull requests or even within your IDE."
+      icon_url: https://framerusercontent.com/images/CXMvm4EO18HFIwmMLtdSK0qIvyA.png
+      name: Corgea
+      oss: false
+      popular: false
+      tags:
+      - SAST
+      - Contextual Security Analysis
+      - AppSec
+      - ProdSec
+      - Application Security
+      - Software Security
+      - Product Security
+      - DevSecOps
+      - DevOps
+      verified: false
+      website_url: https://corgea.com
   - description: Check compliance and regulations
     level: 19
     name: Compliance
