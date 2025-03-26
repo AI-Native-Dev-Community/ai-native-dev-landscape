@@ -460,6 +460,18 @@ domains:
       verified: false
       website_url: https://github.com/stackblitz-labs/bolt.diy
     - date_added: 12/03/2025
+      description: Build anything in any stack, with just natural language, on your desktop.
+      icon_url: 
+      name: Memex
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://memex.tech/
+    - date_added: 12/03/2025
       description: Every team can use Claude to create high-quality work products
         faster than ever before. From code snippets and flowcharts to SVG graphics,
         websites, and interactive dashboards, Artifacts help bring your ideas and
