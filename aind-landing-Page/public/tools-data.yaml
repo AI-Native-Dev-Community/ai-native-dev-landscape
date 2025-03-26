@@ -2490,6 +2490,21 @@ domains:
     level: 17
     name: Observability
     tools:
+    - date_added: 26/03/2025
+      description: '
+        Future-proof your observability. 
+        
+
+        Eliminate the need for multiple tools. Logfire offers native AI integrations—from LLM API calls to agent frameworks—plus comprehensive observability for any workload, AI or not.'
+      icon_url: https://avatars.githubusercontent.com/u/110818415?s=200&v=4
+      name: Pydantic Logfire
+      oss: false
+      popular: false
+      tags:
+        - GA
+        - Observability
+      verified: false
+      website_url: https://pydantic.dev/logfire
     - date_added: 24/03/2025
       description: 'Upgrade your company''s system monitoring in minutes
 
