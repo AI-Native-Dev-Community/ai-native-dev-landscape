@@ -1545,6 +1545,18 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://codeyam.com/
+    - date_added: 26/03/2025
+      description: Meticulous monitors your daily interactions with your application as you develop it.
+      icon_url: https://cdn.prod.website-files.com/65310f49fd3cda9049c4e065/65365f72329742981f9b95b7_favicon.png
+      name: Meticulous
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.meticulous.ai/
     - date_added: 12/03/2025
       description: Test Gru delivers enterprise-grade unit test automation services,
         empowering you to achieve superior test coverage. Harness the expertise of
