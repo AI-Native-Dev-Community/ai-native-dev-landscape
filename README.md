@@ -1,6 +1,6 @@
 # AI Native Dev Landscape - Data
 ## Introduction
-The AI Native Dev Landscape is a project by [AI Native Dev](https://ainativedev.io) to help developers keep track of the AI tools and technologies that are available. It is a community curated list and we welcome contributions.
+The AI Native Dev Landscape is a project by [AI Native Dev](https://ainativedev.io) to help developers keep track of the AI tools and technologies that are available. It is a community-curated list and we welcome contributions.
 
 This repository contains the data that powers the [https://landscape.ainativedev.io](https://landscape.ainativedev.io) website.
 
@@ -8,7 +8,7 @@ This repository contains the data that powers the [https://landscape.ainativedev
 - The whole dataset is referred to as `Landscape`.
 - The landscape consists of different `Domains`.
 - Each domain has multiple `Categories`.
-- And under categories we have `Tools`
+- And under categories we have `Tools`.
 
 ## Contributing to the Landscape
 ### Data
