@@ -2483,6 +2483,18 @@ domains:
       website_url: 'https://incident.io
 
         '
+    - date_added: 27/03/2025
+      description: "AI-powered on-call and incident response. Trusted by leading companies like NVIDIA, Squarespace, Canva, Figma, and more."
+      icon_url: https://cdn.prod.website-files.com/65eb28a668c15a253c5417a6/673df98239ce27792825c9be_256%20x%20256.png
+      name: Rootly
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: true
+      website_url: https://rootly.com
     - date_added: 12/03/2025
       description: 'With Kubiya, the Agent Platform handles every dependency and every
         layer, seamlessly integrating with your environments, infrastructure, and
