@@ -2672,6 +2672,34 @@ domains:
       - DevOps
       verified: false
       website_url: https://getunblocked.com/
+    - date_added: 27/03/2025
+      description: 'Your 24/7 On-Call AI Agent - Solve Alerts Faster with Automatic Correlations, Investigations, and More'
+      icon_url: https://raw.githubusercontent.com/robusta-dev/holmesgpt/refs/heads/master/images/logo.png
+      name: HolmesGPT
+      oss: true
+      popular: true
+      social_urls:
+      - https://x.com/RobustaDev
+      - https://www.linkedin.com/company/robusta-dev/
+      keywords:
+      - DevOps Agent
+      - SRE copilot
+      - developer productivity
+      - MTTR
+      - DevOps automation
+      - Prometheus
+      - Victoria Metrics
+      - root cause
+      - on call
+      - alerts
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      - K8s
+      - Kubernetes
+      verified: true
+      website_url: https://github.com/robusta-dev/holmesgpt
   - description: Monitoring and observability tools
     level: 17
     name: Observability
