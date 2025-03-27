@@ -1,0 +1,9 @@
+extends: default
+
+rules:
+  document-start: disable
+  empty-values: enable
+  float-values: enable
+  indentation: disable
+  line-length: disable
+  octal-values: enable

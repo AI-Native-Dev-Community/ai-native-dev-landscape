@@ -1,0 +1,12 @@
+name: Yaml Lint
+on: [push]
+jobs:
+  yaml-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run yaml-lint
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: aind-landing-Page/public/tools-data.yaml .github/workflows/*.yml .yamllint.yml
+          config_file: .yamllint.yml
