@@ -2923,6 +2923,28 @@ domains:
       - DevSecOps
       verified: true
       website_url: https://app.dryrun.security
+    - date_added: 27/03/2025
+      description: "Endor Labs graphs your entire application—including AI models, proprietary code,\
+        \ open source dependencies, containers, and CI/CD workflows—to deliver precise,\
+        \ prioritized risk insights. By combining multiple AI agents, deep program analysis,\
+        \ and rich security data, it surfaces and helps fix the most critical issues across\
+        \ your stack—whether code written by humans or AI."
+      icon_url: https://cdn.prod.website-files.com/656eaf5c6da3527caf362363/656ecc07555afac40df4c40e_Facicon.png
+      name: Endor Labs
+      oss: false
+      beta: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/endorlabs
+      - https://twitter.com/EndorLabs
+      - https://www.youtube.com/@endorlabs
+      tags:
+      - Verified
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: true
+      website_url: https://www.endorlabs.com/
     - date_added: 12/03/2025
       description: Meet Your New AI AppSec Engineer. Get all of the insights from
         static analysis, and none of the noise.
@@ -3454,5 +3476,3 @@ domains:
       website_url: https://pydantic.dev/logfire
   description: AIE related
   level: 6
-  name: AIE
-
