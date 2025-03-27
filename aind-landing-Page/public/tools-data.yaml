@@ -1604,6 +1604,18 @@ domains:
     level: 12
     name: Testing
     tools:
+    - date_added: 03/27/2025
+      description: 52% of developers say testing is their major blocker to release. Quickly unblock your team with TestDriver's Computer-Use AI QA Agents.
+      icon_url: https://app.testdriver.ai/images/icon_3@3x.png
+      name: TestDriver
+      oss: true
+      popular: true
+      tags:
+      - Quality Assurance
+      - Computer-Use
+      - Agent
+      verified: true
+      website_url: https://testdriver.ai
     - date_added: 12/03/2025
       description: Software simulator that accelerates software teams.
       icon_url: https://codeyam.com/favicon.ico
