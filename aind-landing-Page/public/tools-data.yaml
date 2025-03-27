@@ -1836,6 +1836,20 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://ventrilo.ai/
+    - date_added: 27/03/2025
+      description: Making AI safe, secure and resilient with automatic verification and robustification
+      icon_url: https://media.licdn.com/dms/image/v2/C4E0BAQEURgYbDM7PzA/company-logo_200_200/company-logo_200_200/0/1653492218983/safe_intelligence_logo?e=1748476800&v=beta&t=JKFdQ4XqoAeiABShNSvlhYP3uXNDPCdgIPDsLzVOpNo
+      name: Safe Intelligence
+      oss: false
+      popular: false
+      tags:
+      - Formal Verification
+      - Automatic Verification
+      - Robustification
+      - Testing
+      - QA
+      verified: false
+      website_url: https://safeintelligence.ai/
   - description: Review and asses generated code
     level: 13
     name: Review
