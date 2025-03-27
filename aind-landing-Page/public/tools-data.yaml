@@ -2801,6 +2801,23 @@ domains:
       - DevOps
       verified: false
       website_url: https://getunblocked.com/
+    - date_added: 27/03/2025
+      description: "Hawkeye, built by NeuBird, is an artificial intelligence\ IT operations\
+        \ engineer. It uses GenAI to monitor and analyze the constant flow of data from IT\
+        \ systems, which is often too much for engineers to handle quickly. \
+        \ When an issue arises, Hawkeye detects it, understands what caused it, and provides\
+        \ a solution in real time. This allows DevOps/IT teams to respond to problems much\
+        \ faster without needing to manually review complex data logs or multiple tools."
+      icon_url: https://neubird.ai/wp-content/uploads/2024/04/Favicon.png
+      name: NeuBird Hawkeye
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://neubird.ai/
   - description: Monitoring and observability tools
     level: 17
     name: Observability
