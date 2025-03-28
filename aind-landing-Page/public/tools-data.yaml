@@ -2953,6 +2953,30 @@ domains:
       - DevSecOps
       verified: false
       website_url: https://snyk.io/solutions/secure-ai-generated-code/
+    - date_added: 27/03/2025
+      description: "Arnica\u2019s behavior-based platform for application security provides\
+        \ users with the first comprehensive pipelineless application security approach\
+        \ which, in real-time, identifies and prevents risks in your software by utilizing\
+        \ concepts of ChatOps and Platform Engineering.\n\nThe platform commoditizes full\
+        \ risk visibility (e.g. git posture, secrets, SAST, SCA, IaC, licenses, low\
+        \ package reputation), prioritization and ownership classification in a free\
+        \ forever package.\n\nBy utilizing the pipelineless approach, 78% of all issues\
+        \ flagged to developers are addressed before the code review stage. A contributor\
+        \ to this data point is the AI code suggestion on SAST and IaC findings, which is\
+        \ designed to validate the fix as part of the suggestion generation and provide a\
+        \ short explaination why the generated code fixes the vulnerable code."
+      icon_url: https://avatars.githubusercontent.com/u/82189482
+      name: Arnica
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/arnica-io
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://www.arnica.io/
   - description: Check compliance and regulations
     level: 19
     name: Compliance
