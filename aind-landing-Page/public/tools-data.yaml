@@ -3452,6 +3452,18 @@ domains:
       - AIE
       verified: false
       website_url: https://pydantic.dev/logfire
+    - date_added: 28/03/2025
+      description: "Unified Observability and Evaluation Platform for AI"
+      icon_url: 'https://www.arize.com/favicon.ico'
+      name: Arize AI
+      oss: true
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - AIE
+      verified: false
+      website_url: https://arize.com/
   description: AIE related
   level: 6
   name: AIE
