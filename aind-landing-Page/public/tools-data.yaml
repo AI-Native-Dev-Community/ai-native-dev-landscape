@@ -2505,7 +2505,7 @@ domains:
       website_url: https://anyshift.io
     - date_added: 12/03/2025
       description: Cleric is an AI SRE teammate that helps software engineering quickly
-        diagnose production alerts. It autonomously executes diagnostic commands usig
+        diagnose production alerts. It autonomously executes diagnostic commands using
         your stack (Datadog, Kubernetes, Grafana, etc) to surface evidence based findings,
         just like an experienced engineer. It continuously improves by building a knowledge base
         of past investigations and engineering feedback.
