@@ -2053,6 +2053,27 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://bito.ai/
+    - date_added: 30/03/2025
+      description: 'AI Code Review Platform
+
+        
+        Understands your entire codebase and provides one-click fixes for code quality & security issues.
+
+        
+        Supports GitHub, BitBucket, GitLab(Cloud & Self-Hosted), Azure DevOps(Cloud & Self-Hosted)
+        
+        
+        Supports all languages, integrates with IDEs and CI/CD tools(Jenkins, etc).'
+      icon_url: https://avatars.githubusercontent.com/u/151810221?s=96&v=4
+      name: CodeAnt AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://www.codeant.ai/   
     - date_added: 24/03/2025
       description: 'Cut Code Review Time & Bugs in Half
 
