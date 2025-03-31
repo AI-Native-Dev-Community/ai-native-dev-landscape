@@ -3725,6 +3725,19 @@ domains:
       - AIE
       verified: false
       website_url: https://www.skyvern.com/
+      - date_added: 31/03/2025
+      description: 'Integrate external apps using function calling with connectors that deeply understand the underlying systems. We provide the UI, flow, and securely manage API keys and access tokens. Works with all LLMs and agentic frameworks.'
+      icon_url: https://framerusercontent.com/images/NX5IIq05l8xGvP5MuaAQ2xZliB8.svg
+      name: Superface
+      oss: false
+      popular: false
+      tags:
+      - MCP
+      - Autonomous Agent
+      - GA
+      - AIE
+      verified: false
+      website_url: https://superface.ai
   description: AIE related
   level: 6
   name: AIE
