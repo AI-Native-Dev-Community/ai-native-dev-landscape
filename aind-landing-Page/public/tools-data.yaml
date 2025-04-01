@@ -20,6 +20,18 @@ domains:
       - Product
       verified: false
       website_url: https://github.com/cbora/aispec
+    - date_added: 01/04/2025
+      description: Your AI Program Manager that gives Engineering and Product teams visibility into goals, roadmap cost and ROI, initiative progress, and risks throughout the product lifecycle.
+      icon_url: https://withluna.ai/assets/images/luna-logo-rgb.png
+      name: Luna AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://withluna.ai/
     - date_added: 12/03/2025
       description: 'Carrot: Simplifying and Enhancing PRD Creation'
       icon_url: ''
