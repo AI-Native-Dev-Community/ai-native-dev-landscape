@@ -1573,6 +1573,19 @@ domains:
       - Code
       verified: false
       website_url: https://uithub.com/
+    - date_added: 01/04/2025
+      description: Automatable GenAI using JavaScript.
+      icon_url: https://microsoft.github.io/genaiscript/images/logo.png
+      name: GenAIScript
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://microsoft.github.io/genaiscript/
   - description: Driving the code generation with specifications only
     level: 9
     name: Spec Driven
