@@ -3945,6 +3945,20 @@ domains:
       - AIE
       verified: false
       website_url: https://www.traceloop.com/
+    - date_added: 05/04/2025
+      description: "Orq.ai is the #1 AI engineering platform for product teams. \
+        \ Control GenAI at scale. No blind spots – no vibe checks."
+      icon_url: https://cdn.brandfetch.io/idtBhDRr2x/theme/dark/idHU0tpP2L.svg?c=1bxid64Mup7aczewSAYMX&t=1724528854349
+      name: Orq.ai
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - AIE
+      - Prompting
+      verified: false
+      website_url: https://orq.ai/
   - description: MCP tools
     level: 24
     name: MCP
