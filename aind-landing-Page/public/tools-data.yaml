@@ -4118,6 +4118,22 @@ domains:
       - AIE
       verified: false
       website_url: https://superface.ai/
+    - date_added: 05/04/2025
+      description: Automaticall offers AI-powered phone call widgets for SMBs to embed
+        on their websites. These widgets let site visitors initiate real-time voice conversations,
+        improving customer engagement and conversions, while providing insights through interaction data.
+      icon_url: https://automaticall.io/favicon.ico
+      name: Automaticall
+      oss: false
+      popular: false
+      tags:
+      - Voice
+      - Widget
+      - Customer Engagement
+      - AI agent
+      - Sales
+      verified: false
+      website_url: https://automaticall.io/
   description: AIE related
   level: 6
   name: AIE
