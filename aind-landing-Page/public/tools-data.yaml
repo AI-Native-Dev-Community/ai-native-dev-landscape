@@ -1462,6 +1462,18 @@ domains:
       - Code
       verified: false
       website_url: https://zed.dev
+    - date_added: 06/04/2025
+      description: Combines static analysis with AI to give coding tools deeper understanding of code behavior. Provides a semantic understanding layer for AI coding tools to help them make better decisions by providing deeper context.
+      icon_url: ''
+      name: Nuanced
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.nuanced.dev/
   - description: Specialized in Frontend and Mobile code generation
     level: 6
     name: Frontend & Mobile
@@ -2097,6 +2109,18 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://ventrilo.ai/
+    - date_added: 06/04/2025
+      description: AI-powered tool for generating unit and integration tests. Helps engineering teams increase code coverage and prevent regressions with automated test generation that runs in CI/CD pipelines. Creates happy path and edge case tests with one-click commit to PRs and self-healing capabilities.
+      icon_url: ''
+      name: Tusk
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.usetusk.ai/
   - description: Review and asses generated code
     level: 13
     name: Review
