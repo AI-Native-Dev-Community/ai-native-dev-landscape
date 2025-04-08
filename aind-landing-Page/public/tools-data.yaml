@@ -22,7 +22,7 @@ domains:
       website_url: https://github.com/cbora/aispec
     - date_added: 01/04/2025
       description: Your AI Program Manager that gives Engineering and Product teams visibility into goals, roadmap cost and ROI, initiative progress, and risks throughout the product lifecycle.
-      icon_url: https://withluna.ai/assets/images/luna-logo-rgb.png
+      icon_url: https://storage.googleapis.com/assets.withluna.ai/luna-logo-blue-background.png
       name: Luna AI
       oss: false
       popular: false
