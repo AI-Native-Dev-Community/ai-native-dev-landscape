@@ -4046,6 +4046,21 @@ domains:
       - AIE
       verified: false
       website_url: https://www.traceloop.com/
+    - date_added: 04/15/2024
+      description: 'An end-to-end, autonomous remediation platform designed to troubleshoot incidents and application-level issues in real time. 
+        From the moment a ticket is created, the system intelligently traces the issue through the software development lifecycle (SDLC), 
+        automatically analyzing telemetry and context to pinpoint the exact line of code responsible—directly within the developer's IDE. '
+      icon_url: https://plugins.jetbrains.com/files/16477/709665/icon/default.svg
+      name: Lightrun
+      oss: false
+      popular: true
+      tags:
+      - Remediation
+      - Debugging
+      - Observability
+      - Production
+      verified: false
+      website_url: https://lightrun.com/
   - description: MCP tools
     level: 24
     name: MCP
