@@ -2845,12 +2845,12 @@ domains:
       icon_url: https://gepetto.sh/gepetto_logo.png
       name: Gepetto
       oss: true
-      popular: true
+      popular: false
       tags:
       - Autonomous Agent
       - OSS
       - Quality Assurance
-      verified: false
+      verified: true
       website_url: https://gepetto.sh/      
     - date_added: 12/03/2025
       description: Documentation platform with AI assistance.
