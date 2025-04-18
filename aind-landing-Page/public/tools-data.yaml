@@ -2838,6 +2838,20 @@ domains:
       - Quality Assurance
       verified: true
       website_url: https://firstmate.io/
+- date_added: 18/04/2025
+      description: Gepetto is a CLI Tools operator for automating QA/DevOps tasks. The Operator\
+      controls its own browser or any other tool provided over MCP to autonomously execute tasks.\
+      Reports are generated in junit-XML for easy CI/CD integration.
+      icon_url: https://gepetto.sh/gepetto_logo.png
+      name: Gepetto
+      oss: true
+      popular: true
+      tags:
+      - Autonomous Agent
+      - OSS
+      - Quality Assurance
+      verified: false
+      website_url: https://gepetto.sh/      
     - date_added: 12/03/2025
       description: Documentation platform with AI assistance.
       icon_url: https://media.theresanaiforthat.com/icons/gitbook.svg?width=100
