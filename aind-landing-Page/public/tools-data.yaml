@@ -4,6 +4,22 @@ domains:
     level: 1
     name: Requirements
     tools:
+    - date_added: 23/04/2025
+      description: 'AI coach who helps product teams write clear, complete planning documents directly in Confluence.
+      
+        Guides users through idea validation, PRD creation, and implementation planning by asking thoughtful, context-aware questions. As a result, teams avoid rework, and bring the right product to market faster.'
+      icon_url: https://wisary.ai/wp-content/uploads/2025/02/cropped-Wisary-Logo-Filled-Small.png
+      name: Wisary
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      - Knowledge sharing
+      - Documentation
+      verified: false
+      website_url: https://wisary.ai/
     - date_added: 12/03/2025
       description: A specification language for AI-first development that shifts focus
         from implementation to intent through structured solution space reduction.
