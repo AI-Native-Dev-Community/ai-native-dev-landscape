@@ -4642,9 +4642,9 @@ domains:
       - AIE
       verified: false
       website_url: https://superface.ai/
-  - description: LLM Proxy and  Routers
+  - description: LLM Gateways, Routers and Proxies
     level: 26
-    name: Proxy
+    name: Gateways
     tools:
     - date_added: 25/04/2025
       description: "Frosty AI is a multi-LLM routing and observability platform built\
