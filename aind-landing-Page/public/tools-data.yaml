@@ -4662,6 +4662,23 @@ domains:
       - AIE
       verified: false
       website_url: https://www.gofrosty.ai/
+    - date_added: 25/04/2025
+      description: "Requesty is an LLM Gateway that functions as an intelligent\
+        \ middleware for all your LLM needs.\
+        \ In less than 5 minutes, integrate with 200+ LLM providers using\
+        \ a single API key, and get logging, telemetry, observability,\
+        \ prompt management, security, unified billing, smart routing and more."
+      icon_url: https://app.requesty.ai/icon.png
+      name: Requesty
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Gateway
+      - LLM Infra
+      - AIE
+      verified: false
+      website_url: https://requesty.ai/
   description: AI Engineering related
   level: 6
   name: AIE
