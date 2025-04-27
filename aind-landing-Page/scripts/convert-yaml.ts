@@ -56,16 +56,13 @@ try {
   // Convert to CSV
   const csvRows = [];
   
-  // Add CSV header row with base columns
-  const baseColumns = [
+  // Add CSV header row
+  const csvHeader = [
     "Domain Name", "Domain Level", "Domain Description",
     "Category Name", "Category Level", "Category Description",
     "Tool Name", "Date Added", "Description", "Icon URL", "Website URL",
     "OSS", "Popular", "Verified", "Tags", "Keywords", "Social URLs"
   ];
-  
-  // Add a column for each tag
-  const csvHeader = [...baseColumns, ...sortedTags];
   csvRows.push(csvHeader.join(","));
 
   // Process each domain, category, and tool to create CSV rows
@@ -73,8 +70,7 @@ try {
     domain.categories.forEach((category: any) => {
       if (category.tools && Array.isArray(category.tools)) {
         category.tools.forEach((tool: any) => {
-          // Create base columns
-          const baseRow = [
+          const csvRow = [
             // Domain info
             `"${escapeCSV(domain.name)}"`,
             domain.level,
@@ -96,13 +92,6 @@ try {
             `"${escapeCSV(tool.keywords ? tool.keywords.join(';') : '')}"`,
             `"${escapeCSV(tool.social_urls ? tool.social_urls.join(';') : '')}"`,
           ];
-          
-          // Add boolean values for each tag
-          const toolTags = tool.tags || [];
-          const tagColumns = sortedTags.map(tag => toolTags.includes(tag));
-          
-          // Combine base columns and tag columns
-          const csvRow = [...baseRow, ...tagColumns];
           csvRows.push(csvRow.join(","));
         });
       }

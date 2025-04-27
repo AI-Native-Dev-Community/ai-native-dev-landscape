@@ -643,12 +643,24 @@ domains:
       - Product
       verified: false
       website_url: https://githubnext.com/projects/github-spark/
+    - date_added: 27/04/2025
+      name: Gumloop
+      description: 'Automate any workflow with AI. No coding required.'
+      icon_url: https://www.gumloop.com/images/gumloop_logo.svg
+      keywords:
+      - AI code generation
+      - workflow automation
+      oss: false
+      popular: false
+      website_url: https://www.gumloop.com/
+      social_urls:
+      - https://x.com/gumloop_ai
+      - https://www.linkedin.com/company/gumloop/
     - date_added: 12/03/2025
       description: AI-powered platform that enables users of any skill level to create
         full-stack web applications without requiring coding expertise by simply describing
         what they want in plain English. Instead of hiring developers, users can generate
         web apps or websites instantly.
-      icon_url: https://pbs.twimg.com/profile_images/1866804521571155968/K_9D7fXF_400x400.jpg
       keywords:
       - AI code generation
       - low-code
@@ -829,6 +841,32 @@ domains:
       - Code
       verified: false
       website_url: https://devin.ai/
+    - date_added: 27/04/2025
+      description: Engine is your remote AI software engineer. Engine works without supervision to turn issues into pull requests.
+      icon_url: https://cdn.prod.website-files.com/67444354a89d119074bf9e01/67f51c6225fcc389b631b7e3_logo-black.svg
+      name: Engine
+      oss: false
+      popular: false
+      tags:
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://www.enginelabs.ai/
+      social_urls:
+      - https://x.com/enginelabsai
+    - date_added: 27/04/2025
+      description: 'Maestro represents a new paradigm in software engineering. An intelligent agent, harmonizing all aspects of the development process with efficiency and precision. Maestro propels you towards your goals, bridging strategy and execution autonomously, all while keeping you in control.'
+      name: iGent Maestro
+      oss: false
+      popular: false
+      tags:
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://igent.ai/
+      social_urls:
+      - https://x.com/igent_ai
+      - https://www.linkedin.com/company/igent/
     - date_added: 12/03/2025
       description: "OpenHands (formerly OpenDevin), a platform for software development\
         \ agents powered by AI. OpenHands agents can do anything a human developer\
@@ -869,9 +907,7 @@ domains:
         responses from Amazon Q within your terminal environment. It also adds IDE-style
         completions to hundreds of popular CLIs like git, npm, docker, and aws. When
         you start typing in the CLI, and Amazon Q suggests contextually relevant subcommands,
-        options, and arguments.
-
-        '
+        options, and arguments.'
       icon_url: https://d1.awsstatic.com/getting-started-guides/learning/amazon-q/icon_amazon-q.a5c38564734b6e9f611e9599eb271142389313a4.png
       name: Amazon Q Developer CLI
       oss: true
@@ -1439,6 +1475,8 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/RooVetGit/Roo-Code
+      social_urls:
+      - https://x.com/roo_code
     - date_added: 24/03/2025
       description: Our flagship agent, Runner H, will be available in private beta
         on our platform. It allows, through simple natural language commands, automatic
@@ -2428,7 +2466,7 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://ventrilo.ai/
-  - description: Review and asses generated code
+  - description: Review and assess generated code
     level: 13
     name: Review
     tools:
