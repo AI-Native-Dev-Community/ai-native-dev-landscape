@@ -661,6 +661,7 @@ domains:
         full-stack web applications without requiring coding expertise by simply describing
         what they want in plain English. Instead of hiring developers, users can generate
         web apps or websites instantly.
+      icon_url: https://pbs.twimg.com/profile_images/1866804521571155968/K_9D7fXF_400x400.jpg
       keywords:
       - AI code generation
       - low-code

@@ -30,29 +30,6 @@ try {
   console.log(`YAML file: ${yamlFilePath}`);
   console.log(`JSON file: ${jsonFilePath}`);
 
-  // Collect all tags from all tools
-  const allTags = new Set<string>();
-  
-  // Process each domain, category, and tool to collect all tags
-  jsonData.domains.forEach((domain: any) => {
-    domain.categories.forEach((category: any) => {
-      if (category.tools && Array.isArray(category.tools)) {
-        category.tools.forEach((tool: any) => {
-          if (tool.tags && Array.isArray(tool.tags)) {
-            tool.tags.forEach((tag: string) => {
-              allTags.add(tag);
-            });
-          }
-        });
-      }
-    });
-  });
-  
-  // Convert to sorted array
-  const sortedTags = Array.from(allTags).sort();
-  
-  console.log(`Found ${sortedTags.length} unique tags`);
-  
   // Convert to CSV
   const csvRows = [];
   
