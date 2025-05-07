@@ -3488,6 +3488,19 @@ domains:
       - DevOps
       verified: false
       website_url: https://phoebe.ai/
+    - date_added: 07/05/2025
+      description: 'AI‑Powered Production Engineer / SRE - Reducing MTTR with AI-driven triage and root cause analysis. 
+        Velocity surfaces the right context — logs, metrics, runbooks, dashboards and more, in one place so engineers can triage and resolve incidents faster.'
+      icon_url: https://cdn.prod.website-files.com/66b46d77aa783eb77179e8d9/66b471ca812b93f192b52282_Velocity%20Logo.svg
+      name: Velocity
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://velocity.tech/
     - date_added: 24/03/2025
       description: 'Your AI Production Engineer
 
