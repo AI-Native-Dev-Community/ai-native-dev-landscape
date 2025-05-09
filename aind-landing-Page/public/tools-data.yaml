@@ -4,6 +4,19 @@ domains:
     level: 1
     name: Requirements
     tools:
+    - date_added: 04/05/2025
+      description: Create MVPs with AI in seconds. The world's first open-source, AI-powered PRD (Product Requirement Document), Technical Specs, and Flowcharts creator designed to bridge the gap between your vision and functional code.
+      icon_url: 'https://createmvps.app/logo.png'
+      name: CreateMVP
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Requirements
+      - Product
+      verified: true
+      website_url: https://createmvps.app/
     - date_added: 12/03/2025
       description: A specification language for AI-first development that shifts focus
         from implementation to intent through structured solution space reduction.
