@@ -3700,7 +3700,7 @@ domains:
     tools:
     - date_added: 21/05/2025
       description: "Software engineering intelligence platform that collects\
-        \ qualititative and quantitative data from your engineers and tools to\
+        \ qualitative and quantitative data from your engineers and tools to\
         \ understand the impact of various drivers, including GenAI impact, on\
         \ developer productivity. Built by the researchers behind DORA and SPACE\
         \ framework."
