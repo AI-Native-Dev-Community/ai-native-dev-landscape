@@ -4111,9 +4111,9 @@ domains:
       verified: true
       website_url: https://www.cloudgeni.ai
     - date_added: 27/05/2025
-      description: The Port IO MCP server simplifies catalog management, enabling developers and AI apps to automate processes, analyze scorecards, and create compliance-friendly resources with natural language interactions.
+      description: Port is an AI-native developer portal that offers AI agents and an MCP server to build your software catalog, enable self-service actions, and connect directly to your IDE for smooth workflows.
       icon_url: https://github.com/port-labs/port-mcp-server/blob/add-port-logo/assets/port_symbol_white.svg
-      name: Port IO MCP
+      name: Port IO
       oss: true
       popular: false
       tags:
@@ -4123,7 +4123,7 @@ domains:
       - DevOps
       - Developer Portal
       verified: false
-      website_url: https://github.com/port-labs/port-mcp-server
+      website_url: https://www.port.io
   description: DevSecOps related
   level: 5
   name: DevSecOps
