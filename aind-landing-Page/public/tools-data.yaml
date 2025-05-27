@@ -4110,6 +4110,20 @@ domains:
       - DevSecOps
       verified: true
       website_url: https://www.cloudgeni.ai
+    - date_added: 27/05/2025
+      description: The Port IO MCP server simplifies catalog management, enabling developers and AI apps to automate processes, analyze scorecards, and create compliance-friendly resources with natural language interactions.
+      icon_url: https://github.com/port-labs/port-mcp-server/blob/add-port-logo/assets/port_symbol_white.svg
+      name: Port IO MCP
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Catalog
+      - DevOps
+      - Developer Portal
+      verified: false
+      website_url: https://github.com/port-labs/port-mcp-server
   description: DevSecOps related
   level: 5
   name: DevSecOps
