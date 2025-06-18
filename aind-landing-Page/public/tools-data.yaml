@@ -4021,6 +4021,21 @@ domains:
     level: 17
     name: Observability
     tools:
+    - date_added: 19/06/2025
+      description: Aiden is an Agentic, GenAI-powered DevOps CoPilot designed to streamline workflows, automate repetitive tasks, and answer infrastructure and DevOps-related questions. By learning from your setup, Aiden enhances your team’s productivity and efficiency.
+      icon_url: https://aiden.opsverse.io/images/aidenLogo.png
+      name: Aiden
+      oss: false
+      beta: false
+      popular: true
+      tags:
+      - Verified
+      - GA
+      - Observability
+      - SRE
+      - DevOps
+      verified: true
+      website_url: https://opsverse.io/aiden/
     - date_added: 23/05/2025
       description: Software engineering intelligence platform that collects qualitative
         and quantitative data from your engineers and tools to understand the impact
