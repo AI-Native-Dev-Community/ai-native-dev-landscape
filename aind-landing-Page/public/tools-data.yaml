@@ -2121,6 +2121,21 @@ domains:
       - Code
       verified: false
       website_url: https://tern.sh
+    - date_added: 19/06/2025
+      description: 'Morph is an AI-native code migration platform that helps engineering teams scale productivity 100x 
+      by redefining migrations as incremental, reproducible steps. Users can flexibly scope changes with powerful slicing, 
+      apply modifications using targeted LLM prompts or their favorite tools, and automate changes across multiple repositories 
+      — all with full visibility and control.'
+      icon_url: https://codemorph.dev/assets/356ce948-0b3c-47d5-8250-abcd19290dc8.png
+      name: Morph
+      oss: false
+      popular: false
+      tags:
+        - GA
+        - Migration
+        - Code
+      verified: false
+      website_url: https://codemorph.dev/
   - description: Collections of prompts and generating prompts
     level: 8
     name: Prompting
@@ -5407,4 +5422,3 @@ domains:
   description: AI Engineering related
   level: 6
   name: AIE
-
