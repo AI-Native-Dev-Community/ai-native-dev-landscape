@@ -100,6 +100,21 @@ domains:
       - Product
       verified: false
       website_url: https://www.codeguide.dev/
+    - date_added: 09/05/2025
+      description: Create MVPs with AI in seconds. The world's first open-source,
+        AI-powered PRD (Product Requirement Document), Technical Specs, and Flowcharts
+        creator designed to bridge the gap between your vision and functional code
+      icon_url: https://createmvps.app/logo.png
+      name: CreateMVP
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://createmvps.app/
     - date_added: 12/03/2025
       description: 'PRD Copilot for product managers.
 
@@ -415,6 +430,35 @@ domains:
     level: 3
     name: Nocode
     tools:
+    - date_added: 09/05/2025
+      description: Stop juggling. Start building. We built Ardor. So you can build
+        full-scale solutions. And manage them from start to finish without having
+        to struggle with the complexities of modern AI software engineering one-by-one.
+      icon_url: https://framerusercontent.com/images/q1H6qCx3tyhhiPXpVgcrBlvV7o.png
+      name: Ardor
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://ardor.cloud
+    - date_added: 01/06/2025
+      description: 'A new AI agent that builds web apps. You may have tried a few
+        of those before. Chef enables you to build new kinds of apps not possible
+        with other tools: multiplayer games, social messaging platforms, and even
+        AI-powered agentic apps.'
+      icon_url: https://chef.convex.dev/favicon.svg
+      name: Chef
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://chef.convex.dev/
     - date_added: 09/04/2025
       description: 'Self-Improving Websites:  Dalton runs experiments 10x faster,
         learns what works, and improves your website 24/7. Better results, zero extra
@@ -481,6 +525,23 @@ domains:
       - Product
       verified: false
       website_url: https://www.framer.com/ai/
+    - date_added: 23/05/2025
+      description: "Jo is your always-on AI user-researcher. Paste any URL\u2014whether\
+        \ it\u2019s a live site, Figma file, prototype, or side project\u2014and Jo\
+        \ instantly hands you a shareable research link. Send that link to users and\
+        \ Jo runs the conversation for you: asking smart follow-ups, probing for the\
+        \ \u201Cwhy,\u201D and distilling every chat into crisp insights that you\
+        \ can use to iterate your product."
+      icon_url: https://ph-files.imgix.net/9595dfb3-556a-4e37-a222-5c225a1a3a81.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=64&h=64&fit=crop&frame=1&dpr=2
+      name: Jo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://jo.floto.ai
     - date_added: 12/03/2025
       description: Higher conversionrates driven by AI. The first AI agent that continuously
         improves your website.
@@ -494,6 +555,19 @@ domains:
       - Product
       verified: false
       website_url: https://keak.com/
+    - date_added: 06/06/2025
+      description: AI that helps you build scalable backends. Leap helps you build
+        and deploy apps to your cloud on AWS or GCP, with your code under your control.
+      icon_url: https://leap.new/favicon.ico
+      name: Leap
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://leap.new/
     - date_added: 26/03/2025
       description: Oakie's platform empowers you to build custom AI agents that acts
         on the most critical business tasks, as you would, ensuring human expertise
@@ -523,6 +597,33 @@ domains:
       - Product
       verified: false
       website_url: https://www.plasmic.app/
+    - date_added: 09/05/2025
+      description: The best way to build internal software. Seamlessly connect databases,
+        build with elegant components, and customize with code. Accelerate mundane
+        tasks, freeing up time for the work that matters most.
+      icon_url: https://cdn.sanity.io/images/bclf52sw/production/4d5daa27be695d8c4b3ac0b333045d8f4a612683-128x128.svg
+      name: Retool
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://retool.com/
+    - date_added: 06/06/2025
+      description: Build Custom Apps in Minutes. Create tailor-made business applications
+        instantly with AI.
+      icon_url: https://spring.new/horizontal-logo.svg
+      name: Spring
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://spring.new/
     - date_added: 12/03/2025
       description: Convert wireframes and sketches into React components with AI.
         Uxtly is a UI drafting software. With it, you can spec out requirements without
@@ -804,6 +905,18 @@ domains:
       - Product
       verified: false
       website_url: https://v0.dev/
+    - date_added: 06/06/2025
+      description: First AI Coding Community Where Creators Build
+      icon_url: https://www.youware.com/favicon.ico
+      name: Youware
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://www.youware.com/
   description: Product related
   level: 1
   name: Product
@@ -840,6 +953,21 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/OpenAutoCoder/Agentless
+    - date_added: 23/05/2025
+      description: "Amp is an agentic coding tool built by Sourcegraph. It runs in\
+        \ VS Code (and compatible forks like Cursor, Windsurf, and VSCodium) and as\
+        \ a command-line tool. It\u2019s also multiplayer \u2014 you can share threads\
+        \ and collaborate with your team."
+      icon_url: https://ampcode.com/amp-mark-color.svg
+      name: Amp
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://ampcode.com/
     - date_added: 12/03/2025
       description: AutoCodeRover is a technology we are building for enterprises and
         developers to maintain reliable and performant software systems through autonomous
@@ -854,6 +982,19 @@ domains:
       - Code
       verified: false
       website_url: https://www.autocoderover.net/
+    - date_added: 23/05/2025
+      description: A cloud-based software engineering agent that answers codebase
+        questions, executes code, and drafts pull requests.
+      icon_url: https://avatars.githubusercontent.com/u/14957082?size-200
+      name: Codex Agents
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://chatgpt.com/codex
     - date_added: 12/03/2025
       description: Devin is a collaborative AI teammate. Built to help ambitious engineering
         teams achieve more.
@@ -880,6 +1021,21 @@ domains:
       - Code
       verified: false
       website_url: https://www.enginelabs.ai/
+    - date_added: 23/05/2025
+      description: Jules is an asynchronous, agentic coding assistant that integrates
+        directly with your existing repositories. It clones your codebase into a secure
+        Google Cloud virtual machine (VM), understands the full context of your project,
+        and performs tasks.
+      icon_url: https://jules.google/favicon.svg
+      name: Jules
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://jules.google/
     - date_added: 12/03/2025
       description: "OpenHands (formerly OpenDevin), a platform for software development\
         \ agents powered by AI. OpenHands agents can do anything a human developer\
@@ -971,6 +1127,21 @@ domains:
       - Code
       verified: false
       website_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+    - date_added: 05/06/2025
+      description: 'Manage multiple AI agents like Claude Code, Codex, and Aider.
+
+        10x your productivity'
+      icon_url: https://smtg-ai.github.io/claude-squad/favicon.ico
+      name: Claude Squad
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://smtg-ai.github.io/claude-squad/
     - date_added: 29/03/2025
       description: Simple. Fast. Powerful. Codebuff works in your terminal.
       icon_url: https://www.codebuff.com/favicon/favicon.ico
@@ -988,7 +1159,7 @@ domains:
 
         '
       icon_url: https://avatars.githubusercontent.com/u/14957082?size-200
-      name: Codex
+      name: Codex CLI
       oss: false
       popular: false
       tags:
@@ -1012,6 +1183,22 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/opencode-ai/opencode
+    - date_added: 30/05/2025
+      description: Build real world software with AI.An open source, terminal-based
+        AI coding agent designed to handle large projects, large files, and large
+        tasks. Featuring a diff review sandbox, full auto mode, and smart context
+        management up to 2M tokens.
+      icon_url: https://plandex.ai/favicon.ico
+      name: Plandex
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://plandex.ai/
     - date_added: 12/03/2025
       description: "The intelligent terminal.\nBecome a command line power user on\
         \ day one. Warp combines AI and your dev team\u2019s knowledge in one fast,\
@@ -1177,6 +1364,20 @@ domains:
       - Code
       verified: true
       website_url: https://augmentcode.com/
+    - date_added: 23/05/2025
+      description: 'AI for Large Codebases: The first AI-native code platform that
+        gives large projects compiler-grade context, so LLMs stay useful even when
+        your repo spans millions of lines.'
+      icon_url: https://brokk.ai/favicon.ico
+      name: Brokk
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://brokk.ai/
     - date_added: 12/03/2025
       description: Meet Cline, an AI assistant that can use your CLI and Editor.
       icon_url: https://avatars.githubusercontent.com/u/184127137?s=48&v=4
@@ -1244,6 +1445,20 @@ domains:
       - Code
       verified: false
       website_url: https://www.cursor.com/
+    - date_added: 30/05/2025
+      description: Devoxx Genie is a fully Java-based LLM Code Assistant plugin for
+        IntelliJ IDEA, designed to integrate with local LLM providers
+      icon_url: https://avatars.githubusercontent.com/u/4077523?s=48&v=4
+      name: Devoxx Genie
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/devoxx/DevoxxGenieIDEAPlugin
     - date_added: 04/04/2025
       description: Firebase Studio accelerates your entire development lifecycle with
         AI agents. Build backends, front ends, and mobile apps, all in one place.
@@ -1354,6 +1569,21 @@ domains:
       - Code
       verified: false
       website_url: https://marsx.dev/
+    - date_added: 05/06/2025
+      description: "Our goal with Mistral Code is simple: deliver best-in-class coding\
+        \ models to enterprise developers, enabling everything from instant completions\
+        \ to multi-step refactoring\u2014through an integrated platform deployable\
+        \ in the cloud, on reserved capacity, or air-gapped on-prem GPUs."
+      icon_url: https://mistral.ai/favicon.ico
+      name: Mistral Code
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://mistral.ai/news/mistral-code
     - date_added: 06/04/2025
       description: Combines static analysis with AI to give coding tools deeper understanding
         of code behavior. Provides a semantic understanding layer for AI coding tools
@@ -1368,6 +1598,21 @@ domains:
       - Code
       verified: false
       website_url: https://www.nuanced.dev/
+    - date_added: 05/06/2025
+      description: Ona is the privacy-first software engineering agent specifically
+        designed for enterprise. Ona operates entirely within your network, tightly
+        integrated into your existing enterprise infrastructure. The code Ona writes
+        never leaves your premises.
+      icon_url: https://ona.com/ona-dark.ico
+      name: Ona
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://ona.com/
     - date_added: 12/03/2025
       description: The Curated AI Code Editor. Supercharge your development with an
         up-to-date, curated inventory of the best AI tools, natively integrated for
@@ -1700,6 +1945,18 @@ domains:
       - Code
       verified: false
       website_url: https://zed.dev
+    - date_added: 05/06/2025
+      description: An open-source AI agent that builds full-stack apps.
+      icon_url: https://www.app.build/favicon/favicon.png
+      name: app.build
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.app.build/
   - description: Specialized in Frontend and Mobile code generation
     level: 6
     name: Frontend & Mobile
@@ -1744,6 +2001,19 @@ domains:
       - Code
       verified: false
       website_url: https://rork.app/
+    - date_added: 30/05/2025
+      description: AI for your UI . Write a few words, attach an image and watch your
+        UI come to life
+      icon_url: https://www.gstatic.com/labs-code/favicon-48x48.png
+      name: Stitch
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Frontend & Mobile
+      - Code
+      verified: false
+      website_url: https://stitch.withgoogle.com/
     - date_added: 12/03/2025
       description: Build React apps 10x Faster with AI.
       icon_url: https://tempolabs.ai/favicon.ico
@@ -2042,6 +2312,21 @@ domains:
     level: 9
     name: Spec Driven
     tools:
+    - date_added: 23/05/2025
+      description: "Cooperate to Autonomously Develop your Software Products: 80%\
+        \ built autonomously, final 20% codified for your engineering team. Works\
+        \ with existing products \u2014 upload your codebase and autonomously add\
+        \ new features. System 2 AI that thinks, builds, then validates your code"
+      icon_url: https://blitzy.com/favicon.ico
+      name: Blitzy
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://blitzy.com/
     - date_added: 25/04/2025
       description: A task management system for AI-driven development with Claude,
         designed to work seamlessly with Cursor AI.
@@ -2234,6 +2519,19 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.functionize.com/
+    - date_added: 23/05/2025
+      description: Have GitAuto write unit test cases.. GitAuto writes code and opens
+        pull requests from GitHub & Jira issues for automated test case creation.
+      icon_url: ''
+      name: GitAuto
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://gitauto.ai/
     - date_added: 12/03/2025
       description: Test Gru delivers enterprise-grade unit test automation services,
         empowering you to achieve superior test coverage. Harness the expertise of
@@ -2821,7 +3119,7 @@ domains:
       - static analysis
       - software quality
       - developer tools
-      name: Skulptor
+      name: Sculptor
       oss: false
       popular: false
       tags:
@@ -3159,6 +3457,21 @@ domains:
       - DevOps
       verified: false
       website_url: https://docs.gptscript.ai/
+    - date_added: 30/05/2025
+      description: 'The simplest way to design and deploy your cloud infrastructure.
+        Talk to your infrastructure like a developer. No code. No complexity.
+
+        '
+      icon_url: https://cdn.prod.website-files.com/67e2813e81e4cb462ea42664/67f596d1613794b8d13dc102_icon32.png
+      name: Infraware
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Infrastructure As Code
+      - DevOps
+      verified: false
+      website_url: https://www.infraware.dev/
     - date_added: 12/03/2025
       description: 'Pulumi Copilot is an AI assistant that streamlines cloud infrastructure
         management by combining large language models with semantic cloud understanding.
@@ -3287,6 +3600,20 @@ domains:
       - DevOps
       verified: false
       website_url: https://blog.atuin.sh/atuin-desktop-runbooks-that-run/
+    - date_added: 05/06/2025
+      description: 'Become an SRE Superhero!
+
+        Reduce toil, investigate incidents faster, and drive autonomous operations'
+      icon_url: https://cdn.prod.website-files.com/682d03f5302c7c8ce215aaa5/683914102936c65b867e4ea4_android-chrome-256x256.png
+      name: Ciroos
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://ciroos.ai/
     - date_added: 12/03/2025
       description: Cleric is an AI SRE teammate that helps software engineering quickly
         diagnose production alerts. It investigates like an experienced engineer,
@@ -3336,6 +3663,19 @@ domains:
       - DevOps
       verified: false
       website_url: https://docs.datadoghq.com/bits_ai/
+    - date_added: 05/06/2025
+      description: AI for Production Code Errors . Debug in seconds, not hours or
+        days
+      icon_url: ''
+      name: Foam
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://foam.ai/
     - date_added: 26/03/2025
       description: 'Ship more secure software faster with AI throughout the entire
         software development lifecycle.
@@ -3408,6 +3748,20 @@ domains:
       - DevOps
       verified: true
       website_url: https://docs.kubiya.ai/docs
+    - date_added: 05/06/2025
+      description: DevOps Simplified. Through Conversation. Deploy, monitor, and scale
+        cloud apps using natural language. Let Limo handle your infrastructure while
+        you focus on building.
+      icon_url: ''
+      name: Limo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://www.limo.dev/
     - date_added: 12/03/2025
       description: AI Agent for Application Maintenance.
       icon_url: https://logicstar.ai/assets/images/website/icons/favicon.ico
@@ -3636,10 +3990,65 @@ domains:
       - DevOps
       verified: false
       website_url: https://getunblocked.com/
+    - date_added: 09/05/2025
+      description: "AI\u2011Powered Production Engineer / SRE - Reducing MTTR with\
+        \ AI-driven triage and root cause analysis. Velocity surfaces the right context\
+        \ \u2014 logs, metrics, runbooks, dashboards and more, in one place so engineers\
+        \ can triage and resolve incidents faster"
+      icon_url: https://cdn.prod.website-files.com/66b46d77aa783eb77179e8d9/66b471ca812b93f192b52282_Velocity%20Logo.svg
+      name: Velocity
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://velocity.tech/
+    - date_added: 09/05/2025
+      description: End downtime before it starts. Fast, efficient root cause analysis
+        that improves with every incident
+      icon_url: https://cdn.prod.website-files.com/673321a9408a76b8c4b4d0c2/675b20226c2bbea11a685525_favicon-wm-big.png
+      name: Wild Moose
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://www.wildmoose.ai/
+    - date_added: 23/05/2025
+      description: The R&P lab reimagining DevOps
+      icon_url: https://www.a37.ai/favicon.svg
+      name: applied37
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://www.a37.ai/
   - description: Monitoring and observability tools
     level: 17
     name: Observability
     tools:
+    - date_added: 23/05/2025
+      description: Software engineering intelligence platform that collects qualitative
+        and quantitative data from your engineers and tools to understand the impact
+        of various drivers, including GenAI impact, on developer productivity. Built
+        by the researchers behind DORA and SPACE framework.
+      icon_url: https://www.getdx.com/favicon.ico
+      name: DX
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - DevOps
+      verified: false
+      website_url: https://www.getdx.com/
     - date_added: 25/04/2025
       description: "An end-to-end, autonomous remediation platform designed to troubleshoot\
         \ incidents and application-level issues in real time.From the moment a ticket\
@@ -3883,6 +4292,19 @@ domains:
       - DevSecOps
       verified: false
       website_url: https://snyk.io/solutions/secure-ai-generated-code/
+    - date_added: 06/06/2025
+      description: "Reimagined development needs redefined security\nDeploy application\
+        \ security that\u2019s fit for the rapidly changing world of AI."
+      icon_url: https://res.cloudinary.com/snyk/image/upload/snyk-mktg-brandui/brand-logos/default-solid-light.svg
+      name: Snyk Workflow
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://snyk.io/platform/workflows/
   - description: Check compliance and regulations
     level: 19
     name: Compliance
@@ -3996,6 +4418,21 @@ domains:
       - AIE
       verified: false
       website_url: https://deepseekcoder.github.io/
+    - date_added: 23/05/2025
+      description: "Devstral is built under a collaboration between Mistral AI and\
+        \ All Hands AI \U0001F64C, and outperforms all open-source models on SWE-Bench\
+        \ Verified by a large margin. We release Devstral under the Apache 2.0 license. "
+      icon_url: ''
+      name: DevStral
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://mistral.ai/news/devstral
     - date_added: 12/03/2025
       description: 'Pro: most powerful multi-model thinking model. Flash: low latency.'
       icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/2560px-Google_Gemini_logo.svg.png
@@ -4047,6 +4484,20 @@ domains:
       - AIE
       verified: false
       website_url: https://magic.dev/
+    - date_added: 05/06/2025
+      description: 'The world-class way to apply code edits - FAST.
+
+        '
+      icon_url: https://morphllm.com/favicon.ico
+      name: Morphllm
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://morphllm.com/
     - date_added: 12/03/2025
       description: We've created an improved version of OpenAI Codex, our AI system
         that translates natural language to code, and we are releasing it through
@@ -4103,6 +4554,73 @@ domains:
       - AIE
       verified: false
       website_url: https://huggingface.co/bigcode/starcoder
+    - date_added: 23/05/2025
+      description: Toto (Time Series Optimized Transformer for Observability) is a
+        state-of-the-art time-series foundation model designed for multi-variate time
+        series forecasting, emphasizing observability metrics. Toto efficiently handles
+        high-dimensional, sparse, and non-stationary data commonly encountered in
+        observability scenarios.
+      icon_url: ''
+      name: Toto
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://huggingface.co/Datadog/Toto-Open-Base-1.0
+    - date_added: 23/05/2025
+      description: 'This family is currently comprised of three distinct models:
+
+
+        SWE-1: Approximately Claude 3.5 Sonnet levels of tool-call reasoning while
+        being cheaper to serve. It will be available to all paid users for a promotional
+        period of 0 credits per user prompt.
+
+
+        SWE-1-lite: A smaller model that replaces Cascade Base at better quality.
+        It is available for unlimited use to all users, free or paid.
+
+
+        SWE-1-mini: A small, extremely fast model that powers the Windsurf Tab passive
+        experience for all users, free or paid.'
+      icon_url: ''
+      name: Wave9
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://windsurf.com/blog/windsurf-wave-9-swe-1
+    - date_added: 01/06/2025
+      description: 'Edit Prediction: Fine-Tuned from Qwen2.5-Coder-7B'
+      icon_url: https://cdn-uploads.huggingface.co/production/uploads/644a8bc1cb1654dcb6e762f9/6296GYaJsrUBSAeUwUHvm.png
+      name: Zeta
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://huggingface.co/zed-industries/zeta
+    - date_added: 23/05/2025
+      description: "Specialized web-dev knowledge\n\u2022 OpenAI-compatible API\n\u2022\
+        \ Use in Cursor, Codex, or your own app"
+      icon_url: ''
+      name: v0-1.0-md
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://v0.dev/pricing
     - date_added: 12/03/2025
       description: Grok 3 (Think) also attained 84.6% on graduate-level expert reasoning
         (GPQA), and 79.4% on LiveCodeBench for code generation and problem-solving.
@@ -4227,6 +4745,36 @@ domains:
     level: 22
     name: Execution Sandbox
     tools:
+    - date_added: 06/06/2025
+      description: The cloud, built for AI agents. Deploy, run, and scale autonomous
+        agents on infrastructure designed for the future, not the past.
+      icon_url: https://agentuity.com/favicon.ico
+      name: Agentuity
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://agentuity.com/
+    - date_added: 05/06/2025
+      description: 'Arrakis provides a secure, fully customizable, and self-hosted
+        solution to spawn and manage Sandboxes for code execution and computer use.
+        It has out-of-the box support for backtracking via snapshot-and-restore.
+
+        '
+      icon_url: ''
+      name: Arrakis
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://github.com/abshkbh/arrakis
     - date_added: 12/03/2025
       description: Built for when performance, security, and reliability matter, wrapped
         with a delightful developer experience.
@@ -4240,6 +4788,20 @@ domains:
       - AIE
       verified: false
       website_url: https://www.baseten.co/
+    - date_added: 06/06/2025
+      description: "Build your modern software factory. Define software delivery workflows\
+        \ and dev environments with reusable components \u2014 including LLMs \u2014\
+        \ and run them anywhere. Built by the creators of Docker."
+      icon_url: https://framerusercontent.com/images/GFfkccjP5MxjJoCDsMXSaA0mY.svg
+      name: Dagger
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://dagger.io/
     - date_added: 12/03/2025
       description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated
         Code.
@@ -4279,6 +4841,22 @@ domains:
       - AIE
       verified: false
       website_url: https://forevervm.com/
+    - date_added: 06/06/2025
+      description: 'The anti-framework for agents and workflows. No magic. Write plain
+        TypeScript functions.
+
+        GenSX takes care of infra, built-in observability, and all of the APIs you
+        need to build long running agents that stream from start to end.'
+      icon_url: https://www.gensx.com/logo.svg
+      name: GenSX
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://www.gensx.com/
     - date_added: 12/03/2025
       description: 'Gitpod SDK: infrastructure for software engineering agents. The
         infrastructure building blocks for orchestrating and building software engineering
@@ -4375,6 +4953,36 @@ domains:
       - AIE
       verified: false
       website_url: https://riza.io/
+    - date_added: 06/06/2025
+      description: AI Infrastructure for the Future of Software Engineering
+      icon_url: https://cdn.prod.website-files.com/673422e3112b332521ed4e9d/67b24d0178236f23dace530a_Favicon%20webflow%2032x32.png
+      name: Runloop
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://www.runloop.ai/
+    - date_added: 06/06/2025
+      description: 'Temporal delivers an open-source Durable Execution platform that
+        abstracts away the complexity of building scalable, reliable distributed systems.
+        It presents a development abstraction that preserves complete application
+        state so that in the case of a host or software failure it can seamlessly
+        migrate execution to another machine.
+
+        '
+      icon_url: https://temporal.io/apple-touch-icon.png
+      name: Temporal
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://temporal.io/
     - date_added: 24/03/2025
       description: 'Run your apps
 
@@ -4498,6 +5106,20 @@ domains:
       - AIE
       verified: false
       website_url: https://nexos.ai/
+    - date_added: 23/05/2025
+      description: "Real-time Behavioral Alerts : Real-time error tracking catches\
+        \ issues fast, while intelligent judges prevent hallucinations and keep outputs\
+        \ accurate and reliable \u2014 even when moving between models."
+      icon_url: https://framerusercontent.com/images/LIx4gar29O1U6mjMzytaLJGx5w.png
+      name: Okareo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - AIE
+      verified: false
+      website_url: https://okareo.com/
     - date_added: 05/04/2025
       description: "Orq.ai is the #1 AI engineering platform for product teams. Control\
         \ GenAI at scale. No blind spots \u2013 no vibe checks."
@@ -4589,6 +5211,20 @@ domains:
       - AIE
       verified: false
       website_url: https://mcp.natoma.id/
+    - date_added: 01/06/2025
+      description: Port is an AI-native developer portal that offers AI agents and
+        an MCP server to build your software catalog, enable self-service actions,
+        and connect directly to your IDE for smooth workflows.
+      icon_url: https://raw.githubusercontent.com/port-labs/port-mcp-server/refs/heads/add-port-logo/assets/port_symbol_black.svg
+      name: Port IO
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - MCP
+      - AIE
+      verified: false
+      website_url: https://www.port.io
     - date_added: 12/03/2025
       description: Extend your language via Model Context Protocol providers.
       icon_url: https://smithery.ai/icon.svg?d16eab68faeeea71
@@ -4750,6 +5386,20 @@ domains:
       - AIE
       verified: false
       website_url: https://www.gofrosty.ai/
+    - date_added: 23/05/2025
+      description: Smarter, faster, more cost-effectiveway to run AI. AI teams from
+        startups to enterprises use Parasail to get infrastructure out of the way
+        and bring products to market faster.
+      icon_url: https://cdn.prod.website-files.com/671d29fd286084754823a724/6721d3891b9baf10a1bd0b3f_Parasail%20Webclip.png
+      name: Parasail
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Gateway
+      - AIE
+      verified: false
+      website_url: https://www.parasail.io/
     - date_added: 02/05/2025
       description: 'Requesty is an LLM Gateway that functions as an intelligent middleware
         for all your LLM needsIn less than 5 minutes, integrate with 200+ LLM providers
