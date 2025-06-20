@@ -3430,6 +3430,19 @@ domains:
       - DevOps
       verified: false
       website_url: https://aiac.dev/
+    - date_added: 15/01/2025
+      description: A unified backend framework for APIs, events, and AI agents. Code-first approach supporting multi-language workflows (JS, TS, Python, Ruby). Features event-driven architecture, built-in observability, visual workbench for development, and Motia Cloud in Beta for cloud deployment.
+      icon_url: https://avatars.githubusercontent.com/u/193029780?s=48&v=4
+      name: Motia
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Infrastructure As Code
+      - DevOps
+      verified: false
+      website_url: https://github.com/motiadev/motia
     - date_added: 26/03/2025
       description: LLM orchestration framework & platform for mission critical LLM
         apps.
@@ -4758,6 +4771,19 @@ domains:
       - AIE
       verified: false
       website_url: https://agentuity.com/
+    - date_added: 15/01/2025
+      description: A unified backend framework for APIs, events, and AI agents. Code-first approach supporting multi-language workflows (JS, TS, Python, Ruby). Features event-driven architecture, built-in observability, visual workbench for development, and Motia Cloud in Beta for cloud deployment.
+      icon_url: https://avatars.githubusercontent.com/u/193029780?s=48&v=4
+      name: Motia
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://github.com/motiadev/motia
     - date_added: 05/06/2025
       description: 'Arrakis provides a secure, fully customizable, and self-hosted
         solution to spawn and manage Sandboxes for code execution and computer use.
@@ -5366,8 +5392,64 @@ domains:
       - AIE
       verified: false
       website_url: https://superface.ai/
+  - description: AI Agentic Frameworks for building intelligent agent systems
+    level: 27
+    name: AI Agentic Frameworks
+    tools:
+    - date_added: 15/01/2025
+      description: A unified backend framework for APIs, events, and AI agents. Code-first approach supporting multi-language workflows (JS, TS, Python, Ruby). Features event-driven architecture, built-in observability, visual workbench for development, and Motia Cloud in Beta for cloud deployment.
+      icon_url: https://avatars.githubusercontent.com/u/193029780?s=48&v=4
+      name: Motia
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Agents
+      - AIE
+      verified: false
+      website_url: https://github.com/motiadev/motia
+    - date_added: 15/01/2025
+      description: A framework for building applications with LLMs. Provides agent abstractions, tools integration, and supports agentic systems. Offers both workflows and agents, with LangGraph for more complex orchestration. Emphasizes that agentic systems often combine workflows and agents rather than being purely one or the other.
+      icon_url: https://python.langchain.com/v0.1/img/favicon.ico
+      name: LangChain
+      oss: true
+      popular: true
+      tags:
+      - OSS
+      - GA
+      - Agents
+      - AIE
+      verified: true
+      website_url: https://langchain.com/
+    - date_added: 15/01/2025
+      description: Multi-agent platform focused on collaborative AI agents working in teams ("crews"). Features role-based agent design, task delegation, and teamwork coordination. Used by 60% of Fortune 500 companies, has 29.4k GitHub stars, and supports both cloud and self-hosted deployment.
+      icon_url: https://docs.crewai.com/img/logo.png
+      name: CrewAI
+      oss: true
+      popular: true
+      tags:
+      - OSS
+      - GA
+      - Agents
+      - AIE
+      verified: true
+      website_url: https://crewai.com/
+    - date_added: 15/01/2025
+      description: Full-stack framework for building multi-agent systems with memory, knowledge, and reasoning. Claims extremely fast performance (3μs agent instantiation, 6.5Kib memory usage). Supports 5 levels of agentic systems from basic tool-using agents to complex workflows. Has 28.5k GitHub stars and emphasizes performance optimization.
+      icon_url: https://avatars.githubusercontent.com/u/104874993?s=200&v=4
+      name: Agno
+      oss: true
+      popular: true
+      tags:
+      - OSS
+      - GA
+      - Agents
+      - AIE
+      verified: false
+      website_url: https://github.com/agno-ai/agno
   - description: LLM Gateways, Routers and Proxies
-    level: 26
+    level: 28
     name: Gateway
     tools:
     - date_added: 25/04/2025
