@@ -3530,6 +3530,28 @@ domains:
       - DevOps
       verified: true
       website_url: https://www.terrachat.io
+    - date_added: 06/25/2025
+      description: Infra.new helps you manage Terraform environments in your own cloud and provides AI assistance with new projects, cloud migrations, cost optimization, and background maintenance tasks.
+      icon_url: https://infra.new/infra-light-v2.svg
+      keywords:
+      - AI Agent
+      - Terraform
+      - AWS
+      - GCP
+      name: Infra.new
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/launchflow-inc
+      - https://x.com/infra_new
+      - https://discord.gg/mQ5FnYr6a6
+      tags:
+      - Verified
+      - GA
+      - Infrastructure As Code
+      - DevOps
+      verified: true
+      website_url: https://infra.new
   - description: Site Reliability tools
     level: 16
     name: SRE
