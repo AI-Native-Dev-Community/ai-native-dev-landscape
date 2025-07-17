@@ -3601,9 +3601,10 @@ domains:
       popular: false
       tags:
       - GA
+      - Verified
       - Documentation
       - Quality Assurance
-      verified: false
+      verified: true
       website_url: https://docucod.com/
     - date_added: 12/03/2025
       description: Meet the next generation of documentation. AI-native, beautiful
