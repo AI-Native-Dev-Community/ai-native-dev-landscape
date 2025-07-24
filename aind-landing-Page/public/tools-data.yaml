@@ -2687,7 +2687,6 @@ domains:
       oss: false
       popular: false
       tags:
-      - GA
       - Spec Driven
       - Code
       verified: false
