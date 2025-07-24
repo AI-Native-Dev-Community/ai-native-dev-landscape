@@ -2605,7 +2605,6 @@ domains:
       website_url: https://crowdbotics.com/
     - date_added: 24/07/2025
       description: "The AI IDE for prototype to production. Kiro helps you do your best work by bringing structure to AI coding with spec-driven development."
-      icon_url: ''
       name: Kiro
       oss: false
       popular: true
