@@ -2633,6 +2633,109 @@ domains:
       - Code
       verified: false
       website_url: https://www.ptbk.io/
+    - date_added: 25/07/2025
+      description: "Think first. Code right. A focused macOS tool for turning specs into software—with Claude Code built in."
+      icon_url: ''
+      name: Bear Claude
+      oss: false
+      popular: false
+      tags:
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: bearclaude.specstory.com/
+    - date_added: 25/07/2025
+      description: "Orchestrate multiple Claude Code agents working in parallel to improve your codebase through automated bug fixing or systematic best practices implementation"
+      icon_url: ''
+      name: Claude Code Agent Farm
+      oss: false
+      popular: false
+      tags:
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://github.com/Dicklesworthstone/claude_code_agent_farm
+    - date_added: 25/07/2025
+      description: "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team, Alibaba Cloud."
+      icon_url: ''
+      name: Qwen3 Coder
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://github.com/QwenLM/Qwen3-Coder
+    - date_added: 25/07/2025
+      description: "Runs in a local web UI and autonomously works on your files alongside you."
+      icon_url: ''
+      name: Local Forge
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: github.com/rockbite/localforge
+    - date_added: 25/07/2025
+      description: "Magnet lets you build quality software using AI agents. Run multiple Claude Code agents in parallel sandboxes, and supercharge the tools you already use."
+      icon_url: ''
+      name: Magnet
+      oss: false
+      popular: false
+      tags:
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://www.magnet.run/
+    - date_added: 25/07/2025
+      description: "Never let your vibe coding session end just because you left your desk. Your AI coding companion follows you from the coffee shop to the couch."
+      icon_url: ''
+      name: Remote code
+      oss: false
+      popular: false
+      tags:
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://remote-code.com/
+    - date_added: 25/07/2025
+      description: "Real-time Claude Code usage monitor with predictions and warnings"
+      icon_url: ''
+      name: Claude Code Usage Monitor
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor
+    - date_added: 25/07/2025
+      description: "VibeTunnel proxies your terminals right into the browser, so you can vibe-code anywhere. Watch output scroll in real-time, type new commands, and spawn fresh sessions on the fly."
+      icon_url: ''
+      name: Vibetunnel
+      oss: false
+      popular: false
+      tags:
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://vibetunnel.sh/
+    - date_added: 25/07/2025
+      description: "Run a bunch of Claude Codes in parallel. Each Claude gets an isolated workspace. See who's working, see who's stuck, and what's changed."
+      icon_url: ''
+      name: Conductor
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://conductor.build/
     - date_added: 12/03/2025
       description: 'Transform your API Specs into Executable Contracts with #NoCode
         in Seconds. With Specmatic experience the power of Contract-Driven Development
@@ -2670,7 +2773,6 @@ domains:
       oss: false
       popular: true
       tags:
-      - GA
       - Spec Driven
       - Code
       verified: false
