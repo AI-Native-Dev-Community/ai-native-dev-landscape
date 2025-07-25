@@ -2663,6 +2663,18 @@ domains:
       - Code
       verified: true
       website_url: https://specmatic.io/
+    - date_added: 25/07/2025
+      description: "The AI IDE for prototype to production. Kiro helps you do your best work by bringing structure to AI coding with spec-driven development."
+      icon_url: ''
+      name: Kiro
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://kiro.dev/
     - date_added: 12/03/2025
       description: 'Software-as-a-Utility: integrate anything, automate everything.'
       icon_url: https://squillo.io/branding/square/SVG/square-green.svg
