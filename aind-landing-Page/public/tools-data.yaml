@@ -10,7 +10,7 @@ domains:
         AISpec implements the What-Boundaries-Success (WBS) framework as a prompting
         framework, providing a practical system for intent engineering in AI applications.
       icon_url: ''
-      name: AIspec
+      name: AIspecss
       oss: true
       popular: false
       tags:
