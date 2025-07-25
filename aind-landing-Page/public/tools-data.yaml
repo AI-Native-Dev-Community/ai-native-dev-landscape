@@ -2633,6 +2633,17 @@ domains:
       - Code
       verified: false
       website_url: https://www.ptbk.io/
+    - date_added: 24/07/2025
+      description: "The AI IDE for prototype to production. Kiro helps you do your best work by bringing structure to AI coding with spec-driven development."
+      name: Kiro
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://kiro.dev/
     - date_added: 12/03/2025
       description: 'Transform your API Specs into Executable Contracts with #NoCode
         in Seconds. With Specmatic experience the power of Contract-Driven Development
