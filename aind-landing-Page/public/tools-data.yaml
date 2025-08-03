@@ -2643,7 +2643,7 @@ domains:
       - Spec Driven
       - Code
       verified: false
-      website_url: bearclaude.specstory.com/
+      website_url: https://bearclaude.specstory.com/
     - date_added: 25/07/2025
       description: "Orchestrate multiple Claude Code agents working in parallel to improve your codebase through automated bug fixing or systematic best practices implementation"
       icon_url: ''
@@ -2678,7 +2678,7 @@ domains:
       - Autonomous Agent
       - Code
       verified: false
-      website_url: github.com/rockbite/localforge
+      website_url: https://github.com/rockbite/localforge
     - date_added: 25/07/2025
       description: "Magnet lets you build quality software using AI agents. Run multiple Claude Code agents in parallel sandboxes, and supercharge the tools you already use."
       icon_url: ''
@@ -5691,21 +5691,6 @@ domains:
       - AIE
       verified: false
       website_url: https://mcp.run/
-    - date_added: 29/03/2025
-      description: "The MCP Generator is a CLI tool that generates an MCP server based\
-        \ on your company\u2019s documentation & OpenAPI specification if available.\
-        \ It takes in your documentation and a OpenAPI spec and outputs an MCP server\
-        \ that can be used with any MCP client."
-      icon_url: https://www.mcpt.com/favicon.ico
-      name: mcpt
-      oss: false
-      popular: false
-      tags:
-      - GA
-      - MCP
-      - AIE
-      verified: false
-      website_url: https://mintlify.com/docs/advanced/mcp/quickstart
   - description: Browser controlled tools
     level: 25
     name: Browser
