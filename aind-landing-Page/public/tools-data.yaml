@@ -110,8 +110,8 @@ domains:
       popular: false
       tags:
         - GA
-        - Quality Assurance
         - Testing
+        - Quality Assurance
       verified: false
       website_url: https://www.lambdatest.com/kane-ai
     - date_added: 13/03/2025
@@ -122,8 +122,8 @@ domains:
       popular: false
       tags:
         - GA
-        - AIE-Model
         - Model
+        - AIE
       verified: false
       website_url: https://github.com/zai-org/GLM-4.5
     - date_added: 13/03/2025
@@ -134,8 +134,8 @@ domains:
       popular: false
       tags:
         - GA
-        - Code
         - Terminal
+        - Code
       verified: false
       website_url: https://asciinema.org/
     - date_added: 13/03/2025
@@ -146,8 +146,8 @@ domains:
       popular: false
       tags:
         - GA
-        - Code
         - Terminal
+        - Code
       verified: false
       website_url: https://github.com/observablehq/notebook-kit
     - date_added: 13/03/2025
@@ -157,8 +157,8 @@ domains:
       oss: false
       popular: false
       tags:
-        - Quality Assurance
         - Testing
+        - Quality Assurance
       verified: false
       website_url: https://www.drizz.dev/
     - date_added: 13/03/2025
@@ -168,8 +168,8 @@ domains:
       oss: false
       popular: false
       tags:
-        - Code
         - Prompting
+        - Code
       verified: false
       website_url: https://githubnext.com/projects/github-spark/
     - date_added: 13/03/2025
@@ -180,8 +180,8 @@ domains:
       popular: false
       tags:
         - GA
-        - Code
         - Terminal
+        - Code
       verified: false
       website_url: https://www.anthropic.com/docs/agents-and-tools/claude-code/overview
     - date_added: 13/03/2025
@@ -192,8 +192,8 @@ domains:
       popular: false
       tags:
         - GA
-        - Code
         - Terminal
+        - Code
       verified: false
       website_url: https://github.com/tbckr/sgpt
     - date_added: 13/03/2025
@@ -204,8 +204,8 @@ domains:
       popular: false
       tags:
         - GA
-        - Product
         - Prototyping
+        - Product
       verified: false
       website_url: https://hercules.app/
     - date_added: 12/03/2025
