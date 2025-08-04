@@ -102,19 +102,7 @@ domains:
       - Product
       verified: false
       website_url: https://createmvps.app/
-    - date_added: 13/03/2025
-      description: "Create, author, and evolve end-to-end tests using natural language."
-      icon_url: ''
-      name: KanAI
-      oss: false
-      popular: false
-      tags:
-      - GA
-      - Testing
-      - Quality Assurance
-      verified: false
-      website_url: https://www.lambdatest.com/kane-ai
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "An open-source large language model designed for intelligent agents by Z.ai."
       icon_url: ''
       name: GLM-4.5
@@ -126,7 +114,7 @@ domains:
       - AIE
       verified: false
       website_url: https://github.com/zai-org/GLM-4.5
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "Asciinema records your terminal sessions and shares them as interactive webcasts."
       icon_url: ''
       name: Asciinema
@@ -138,7 +126,7 @@ domains:
       - Code
       verified: false
       website_url: https://asciinema.org/
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "Observable Notebooks 2.0: collaborative JavaScript notebooks for data visualization."
       icon_url: ''
       name: Observable Notebooks 2.0
@@ -150,7 +138,7 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/observablehq/notebook-kit
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "Vision AI-Powered Mobile App Testing Agent. Test real devices at scale."
       icon_url: ''
       name: Drizz
@@ -161,7 +149,7 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.drizz.dev/
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "GitHub Spark helps you transform your ideas into code—visual editing, design-to-code, and enterprise CMS."
       icon_url: ''
       name: Github Spark
@@ -172,7 +160,7 @@ domains:
       - Code
       verified: false
       website_url: https://githubnext.com/projects/github-spark/
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "Use Claude Code as the foundation for coding in your terminal with natural-language commands."
       icon_url: ''
       name: Claude Code Router
@@ -184,7 +172,7 @@ domains:
       - Code
       verified: false
       website_url: https://www.anthropic.com/docs/agents-and-tools/claude-code/overview
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "SGPT is a command-line tool that provides a conversational interface to GPT models."
       icon_url: ''
       name: sGPT
@@ -196,7 +184,7 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/tbckr/sgpt
-    - date_added: 13/03/2025
+    - date_added: 13/08/2025
       description: "Build stunning apps, websites, and prototypes in minutes."
       icon_url: ''
       name: Hercules
@@ -208,7 +196,7 @@ domains:
       - Product
       verified: false
       website_url: https://hercules.app/
-    - date_added: 12/03/2025
+    - date_added: 12/08/2025
       description: 'PRD Copilot for product managers. Go from idea and feedback to a crisp document linked to Jira tickets with the help of a generative AI assistant.'
       icon_url: https://cdn.prod.website-files.com/607405e57d7f7c6426ed0d07/607563f221a2b8a25f336625_favicon.png
       name: Delibr
@@ -220,7 +208,7 @@ domains:
       - Product
       verified: false
       website_url: https://delibr.com/
-    - date_added: 12/03/2025
+    - date_added: 12/08/2025
       description: Spend less time on docs. Let Docuopia AI craft product requirements,
         help docs, and wikis in a few minutes. Start streamlining now.
       icon_url: https://cdn.prod.website-files.com/65dd4d9e255fe9f3d0990645/65e1839bfcbafca49807425e_favicon-32x32.png
@@ -233,7 +221,7 @@ domains:
       - Product
       verified: false
       website_url: https://docuopia.com/
-    - date_added: 12/03/2025
+    - date_added: 12/08/2025
       description: 'Transform Your Ideas Into Full-Stack Apps
 
         Get AI-powered architecture plans, documentation, and UI designs in minutes'
