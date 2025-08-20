@@ -3847,6 +3847,18 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://swimm.io/
+    - date_added: 20/08/2025
+      description: 'Powerful open-source documentation and developer portal framework with support for documenting MCP servers and APIs.'
+      icon_url: https://cdn.zudoku.dev/logos/favicon.svg
+      name: Zudoku
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - Documentation
+      - MCP
+      verified: false
+      website_url: https://zudoku.dev
   description: Quality Assurance related
   level: 3
   name: Quality Assurance
@@ -5925,6 +5937,18 @@ domains:
       - AIE
       verified: false
       website_url: https://requesty.ai/
+    - date_added: 20/08/2025
+      description: 'Zuplo is a platform for building and managing APIs and MCP servers. Including a powerful gateway that can be used to develop APIs, MCP Servers and AI powered applications as well as a built in developer portal and documentation.'
+      icon_url: https://zuplo.com/_next/static/media/Zuplo%20Logo%20Mark%20-%20White%20on%20Pink.46695a87.png
+      name: Zuplo
+      oss: false
+      popular: false
+      tags:
+      - MCP
+      - Gateway
+      - Documentation
+      verified: false
+      website_url: https://zuplo.com
   description: AI Engineering related
   level: 6
   name: AIE
