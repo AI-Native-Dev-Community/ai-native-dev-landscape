@@ -2904,6 +2904,18 @@ domains:
     level: 12
     name: Testing
     tools:
+    - date_added: 25/09/2026
+      description: Self-improving QA agent that runs natural-language tests for web
+        and mobile apps and adapts to UI changes.
+      icon_url: https://vostride.com/brand/vostride-colored-logo.svg
+      name: Agent QA
+      oss: false
+      popular: false
+      tags:
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://vostride.com/docs/agent-qa
     - date_added: 12/03/2025
       description: Software simulator that accelerates software teams.
       icon_url: https://codeyam.com/favicon.ico
