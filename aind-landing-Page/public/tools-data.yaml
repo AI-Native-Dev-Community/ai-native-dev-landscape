@@ -2896,6 +2896,19 @@ domains:
       - Code
       verified: false
       website_url: https://tessl.io
+    - date_added: 11/10/2026
+      description: Agent skills for Claude Code and Codex that record business assumptions
+        with evidence and confidence, and preserve requirements as the source of truth.
+      icon_url: https://raw.githubusercontent.com/EnsoDynamics/enso-method/main/.claude-plugin/icon.png
+      name: The Enso Method
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://ensomethod.org
   description: Code related
   level: 2
   name: Code
